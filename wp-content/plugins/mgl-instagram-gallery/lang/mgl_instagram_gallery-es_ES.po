@@ -1,0 +1,794 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Gallery\n"
+"POT-Creation-Date: 2014-09-17 14:17+0100\n"
+"PO-Revision-Date: 2014-09-17 14:41+0100\n"
+"Last-Translator: MaGeek Lab <hello@mageeklab.com>\n"
+"Language-Team: MaGeek Lab <hello@mageeklab.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:80 mgl_instagram_admin.php:177
+msgid "Instagram application"
+msgstr "Aplicación de Instagram"
+
+#: index.php:80 mgl_instagram_admin.php:234
+msgid "Configuration"
+msgstr "Configuración"
+
+#: index.php:80
+msgid "Documentation"
+msgstr "Documentación"
+
+#: mgl_instagram_admin.php:21
+msgid "Settings saved"
+msgstr "Cambios guardados"
+
+#: mgl_instagram_admin.php:34
+msgid "Application settings removed correctly"
+msgstr "Configuración de aplicación quitada correctamente"
+
+#: mgl_instagram_admin.php:44
+msgid ""
+"<strong>cURL</strong> is disabled in your server configuration, please "
+"enable it in order to make the plugin work"
+msgstr ""
+"<strong>cURL</strong> está desactivado en la configuración de tu servidor, "
+"por favor actívalo para que el plugin funcione correctamente"
+
+#: mgl_instagram_admin.php:52
+msgid "<strong>Allow url fopen</strong> could not be enabled"
+msgstr "No se ha podido activar <strong>Allow url fopen</strong>"
+
+#: mgl_instagram_admin.php:77
+msgid "Please enable cURL in your server to authorize the app"
+msgstr "Por favor activa cURL en tu servidor para autorizar la app"
+
+#: mgl_instagram_admin.php:126
+msgid "fopen can not connect with Instagram server"
+msgstr "fosen no puede conectar con el servidor de Instagram"
+
+#: mgl_instagram_admin.php:131
+msgid "Impossible to connect to Instagram server"
+msgstr "Imposible conectar con el servidor de Instagram"
+
+#: mgl_instagram_admin.php:150
+msgid "<strong>App authorized!</strong> You are ready to go"
+msgstr "<strong>¡App autorizada!</strong> Ya estás listo!"
+
+#: mgl_instagram_admin.php:153
+msgid "Error"
+msgstr "Error"
+
+#: mgl_instagram_admin.php:170
+msgid "MaGeek Lab - Instagram Gallery"
+msgstr "MaGeek Lab - Galería de Instagram"
+
+#: mgl_instagram_admin.php:179
+#, php-format
+msgid ""
+"You need to register a new Instagram application from %s in order to make "
+"this plugin work"
+msgstr ""
+"Para que éste plugin funcione, tienes que crear una nueva aplicación de "
+"Instagram desde %s "
+
+#: mgl_instagram_admin.php:179 mgl_instagram_functions.php:157
+msgid "here"
+msgstr "aquí"
+
+#: mgl_instagram_admin.php:180
+msgid ""
+"The name and description of the application are not important, just be sure "
+"to put the same Website & OAuth redirect_uri written down here"
+msgstr ""
+"Asegurate de poner el mismo \"Website\" y \"OAuth redirect_uri\" y "
+"escribirlos aquí abajo.El nombre y descripción de la aplicación no son "
+"importantes, pon el nombre que tu quieras. "
+
+#: mgl_instagram_admin.php:185
+msgid "Website"
+msgstr "Website"
+
+#: mgl_instagram_admin.php:189
+msgid "OAuth redirect_uri"
+msgstr "OAuth redirect_uri"
+
+#: mgl_instagram_admin.php:193
+msgid "Fill this two fields with the information of your App"
+msgstr "Rellena estos dos campos con la información de tu aplicación"
+
+#: mgl_instagram_admin.php:196
+msgid "Client ID"
+msgstr "Client ID"
+
+#: mgl_instagram_admin.php:200
+msgid "Client secret"
+msgstr "Client secret"
+
+#: mgl_instagram_admin.php:204
+msgid "Save settings, then you can authorize your app!"
+msgstr "Guarda la configuración, después ¡ya puedes autorizar tu app!"
+
+#: mgl_instagram_admin.php:206 mgl_instagram_admin.php:250
+msgid "Save settings"
+msgstr "Guardar cambios"
+
+#: mgl_instagram_admin.php:208
+msgid "Authorize app"
+msgstr "Autorizar app"
+
+#: mgl_instagram_admin.php:213
+msgid "Application settings"
+msgstr "Configuración de la aplicación"
+
+#: mgl_instagram_admin.php:222
+msgid "Acces token"
+msgstr "Acces token"
+
+#: mgl_instagram_admin.php:223
+msgid "Remove application"
+msgstr "Quitar aplicación"
+
+#: mgl_instagram_admin.php:240
+msgid "Load jQuery"
+msgstr "Cargar jQuery"
+
+#: mgl_instagram_admin.php:244
+msgid "Unmark this if you are already loading jQuery"
+msgstr "Desmárcalo si ya estás cargando jQuery"
+
+#: mgl_instagram_admin.php:262
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: mgl_instagram_admin.php:265
+msgid "User gallery"
+msgstr "Galería de usuario"
+
+#: mgl_instagram_admin.php:267
+msgid "If you want to show an user's stream simply put"
+msgstr "Si quieres mostrar las últimas fotos de un usuario simplemente pon"
+
+#: mgl_instagram_admin.php:269
+msgid ""
+"You can show the user photos by his username or user_id, you don't need them "
+"both!"
+msgstr ""
+"Puedes mostrar las fotos de usuario con el nombre de usuario o ID, no "
+"necesitas los dos!"
+
+#: mgl_instagram_admin.php:273
+msgid "Tag gallery"
+msgstr "Galería de tag"
+
+#: mgl_instagram_admin.php:275
+msgid "If you want to show some photos from a specific tag use"
+msgstr "Si quieres mostrar fotos de un tag específico utiliza"
+
+#: mgl_instagram_admin.php:277
+msgid "Without the #"
+msgstr "Sin el #"
+
+#: mgl_instagram_admin.php:281
+msgid "Feed gallery"
+msgstr "Galería de muro"
+
+#: mgl_instagram_admin.php:283
+msgid "Show the last media from the current user feed"
+msgstr "Muestra las últimas fotos del muro del usuario actual"
+
+#: mgl_instagram_admin.php:285 mgl_instagram_admin.php:293
+msgid "Only works for the authorized user"
+msgstr "Solo funciona con el usuario autorizado"
+
+#: mgl_instagram_admin.php:289
+msgid "Liked gallery"
+msgstr "Galería de \"Me Gusta\""
+
+#: mgl_instagram_admin.php:291
+msgid "Show the last liked media from the current user"
+msgstr "Muestra las últimas fotos que le han gustado al usuario actual"
+
+#: mgl_instagram_admin.php:297
+msgid "Location gallery"
+msgstr "Galería de localización"
+
+#: mgl_instagram_admin.php:299
+msgid "Show the last media from a location"
+msgstr "Muestra las últimas fotos de una localización"
+
+#: mgl_instagram_admin.php:301
+msgid "Requires location_id parameter"
+msgstr "Requiere el parámetro location_id"
+
+#: mgl_instagram_admin.php:305
+msgid "Search location"
+msgstr "Buscar localización"
+
+#: mgl_instagram_admin.php:307
+msgid ""
+"Use this shortcode to find the Instagram's ID of a location by it's latitude "
+"and longitude if you don't know it"
+msgstr ""
+"Si no sabes la ID de Instagram de una localización, utilice éste shortcode "
+"para encontrarla. Incluye la latitude y longitud."
+
+#: mgl_instagram_admin.php:309
+msgid ""
+"This will print a list of current locations near the latitude and longitude "
+"you define, take the ID you need"
+msgstr ""
+"Esto pintara un listado de las localizaciones actuales cerca de la latitud y "
+"longitud que hayas definido, coge la ID que necesites"
+
+#: mgl_instagram_admin.php:315
+msgid "All parameters"
+msgstr "Todos los parámetros"
+
+#: mgl_instagram_admin.php:319
+msgid ""
+"Username of the user to display photos from, only available in user shortcode"
+msgstr ""
+"Nombre de usuario para mostrar las fotos. Disponible solo en el shortcode de "
+"usuario"
+
+#: mgl_instagram_admin.php:323
+msgid "Id of the user to display photos from, only available in user shortcode"
+msgstr ""
+"Id del usuario para mostrar las fotos, solo disponible en el shortcode de "
+"usuario"
+
+#: mgl_instagram_admin.php:327
+msgid ""
+"Id of the location to display photos from, only available in location "
+"shortcode"
+msgstr ""
+"Id de la localización para mostrar las fotos, solo disponible en el "
+"shortcode de localización"
+
+#: mgl_instagram_admin.php:331
+msgid "Tag to display photos from, only available in tag shortcode"
+msgstr "Tag para mostrar fotos, solo disponible en el shortcode de tag"
+
+#: mgl_instagram_admin.php:335
+msgid "Number of photos to display"
+msgstr "Número de fotos a mostrar"
+
+#: mgl_instagram_admin.php:339
+msgid "Hide or display the \"View More\" link (true/false)"
+msgstr "Esconde o muestra el enlace de \"Ver más\" (true/false)"
+
+#: mgl_instagram_admin.php:343
+msgid "Change the default text link"
+msgstr "Cambia el texto por defecto del link"
+
+#: mgl_instagram_admin.php:347
+msgid "Columns of the gallery, by default 4"
+msgstr "Columnas de la galería, 4 por defecto"
+
+#: mgl_instagram_admin.php:351
+msgid ""
+"Time in seconds while the gallery will not reaload photos, by default is "
+"3600 seconds (one hour)"
+msgstr ""
+"Tiempo en segundos donde la galería no buscará nuevas fotos, por defecto "
+"3600 segundos (una hora)"
+
+#: mgl_instagram_admin.php:355
+msgid "Include videos in the gallery (true/false)"
+msgstr "Incluir vídeos en la galería (true/false)"
+
+#: mgl_instagram_admin.php:359
+msgid ""
+"Number of characters to display from the media description (80 by default)"
+msgstr "Número de caracteres a mostrar de la descripción (80 por defecto)"
+
+#: mgl_instagram_admin.php:363
+msgid "Media will link directly to Instagram's web page (true/false)"
+msgstr "Las fotos enlazaran directamente a la web de Instagram (true/false)"
+
+#: mgl_instagram_admin.php:367
+msgid "Disable the lightbox of the gallery (true/false)"
+msgstr "Desactivar el lightbox de la galería (true/false)"
+
+#: mgl_instagram_admin.php:371
+msgid "Choose one of the premade skins for the gallery, see below"
+msgstr "Escoge uno de los estilos ya hechos, mira a continuación"
+
+#: mgl_instagram_admin.php:375
+msgid ""
+"Enabled by default, resize the number of the columns of the gallery "
+"depending on the size of the screen (true/false)"
+msgstr ""
+"Activado por defecto, reescala el número de columnas de la galería "
+"dependiendo del tamaño de la pantalla (true/false)"
+
+#: mgl_instagram_admin.php:379
+msgid "Set it to true will show debug code, only for developers (true/false)"
+msgstr ""
+"Ponerlo en true mostrará el código de debug, solo para desarrolladores (true/"
+"false)"
+
+#: mgl_instagram_admin.php:384
+msgid "Skin names"
+msgstr "Nombres de los estilos"
+
+#: mgl_instagram_functions.php:157
+#, php-format
+msgid ""
+"Error: You don't have an access token, have you configurated correctly the "
+"plugin from %s?"
+msgstr ""
+"Error: No tienes un access token, has configurado el plugin correctamente "
+"desde %s?"
+
+#: mgl_instagram_functions.php:239
+msgid ""
+"Error: Cannot retrive photos from Instagram, <code>file_get_contents()</"
+"code> functions failed"
+msgstr ""
+"Error: No se pueden coger fotos de Instagram la función "
+"<code>file_get_contents()</code> ha fallado"
+
+#: mgl_instagram_functions.php:334
+msgid "Likes"
+msgstr "Me gusta"
+
+#: mgl_instagram_functions.php:341
+msgid "Comments"
+msgstr "Comentarios"
+
+#: vc_extend.php:15 widget-mgl_instagram_feed.php:108
+#: widget-mgl_instagram_liked.php:108 widget-mgl_instagram_location.php:119
+#: widget-mgl_instagram_tag.php:123 widget-mgl_instagram_user.php:129
+msgid "Number"
+msgstr "Número"
+
+#: vc_extend.php:18
+msgid "Number of media to display"
+msgstr "Número de fotos a mostrar"
+
+#: vc_extend.php:22 widget-mgl_instagram_feed.php:113
+#: widget-mgl_instagram_liked.php:113 widget-mgl_instagram_location.php:124
+#: widget-mgl_instagram_tag.php:128 widget-mgl_instagram_user.php:134
+msgid "Columns"
+msgstr "Columnas"
+
+#: vc_extend.php:25
+msgid "Number of columns of the gallery"
+msgstr "Número de columnas de la galería"
+
+#: vc_extend.php:29 widget-mgl_instagram_feed.php:122
+#: widget-mgl_instagram_liked.php:122 widget-mgl_instagram_location.php:134
+#: widget-mgl_instagram_tag.php:138 widget-mgl_instagram_user.php:144
+msgid "Skin"
+msgstr "Estilo"
+
+#: vc_extend.php:32
+msgid "Choose the gallery you most like to display your media"
+msgstr "Escoge la galería que más te guste para mostrar tus fotos"
+
+#: vc_extend.php:36 widget-mgl_instagram_feed.php:118
+#: widget-mgl_instagram_liked.php:118 widget-mgl_instagram_location.php:129
+#: widget-mgl_instagram_tag.php:133 widget-mgl_instagram_user.php:139
+msgid "Cache"
+msgstr "Cache"
+
+#: vc_extend.php:39
+msgid ""
+"Time in seconds gallery will be cached, by default 3600 seconds (1 hour)"
+msgstr ""
+"Tiempo en segundos en que la galería estará cacheada, por defecto 3600 "
+"segundos (1 hora)"
+
+#: vc_extend.php:40 vc_extend.php:47 vc_extend.php:55 vc_extend.php:62
+#: vc_extend.php:69 vc_extend.php:77 vc_extend.php:85 vc_extend.php:92
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: vc_extend.php:44
+msgid "Video"
+msgstr "Vídeo"
+
+#: vc_extend.php:46
+msgid "Exclude videos from the gallery?"
+msgstr "Excluir vídeos de la galería?"
+
+#: vc_extend.php:51
+msgid "Direct link"
+msgstr "Enlace directo"
+
+#: vc_extend.php:54
+msgid "Link images directly to Instagram?"
+msgstr "Enlazar imágenes directamente a Instagram?"
+
+#: vc_extend.php:59
+msgid "Javascript"
+msgstr "Javascript"
+
+#: vc_extend.php:61 widget-mgl_instagram_feed.php:143
+#: widget-mgl_instagram_liked.php:143 widget-mgl_instagram_location.php:155
+#: widget-mgl_instagram_tag.php:159 widget-mgl_instagram_user.php:165
+msgid "Disable javascript"
+msgstr "Desactivar el javascript"
+
+#: vc_extend.php:66 widget-mgl_instagram_feed.php:147
+#: widget-mgl_instagram_liked.php:147 widget-mgl_instagram_location.php:159
+#: widget-mgl_instagram_tag.php:163 widget-mgl_instagram_user.php:169
+msgid "Responsive"
+msgstr "Responsive"
+
+#: vc_extend.php:68
+msgid "Prevent gallery to auto-resize depending on device size?"
+msgstr ""
+"Desactivar el auto-escalado de la galería según el tamaño del dispositivo"
+
+#: vc_extend.php:73
+msgid "View more text"
+msgstr "Texto de Ver más"
+
+#: vc_extend.php:75
+msgid "View more"
+msgstr "Ver más"
+
+#: vc_extend.php:76
+msgid "The text for the view more link"
+msgstr "El texto para el enlace de Ver más"
+
+#: vc_extend.php:81
+msgid "Cut text"
+msgstr "Corte de texto"
+
+#: vc_extend.php:84
+msgid "The max number of characters allowed in the thumbnail"
+msgstr "El número máximo de caracteres permitidos en la miniatura"
+
+#: vc_extend.php:89
+msgid "Debug"
+msgstr "Debug"
+
+#: vc_extend.php:91
+msgid "Enable debug mode"
+msgstr "Activar modo debug"
+
+#: vc_extend.php:99 widget-mgl_instagram_user.php:18
+msgid "Instagram User Gallery"
+msgstr "Galería de usuario de Instagram"
+
+#: vc_extend.php:105 widget-mgl_instagram_user.php:119
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: vc_extend.php:107
+msgid "Username to pull media from"
+msgstr "Nombre de usuario de donde se cogerán las fotos"
+
+#: vc_extend.php:113 widget-mgl_instagram_user.php:124
+msgid "User ID"
+msgstr "ID de usuario"
+
+#: vc_extend.php:115
+msgid "User ID to pull media from"
+msgstr "ID de usuario de donde se cogerán las fotos"
+
+#: vc_extend.php:120
+msgid "Instagram Tag Gallery"
+msgstr "Galería de Tag de Instagram"
+
+#: vc_extend.php:126 widget-mgl_instagram_tag.php:118
+msgid "Tag"
+msgstr "Tag"
+
+#: vc_extend.php:128
+msgid "Tag to pull media from"
+msgstr "Tag de donde se cogerán las fotos"
+
+#: vc_extend.php:133
+msgid "Instagram Liked Gallery"
+msgstr "Galería de \"Me gusta\" de Instagram"
+
+#: vc_extend.php:137
+msgid "Instagram Feed Gallery"
+msgstr "Galería de muro de Instagram"
+
+#: vc_extend.php:141 widget-mgl_instagram_location.php:18
+msgid "Instagram Location Gallery"
+msgstr "Galería de localización de Instagram"
+
+#: vc_extend.php:147 widget-mgl_instagram_location.php:114
+msgid "Location ID"
+msgstr "ID de localización"
+
+#: vc_extend.php:149
+msgid "Location ID to pull media from"
+msgstr "ID de localización de donde se cogerán las fotos"
+
+#: vc_extend.php:158
+msgid "By MaGeek Lab"
+msgstr "Por MaGeek Lab"
+
+#: vc_extend.php:163
+msgid "Social"
+msgstr "Social"
+
+#: widget-mgl_instagram_feed.php:12
+msgid "Display the last Instagram photos of the current user feed"
+msgstr "Muestra las últimas fotos del feed de del usuario actual de Instagram"
+
+#: widget-mgl_instagram_feed.php:18
+msgid "Instagram User Feed"
+msgstr "Feed de usuario de Instagram"
+
+#: widget-mgl_instagram_feed.php:103 widget-mgl_instagram_liked.php:103
+#: widget-mgl_instagram_location.php:109 widget-mgl_instagram_tag.php:113
+#: widget-mgl_instagram_user.php:114
+msgid "Title"
+msgstr "Título"
+
+#: widget-mgl_instagram_feed.php:135 widget-mgl_instagram_liked.php:135
+#: widget-mgl_instagram_location.php:147 widget-mgl_instagram_tag.php:151
+#: widget-mgl_instagram_user.php:157
+msgid "Include videos?"
+msgstr "Incluir vídeos?"
+
+#: widget-mgl_instagram_feed.php:139 widget-mgl_instagram_liked.php:139
+#: widget-mgl_instagram_location.php:151 widget-mgl_instagram_tag.php:155
+#: widget-mgl_instagram_user.php:161
+msgid "Direct link to Instagram"
+msgstr "Enlace directo a Instagram"
+
+#: widget-mgl_instagram_liked.php:12
+msgid "Display the last Instagram photos that the current user liked"
+msgstr "Muestra las últimas fotos que le han gustado al usuario actual"
+
+#: widget-mgl_instagram_liked.php:18
+msgid "Instagram User Liked"
+msgstr "Galería de \"Me gusta\" de Instagram"
+
+#: widget-mgl_instagram_location.php:12
+msgid "Display the last Instagram media from a location"
+msgstr "Muestra las últimas fotos de una localización"
+
+#: widget-mgl_instagram_tag.php:12
+msgid "Display the last Instagram photos of a tag."
+msgstr "Muestra las últimas fotos de un tag de Instagram"
+
+#: widget-mgl_instagram_tag.php:18
+msgid "Instagram Tag Gallery "
+msgstr "Galería de Tag de Instagram"
+
+#: widget-mgl_instagram_user.php:12
+msgid "Display the last Instagram photos of an user"
+msgstr "Muestra las últimas foots de un usuario"
+
+#~ msgid "Twitter settings"
+#~ msgstr "Configuración de Twitter"
+
+#~ msgid "After creating the app you need to create an access token"
+#~ msgstr "Después de crear la aplicación, necesitas crear un \"access token\""
+
+#~ msgid ""
+#~ "Fill the fields below with the App settings you will find in the \"OAuth "
+#~ "tool\" tab"
+#~ msgstr ""
+#~ "Rellena los campos a continuación con la configuración de tu aplicación "
+#~ "que encontraras en la pestanya \"OAuth tool\""
+
+#~ msgid "Add attributes to configure the aspect of the carousel"
+#~ msgstr "Añade atributos para configurar el aspecto del carrusel"
+
+#~ msgid "Search feed"
+#~ msgstr "Listado de búsqueda"
+
+#~ msgid "Attributes will let you hide/show different settings"
+#~ msgstr "Los atributos te permiten ocultar/mostrar diferentes opciones"
+
+#~ msgid "See all the options avaible in the plugin's documentation"
+#~ msgstr "Mira todas las opciones disponibles en la documentación del plugin"
+
+#~ msgid "Open in Twitter"
+#~ msgstr "Abrir en Twitter"
+
+#~ msgid "Visit %d"
+#~ msgstr "Visitar %d"
+
+#~ msgid "Tweets"
+#~ msgstr "Tweets"
+
+#~ msgid "Followers"
+#~ msgstr "Seguidores"
+
+#~ msgid "Following"
+#~ msgstr "Siguiendo"
+
+#~ msgid "Follow %d"
+#~ msgstr "Seguir %d"
+
+#~ msgid "Consumer key is empty!"
+#~ msgstr "¡La Consumer key está vacia!"
+
+#~ msgid "Consumer secret is empty!"
+#~ msgstr "¡La Consumer secret está vacia!"
+
+#~ msgid "Access token secret is empty!"
+#~ msgstr "El Access token secret está vacio!"
+
+#~ msgid "now"
+#~ msgstr "ahora"
+
+#~ msgid "second"
+#~ msgstr "segundos"
+
+#~ msgid "seconds"
+#~ msgstr "segun"
+
+#~ msgid "minute"
+#~ msgstr "minuto"
+
+#~ msgid "minutes"
+#~ msgstr "minutos"
+
+#~ msgid "hour"
+#~ msgstr "hora"
+
+#~ msgid "hours"
+#~ msgstr "horas"
+
+#~ msgid "day"
+#~ msgstr "dia"
+
+#~ msgid "days"
+#~ msgstr "dias"
+
+#~ msgid "week"
+#~ msgstr "semana"
+
+#~ msgid "weeks"
+#~ msgstr "semanas"
+
+#~ msgid "month"
+#~ msgstr "mes"
+
+#~ msgid "months"
+#~ msgstr "meses"
+
+#~ msgid "year"
+#~ msgstr "año"
+
+#~ msgid "years"
+#~ msgstr "años"
+
+#~ msgid "%1$s %2$s ago"
+#~ msgstr "Hace %1$s %2$s"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Search"
+#~ msgstr "Búsqueda"
+
+#~ msgid "User information"
+#~ msgstr "Información de usuario"
+
+#~ msgid "Hide user information on top of the search"
+#~ msgstr "Ocultar la información del usuario "
+
+#~ msgid "Count"
+#~ msgstr "Número"
+
+#~ msgid "Display"
+#~ msgstr "Mostrar"
+
+#~ msgid "Slides"
+#~ msgstr "Diapositivas"
+
+#~ msgid "Autoplay slider"
+#~ msgstr "Reproduir el slider automáticamente"
+
+#~ msgid "Prevent slider of autoplaying"
+#~ msgstr "Prevenir que el slider se reproduzca automáticamente"
+
+#~ msgid "Pause"
+#~ msgstr "Pausa"
+
+#~ msgid "Speed"
+#~ msgstr "Velocidad"
+
+#~ msgid "Controls"
+#~ msgstr "Controles"
+
+#~ msgid "Show slider controls"
+#~ msgstr "Mostrar controles de usuario"
+
+#~ msgid "Pager"
+#~ msgstr "Paginador"
+
+#~ msgid "Hide slider pagination"
+#~ msgstr "Ocultar paginación del slider"
+
+#~ msgid "Button"
+#~ msgstr "Botón"
+
+#~ msgid "Hide slider follow/tweet button"
+#~ msgstr "Ocultar el botón de seguir/twittear del slider"
+
+#~ msgid "Avatars"
+#~ msgstr "Avatars"
+
+#~ msgid "Hide user's avatars"
+#~ msgstr "Ocultar avatares de usuario"
+
+#~ msgid "Width"
+#~ msgstr "Anchura"
+
+#~ msgid "Height"
+#~ msgstr "Altura"
+
+#~ msgid "User data"
+#~ msgstr "Información de usuario"
+
+#~ msgid "Hide user data"
+#~ msgstr "Ocultar información de usuario"
+
+#~ msgid "Hide button"
+#~ msgstr "Ocultar botón"
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Hide description"
+#~ msgstr "Ocultar descripción"
+
+#~ msgid "Display the card info of a Twitter user"
+#~ msgstr "Muestra la tarjeta de información de un usuario de Twitter"
+
+#~ msgid "Twitter card"
+#~ msgstr "Tarjeta de Twitter"
+
+#~ msgid "Show tweet button"
+#~ msgstr "Mostrar botón de Twitter"
+
+#~ msgid "Show description"
+#~ msgstr "Mostrar descripción"
+
+#~ msgid "Show user data"
+#~ msgstr "Mostrar información de usuario"
+
+#~ msgid "Display a carousel of the last tweets of a search"
+#~ msgstr "Muestra un carrusel de los últimos tweets de una búsqueda"
+
+#~ msgid "Twitter search"
+#~ msgstr "Búsqueda de Twitter"
+
+#~ msgid "Show avatars"
+#~ msgstr "Mostrar avatars"
+
+#~ msgid "Slider settings"
+#~ msgstr "Configuración de carrusel"
+
+#~ msgid "Autoplay"
+#~ msgstr "Reproducción automática"
+
+#~ msgid "Slide width"
+#~ msgstr "Ancho de diapositiva"
+
+#~ msgid "Slide height"
+#~ msgstr "Alto de diapositiva"
+
+#~ msgid "Display a carousel of the last tweets of an user's timeline"
+#~ msgstr ""
+#~ "Muestra un carrusel de los últimos tweets del timeline de un usuario"
+
+#~ msgid "Twitter timeline"
+#~ msgstr "Timeline de Twitter"
+
+#~ msgid "Show userinfo"
+#~ msgstr "Mostrar información de usuario"

@@ -1,0 +1,120 @@
+$screen-small: 480px;
+$screen-medium: 782px;
+$screen-large: 1120px;
+
+.mgl_col_left {
+	@media only screen and (min-width: $screen-medium) {
+		float: left;
+		width: 70%;
+	}
+
+}
+
+.mgl_col_right {
+	@media only screen and (min-width: $screen-medium) {
+		float: right;
+		width: 25%;
+	}
+}
+
+.mgl_col_right {
+	.mgl_banner {
+		display: block;
+		img {
+			width: 100%;
+			max-width: 300px;
+		}
+	}
+}
+
+.mgl_instagram_account {
+	min-height: 160px;
+	background-color: #fff;
+	color: #666;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.mgl_instagram_account h4 {
+	color: #111;
+	font-size: 23px;
+	margin-bottom: 0;
+}
+
+.mgl_instagram_account img {
+	float: left;
+	margin-right: 20px;
+}
+
+.mgl_instagram_box {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #E5E5E5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	min-width: 255px;
+	position: relative;
+	line-height: 1;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.mgl_instagram_box h3 {
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 8px 12px;
+}
+
+.mgl_instagram_box .mgl_instagram_box_inside {
+	margin: 11px 0;
+	position: relative;
+	font-size: 13px;
+	line-height: 1.4em;
+	padding: 0 12px 12px;
+}
+
+.mgl_instagram_box .mgl_instagram_table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.mgl_instagram_box .mgl_instagram_table tr td {
+	border-top: 1px solid #eee;
+	padding: 10px 5px;
+}
+
+.mgl_instagram_box .mgl_instagram_table tr:first-child td {
+	border-top-width: 0;
+}
+
+.mgl_instagram_box .mgl_instagram_table tr:nth-child(2n+1) td {
+	background-color: #f7f7f7;
+}
+
+/* Widgets */
+.mgl_instagram_gallery_widget_field_optional {
+	display: none;
+}
+
+/* Login */
+.mgl_instagram_loggedin_card {
+	padding: 40px;
+	border-radius: 2px;
+	background: #3f729b url('../images/bg_instagram.jpg') center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0 20px 0;
+	.button {
+		background-color: #fff;
+		border: none;
+		box-shadow: none;
+	}
+}
+
+.mgl_instagram_loggedin_card p {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+}

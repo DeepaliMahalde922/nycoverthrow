@@ -1,0 +1,135 @@
+.onoffswitch {
+    position: relative;
+    width: 72px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+input.onoffswitch-checkbox[type="checkbox"] {
+    display: none;
+}
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 21px;
+    padding: 0;
+    line-height: 22px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "IN";
+    padding-left: 20px;
+    background-color: #33495E;
+    color: #1DBC9C;
+}
+.onoffswitch-inner:after {
+    content: "OUT";
+    padding-right: 14px;
+    background-color: #BEC3C7;
+    color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    background: none repeat scroll 0 0 #808c9a;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    bottom: 0;
+    display: block;
+    margin: 1.5px;
+    position: absolute;
+    right: 48px;
+    top: 0;
+    transition: all 0.3s ease-in 0s;
+    width: 19px;    
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+    background-color: #1DBC9C; 
+}
+span.addtocalendar.atc-style-booked.google-cal-button{
+    display: none;
+}
+.ovr-btnwrap span.booked-wc_status-text{
+    float: left;
+    width: 100%;
+
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+table.booked-calendar .appt-block {
+    float: left;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    width: 100%;
+}
+.ovr-btnwrap {
+    float: left;
+}
+.ovr-btnwrap-inner {
+    float: left;
+    margin-right: 15px;
+}
+.ovr_cancel_backend,
+table.booked-calendar .timeslot-count a.delete {
+    background: #e64e4e none repeat scroll 0 0;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    color: #ffffff;
+    display: block;
+    font-family: Trebuchet,Arial,sans-serif;
+    font-size: 12px;
+    height: 21px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.ovr_cancel_backend:hover,
+.ovr_cancel_backend:active,
+.ovr_cancel_backend:focus,
+table.booked-calendar .timeslot-count a.delete:hover,
+table.booked-calendar .timeslot-count a.delete:active,
+table.booked-calendar .timeslot-count a.delete:focus{
+    color: #ffffff;
+}
+table.booked-calendar .timeslot-count a.delete {
+    line-height: 21px;
+}
+#account_funds {
+    width: auto;
+}
+span.booked-wc_status-text.awaiting {
+    float: left;
+}
+
+/*hide ajax popup when admin clicks user name in classes section*/
+.bm-window {
+    
+}
+body .booked-modal .bm-overlay{
+    
+}
+body .booked-modal{
+    
+}

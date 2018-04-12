@@ -1,0 +1,757 @@
+nav.main_menu > ul > li > a{
+    font-weight: bold;
+}
+body table.booked-calendar .booked-appt-list{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.booked-form .button,
+.timeslot-people button {
+    cursor: pointer;
+}
+a.trainer_info{
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    height: 45px;
+    margin-right: 12px;
+    overflow: hidden;
+    width: 45px;
+}
+a.trainer_info,
+.trainer_name a{
+    cursor: default;
+}
+a.trainer_info.cursor,
+.trainer_name a.cursor{
+    cursor: pointer;
+}
+a.trainer_info img {
+    margin: 0px;
+    width: 100% !important;
+    height: auto !important;
+}
+.trainer_info_wrapper{
+    clear: both;
+}
+.trainer_name{
+    float: left;
+    margin-top: 4px;
+}
+.trainer_name label{
+    color: #000;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+.trainer_info_wrapper {
+    margin-bottom: 15px !important;
+    padding-left: 15px;
+}
+span.addtocalendar.atc-style-booked.google-cal-button{
+    display: none;
+}
+.woocommerce .woocommerce-info .wc-account-funds-apply .wc-account-funds-apply-button {
+    margin-right: 22px;
+}
+#coupon_code {
+    position: relative;
+    top: -2px;
+}
+#payment .wc_payment_method.payment_method_wc-booking-gateway {
+    display: none;
+}
+#order_review .woocommerce-checkout-review-order-table tr th,
+#order_review .woocommerce-checkout-review-order-table tr td {
+    border: 1px solid #e6e6e6;
+}
+.woocommerce-info a {
+    font-weight: 500;
+}
+.woocommerce ul.woocommerce-error {
+    background: #f0c1cd none repeat scroll 0 0;
+    border: 1px solid #c41342;
+    color: #c41342;
+}
+.woocommerce .wc-terms-and-conditions label.checkbox {
+    display: inline-block;
+}
+#mc-embedded-subscribe-form h2 {
+    font-size: 24px;
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+#mce-EMAIL{
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 0 none;
+    box-sizing: border-box;
+    color: #9d9d9d;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: 20px;
+    padding: 15px 17px;
+    resize: none;
+    width: 100%;
+}
+#mc-embedded-subscribe{
+    background: #666666 none repeat scroll 0 0;
+    border: 2px solid #666666;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Francois One";
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 36px;
+    text-transform: uppercase;
+}
+
+/*= Checkout */
+#shipping_method li {
+    margin-top: 15px;
+}
+#shipping_method li:first-child {
+    margin-top: 0;
+}
+
+/*= My account */
+body.woocommerce-account #wc-myaccount{
+    display: none;
+}
+body.woocommerce-orders #booked-myaccount,
+body.woocommerce-view-order #booked-myaccount,
+body.woocommerce-edit-address #booked-myaccount{
+    display: none;
+}
+body.woocommerce-orders #wc-myaccount,
+body.woocommerce-view-order #wc-myaccount,
+body.woocommerce-edit-address #wc-myaccount{
+    display: block;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    display: none;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+    padding-left: 0;
+    width: 100%;
+}
+#profile-edit h3,
+#profile-edit table.form-table,
+#profile-edit .form-avatar,
+#profile-edit .form-nickname,
+#profile-edit .wpua-edit-container,
+body.woocommerce-account #wc-myaccount .track_order,
+body.woocommerce-account #booked-profile-page .addtocalendar{
+    display: none;
+}
+body.woocommerce-account #booked-page-form .myaccount_address {
+    margin-top: -62px;
+    visibility: hidden;
+}
+body.woocommerce-account #booked-profile-page table.my_account_bookings .booking-cancel{
+    visibility: hidden;
+}
+body #booked-page-form input[type="email"]:focus,
+body #booked-page-form input[type="text"]:focus,
+body #booked-page-form input[type="password"]:focus,
+body #booked-page-form textarea:focus{
+    color: #fff;
+}
+body.woocommerce-account #booked-profile-page table.my_account_bookings {
+    width: 100%;
+    display: table;
+}
+body.woocommerce-account table.my_account_bookings th,
+body.woocommerce-account table.my_account_bookings td{
+    border: 1px solid #e6e6e6;
+    padding: 8px 10px;
+}
+body.woocommerce-account table.my_account_bookings th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+body.woocommerce-account table.my_account_bookings td.order-number a {
+    font-weight: 500;
+}
+#loginform #wp-submit,
+#loginform #wp-submit:hover,
+#profile-forgot .wp-user-form .user-submit.button-primary,
+#profile-forgot .wp-user-form .user-submit.button-primary:hover,
+#profile-register .wp-user-form .user-submit.button-primary,
+#profile-register .wp-user-form .user-submit.button-primary:hover,
+body.woocommerce-account input#updateuser[type="submit"],
+body.woocommerce-account input#updateuser[type="submit"]:hover,
+body.woocommerce-account input#updateuser[type="submit"]:active{
+    background: #666666 none repeat scroll 0 0;
+    border: 2px solid #666666;
+    color: #ffffff;
+    font-family: "Francois One";
+    font-size: 24px;
+    font-weight: 500;
+    height: 35px;
+    padding: 0 36px;
+    text-transform: uppercase;
+}
+body.woocommerce-account .woocommerce-Addresses.addresses {
+    float: left;
+    margin-bottom: 35px;
+    width: 100%;
+}
+body.woocommerce-account .woocommerce-Address-title.title {
+    background: transparent none repeat scroll 0 0;
+    height: auto;
+    width: auto;
+}
+body.woocommerce-account #booked-profile-page .woocommerce-Address-title.title h3{
+    display: block;
+}
+body.woocommerce-account .woocommerce-MyAccount-content table.shop_table {
+    width: 100%;
+}
+body.woocommerce-account .addresses .woocommerce-Address,
+body.woocommerce-account .woocommerce-MyAccount-content .addresses .col-1,
+body.woocommerce-account .woocommerce-MyAccount-content .addresses .col-2 {
+    float: left;
+    width: 48%;
+}
+body.woocommerce-account .woocommerce-MyAccount-navigation-link--downloads,
+body.woocommerce-account .woocommerce-MyAccount-navigation-link--edit-account,
+body.woocommerce-account .woocommerce-MyAccount-navigation-link--payment-methods{
+    display: none;
+}
+.classpara-wrap p {
+    color: #333;
+    margin-bottom: 18px;
+}
+body.single-product .summary-inner table tr td:first-child {
+    padding-left: 0;
+}
+body.single-product .summary-inner .variations_button {
+    margin-top: 18px;
+}
+body.single-product .summary-inner .ywgc-preview {
+    float: left;
+    margin-top: 18px;
+}
+body.single-product #ui-datepicker-div {
+    z-index: 9999 !important;
+}
+body.single-product .reset_variations {
+    left: 12px;
+    position: relative;
+    top: 2px;
+}
+.booked-form .btn-use-pack {
+    background: #c41342 none repeat scroll 0 0;
+    border-color: #c41342;
+    color: #ffffff;
+}
+.booked-form .btn-use-pack:hover {
+    background: #7f7f7f none repeat scroll 0 0;
+    border-color: #7f7f7f;
+    color: #ffffff;
+}
+#buy-pack {
+    background: #000000 none repeat scroll 0 0;
+    border-color: #000000;
+}
+#buy-pack:hover {
+    color: #ffffff;
+}
+.booked-form .btn-use-pack:disabled {
+    opacity: 0.5;
+}
+.booked-profile-appt-list #profile-fund {
+    float: left;
+    margin-bottom: 35px;
+    width: 100%;
+}
+.ac-credit-para a {
+    background: #010101 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 12px;
+    padding: 4px 12px;
+    text-transform: uppercase;
+}
+h2.ac-credit-heading {
+    background: #010101 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 3px 15px;
+}
+p.ac-credit-para strong {
+    background: #fd0100 none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 5px 15px;
+}
+.ovr-booking-conf {
+    margin-top: -12px;
+}
+.ovr-booking-conf h5 {
+    color: #ffffff;
+    line-height: normal;
+    margin-top: 10px;
+}
+.ovr-booking-conf h5:first-child {
+    margin-top: 0px;
+}
+.ovr-booking-conf .booking-details {
+    border-left: 2px solid #ffffff;
+    font-style: italic;
+    margin: 10px 0;
+    opacity: 0.8;
+    padding-left: 20px;
+}
+.ovr-booking-conf #profile-fund {
+    margin: 20px 0;
+}
+.ovr-booking-conf .ac-credit-heading, .ovr-booking-conf .ac-credit-para a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #000000;
+}
+.ovr-booking-conf .ac-credit-para {
+    color: #ffffff;
+    font-family: "Oswald",sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+#booked-profile-page #profile-appointments .booked-form-notice {
+    display: none;
+}
+#profile-membership .membership .membership-actions .view {
+    margin-top: 5px;
+}
+p.demo_store {
+    display: none;
+}
+@media all and (min-width : 1100px) {
+    .booked-calendar-wrap {
+        padding: 0 50px;
+    }
+    .wpb_text_column.booked-cal-des {
+        margin: 0 50px;
+    }
+}
+@media all and (max-width : 1300px) {
+    nav.main_menu > ul > li > a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media all and (max-width : 1240px) {
+    .header_bottom {
+        background-color: #ffffff !important;
+    }
+    header .q_logo img.light, header .q_logo img.dark, header .q_logo img.sticky {
+        display: none !important;
+    }
+    header.light:not(.sticky):not(.scrolled) .shopping_cart_header .header_cart > i {
+        color: #000000;
+    }
+}
+
+@media all and (max-width : 1025px) {
+    .woocommerce-store-notice {
+        padding-bottom: 7px;
+    }
+
+}
+
+@media all and (max-width : 768px) {
+    .woocommerce-store-notice {
+        margin-top: -32px;
+    }
+
+}
+
+@media all and (max-width : 668px) {
+    .shopping_cart_outer {
+        display: block;
+    }
+}
+
+
+@media all and (max-width : 515px) {
+    .woocommerce-store-notice {
+        margin-top: -35px;
+    }
+}
+/* Hide membership discount */
+.top-product-section a.product_list_thumb_link span.image-wrapper span.onsale{
+    /*display: none !important;*/
+}
+/* Hide member button */
+.product .onsale.wc-memberships-member-discount {
+  visibility: hidden;
+}
+/* Hide quantity from cart page for membership and classes */
+.cart_item_hide_qty .quantity.buttons_added {
+  visibility: hidden;
+}
+.cart_item_hide_qty .product-quantity {
+  visibility: hidden;
+}
+
+/* Portfolio Calendar (Trainer Single Pages) */
+.portfolio-calendar-inner{
+    float: left;
+    width: 45%;
+}
+.text-center{
+    text-align: center;
+}
+/* Refer a friend in my-account page */
+.refer-friend-title{
+    margin-bottom: 20px;
+}
+.refer-friend-title+p{
+    padding-bottom: 20px;
+}
+
+/* Woocommerce product image flip */
+div.woocommerce ul.products li.type-product:hover img:first-child {
+  visibility: hidden;
+}
+div.woocommerce ul.products li.type-product:hover .add-to-cart-button-outer{
+    display: none;
+}
+div.woocommerce ul.products li.type-product:hover img:last-child {
+  visibility: visible;
+}
+.woocommerce ul.products li.product:hover .image-wrapper img{
+    opacity: 1;
+}
+
+/* Hide membership cancel button */
+.membership-actions .button.cancel {
+  display: none;
+}
+/* Reminder notes to the user - reschedule appointment */
+.ovr_reschedule_note {
+  color: #000;
+  font-style: italic;
+}
+.ovr_reschedule_reminder {
+  float: left;
+  width: 100%;
+  padding: 10px 0px;
+  color: #000;
+  font-style: italic;
+}
+/* my-account page */
+.ovr_class_date_changed {
+  color:  red;
+  padding-top: 5px;
+}
+
+/* Footer hover color, override span color */
+.footer_top a:hover span{
+    color:white;
+}
+
+
+/*Hide Add to Cart button from Products*/
+.single-product.product-template-default .woocommerce-variation-add-to-cart.variations_button{
+    display: none;
+}
+
+/*Style for Gift Product on product Page*/
+.single-product button#give-as-present {
+    background: #666666 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    font-family: "Francois One";
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 25px 0 0;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    border: 1px solid #666666;
+    display: block !important;
+}
+.single-product button#give-as-present:hover{
+    color: #666666;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #666666;
+    transition: all 0.1s linear 0s;
+}
+/*Styling Gift card Content*/
+.single-product .gift-card-content-editor {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+/*Style for Additional Details on product Page*/
+.single-product .q_accordion_holder .title-holder.ui-accordion-header {
+  background: #666666 none repeat scroll 0 0;
+  border: 1px solid #666666;
+  color: #ffffff;
+  font-family: "Oswald",sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 25px 0 0;
+  padding: 2px 8px 4px !important;
+  text-transform: uppercase;
+  transform: translateZ(0px);
+  transition: border-color 0.3s ease-in-out 0s, background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+}
+.single-product .q_accordion_holder .title-holder.ui-accordion-header:hover{
+    color: #666666;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #666666;
+    transition: all 0.1s linear 0s;
+}
+/*My Account Menu Style*/
+body #booked-myaccount #booked-profile-page .booked-tabs li:first-child a{
+    height: auto !important;
+}
+
+body #booked-profile-page .booked-tabs li a i {
+    padding-right: 5px;
+}
+
+/*Update Product gallery slider images*/
+.single-product .flex-control-nav.flex-control-thumbs > li {
+    display: inline-block;
+    margin-right: 5px;
+    width: 80px;
+}
+
+/*Store Notice Style*/
+.woocommerce-store-notice a {
+    color: #fff;
+    text-decoration: underline;
+}
+.woocommerce-store-notice {
+    background: #444444 none repeat scroll 0 0;
+    bottom: 8px;
+    color: #ffffff;
+    margin-top: -33px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+/*Disable Place Order Button on Checkout*/
+.button.alt.process_order_btn{
+    color: #666666;
+    border-color: #666;
+    background-color: #fff;
+    cursor: wait;
+}
+
+/*Booking Calender on Single Portfolio */
+.single-portfolio_page .portfolio_single .booking_calender h3 {
+    font-size: 28px;
+    margin: 45px 0 18px;
+    text-align: center;
+}
+.single-portfolio_page .no_trainer_found.booked_1 {
+    display: block;
+    text-align: center;
+}
+
+.single-portfolio_page .no_trainer_found {
+    display: none;
+}
+
+body.single-portfolio_page .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people {
+    display: block;
+    float: none;
+    height: auto;
+    padding: 5px 0 0;
+}
+body.single-portfolio_page .timeslot-day {
+  display: block;
+}
+
+.single-portfolio_page #booking-calender_sect {
+    background: rgba(0, 0, 0, 0) url("../images/black-texture-class-packs4.jpg") repeat scroll center top;
+    min-height: 245px;
+}
+.single-portfolio_page #booking-calender_sect .owl-controls.clickable {
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.single-portfolio_page #booking-calender_sect .owl-prev {
+    font-size: 0;
+    left: -31px;
+    position: absolute;
+    top: 110px;
+    background: #000 url(../images/trainer_owl-prev.png) no-repeat scroll center center;
+    width: 30px;
+    height: 38px;
+    margin: 0;
+    padding: 0 0 0 0px;
+    border-radius: 0;
+}
+
+.single-portfolio_page .owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.single-portfolio_page #booking-calender_sect .owl-next {
+    font-size: 0;
+    right: -31px;
+    position: absolute;
+    top: 110px;
+    background: rgba(0, 0, 0, 0) url(../images/trainer_owl-next.png) no-repeat scroll center center;
+    width: 30px;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+}
+body.single-portfolio_page .booked-calendar-wrap {
+    padding: 0;
+    margin: 0;
+}
+body.single-portfolio_page .booked-calendar-wrap{
+    width: 97%;
+    margin: 0 auto;
+}
+body.single-portfolio_page .booked-calendar-wrap .booked-appt-list .timeslot:hover {
+    background: rgba(0, 0, 0, 0) url(../images/black-texture-class-packs4-invert.jpg) repeat center top;
+    width: 100%;
+    background-size: 100%;
+}
+body.single-portfolio_page #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix {
+    margin-bottom: 0;
+    padding: 0;
+    min-height: 262px;
+}
+
+body.single-portfolio_page #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix:hover a, 
+body.single-portfolio_page #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix:hover label, 
+body.single-portfolio_page #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix:hover h3, 
+body.single-portfolio_page #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix:hover span {
+    color: #000000;
+}
+
+.single-portfolio_page #booking-calender_sect .timeslot.bookedClearFix a, 
+.single-portfolio_page #booking-calender_sect .timeslot.bookedClearFix h3, 
+.single-portfolio_page #booking-calender_sect .timeslot.bookedClearFix span, 
+.single-portfolio_page #booking-calender_sect .timeslot.bookedClearFix label {
+    color: #ffffff;
+    padding-left: 20px;
+    text-transform: uppercase;
+    -webkit-transition: none;
+    transition: none;
+}
+.single-portfolio_page #booking-calender_sect a.trainer_bookie {
+    display: block;
+    padding: 45px 0;
+}
+
+body.single-portfolio_page  .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button {
+    background: #e74047 none repeat scroll 0 0 !important;
+    border: 1px solid #ff0000 !important;
+    float: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+    padding: 7px 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body.single-portfolio_page  #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix:hover .timeslot-people button{
+    color: #000;
+}
+body.single-portfolio_page  #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix h3 {
+    margin-bottom: 0;
+}
+
+body.single-portfolio_page  #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix .timeslot-people span{
+    padding-left: 0;
+}
+
+body.single-portfolio_page  .booked-calendar-wrap .booked-appt-list .timeslot{
+    border-top: none;
+}
+
+.single-portfolio_page .load-classes {
+    display: inline-block;
+    padding: 130px 0 0;
+    width: 3%;
+}
+
+.single-portfolio_page .portfolio_single.big-images .loader-section {
+    text-align: center;
+}
+.single-portfolio_page #booking-calender_sect span.timeslot-time, .single-portfolio_page #booking-calender_sect .timeslot-people {
+    display: none;
+}
+.single-portfolio_page #booking-calender_sect .trainer_bookie span.timeslot-time, 
+.single-portfolio_page #booking-calender_sect .trainer_bookie .timeslot-people {
+    display: block;
+}
+.single-portfolio_page #booking-calender_sect .owl-wrapper{
+    margin: 0 auto;
+}
+.single-portfolio_page .no-classes {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 108px;
+}
+@media all and (max-width : 1160px) {
+    .single-portfolio_page #booking-calender_sect .owl-next{
+        right: -15px;
+    }
+    .single-portfolio_page #booking-calender_sect .owl-prev{
+        left: -16px;
+    }
+}
+
+@media all and (max-width : 540px) {
+    body.single-portfolio_page #booking-calender_sect .booked-appt-list .timeslot.bookedClearFix {
+        text-align: center;
+    }
+    body.single-portfolio_page .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people {
+        width: 100%;
+    }
+}
+
+
+.single-portfolio_page #booking-calender_sect .loader-section h3 {
+    color: #fff;
+    margin-top: 25px;
+    padding-bottom: 130px;
+}
+.single-portfolio_page .loader-section > h3#no-classestr {
+    padding-top: 115px;
+}
+
+/*Primary Location CSS*/
+.product_attributes .att_value {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.order-details-wrapper .wc-item-meta li {
+    list-style: outside none none;
+    text-transform: capitalize;
+}
+
+.order-details-wrapper .wc-item-meta p {
+    display: inline-block;
+}

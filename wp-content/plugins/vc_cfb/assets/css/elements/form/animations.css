@@ -1,0 +1,53 @@
+/* Use the following CSS code if you want to have a class per icon */
+
+.vc_cfb_form_wrapper .vc_cfb_animation{
+  z-index: 100;
+  position: absolute;
+}
+
+
+[class^="vc_cfb_animation-"]:before, [class*=" vc_cfb_animation-"]:before {
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    margin-left: 0;
+}
+
+[class^="vc_cfb_animation-"],[class*=" vc_cfb_animation-"] {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.vc_cfb_animation-hourglass{
+  background: url(../../../images/animations/hourglass.gif) center no-repeat;
+}
+
+.vc_cfb_animation-ring{
+  background: url(../../../images/animations/ring.gif) center no-repeat;
+}
+
+.vc_cfb_animation-loader{
+  background: url(../../../images/animations/loader.gif) center no-repeat;
+}
+
+.vc_cfb_animation-gears{
+  background: url(../../../images/animations/gears.gif) center no-repeat;
+}
+
+.vc_cfb_animation-gear{
+  background: url(../../../images/animations/gear.gif) center no-repeat;
+}
+
+.vc_cfb_animation-ellipsis{
+  background: url(../../../images/animations/ellipsis.gif) center no-repeat;
+}

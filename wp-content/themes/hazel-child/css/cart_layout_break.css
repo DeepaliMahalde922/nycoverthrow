@@ -1,0 +1,6 @@
+nav.main_menu > ul > li > a{
+    height: auto;
+}
+body > .coupon:first-child {
+    display: none;
+}

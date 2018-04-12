@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Checkout Manager\n"
+"POT-Creation-Date: 2016-07-22 12:31+0200\n"
+"PO-Revision-Date: 2016-07-22 12:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: YITHEMES <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.ywccp-admin.php:153 templates/admin/fields-table.php:12
+msgid "Add new field"
+msgstr "Aggiungi nuovo campo"
+
+#: includes/class.ywccp-admin.php:154
+msgid "Edit field"
+msgstr "Modifica campo"
+
+#: includes/class.ywccp-admin.php:155 templates/admin/fields-table.php:100
+#: templates/admin/fields-table.php:101
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/class.ywccp-admin.php:174 includes/class.ywccp-admin.php:195
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/class.ywccp-admin.php:196
+msgid "Checkout fields"
+msgstr "Campi checkout"
+
+#: includes/class.ywccp-admin.php:202 includes/class.ywccp-admin.php:203
+msgid "Checkout Manager"
+msgstr "Checkout Manager"
+
+#: includes/class.ywccp-admin.php:268
+msgid "Plugin documentation"
+msgstr "Documentazione plugin"
+
+#: includes/class.ywccp-front.php:111
+msgid "This is a required field."
+msgstr "Questo è un campo richiesto."
+
+#: includes/class.ywccp-front.php:112
+msgid "The VAT number you have entered seems to be wrong."
+msgstr "Il numero VAT che hai inserito sembra errato."
+
+#: includes/class.ywccp-front.php:113
+msgid "The mail you have entered seems to be wrong."
+msgstr "L'email che hai inserito sembra errata."
+
+#: includes/class.ywccp-front.php:323
+#, php-format
+msgctxt "FIELDNAME is a required field."
+msgid "%s is a required field."
+msgstr "%s è un campo richiesto."
+
+#: includes/class.ywccp-front.php:445
+msgid "The VAT number you have entered seems to be wrong. Please, check it."
+msgstr "Il numero VAT che hai inserito sembra errato. Per favore, verificalo."
+
+#: includes/functions.ywccp.php:300
+msgid "Order notes"
+msgstr "Note ordine"
+
+#: includes/functions.ywccp.php:301
+msgctxt "placeholder"
+msgid "Notes on your order, e.g. special notes concerning delivery."
+msgstr "Note sui tuoi ordini, es. note speciali riguardo alla consegna."
+
+#: includes/functions.ywccp.php:318
+msgid "Text"
+msgstr "Testo"
+
+#: includes/functions.ywccp.php:319
+msgid "Password"
+msgstr "Password"
+
+#: includes/functions.ywccp.php:320 includes/functions.ywccp.php:364
+msgid "Phone"
+msgstr "Telefono"
+
+#: includes/functions.ywccp.php:321
+msgid "Textarea"
+msgstr "Area del testo"
+
+#: includes/functions.ywccp.php:322
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/functions.ywccp.php:323
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: includes/functions.ywccp.php:324
+msgid "Select"
+msgstr "Seleziona"
+
+#: includes/functions.ywccp.php:325
+msgid "Multi select"
+msgstr "Selezione multipla"
+
+#: includes/functions.ywccp.php:326
+msgid "Date"
+msgstr "Data"
+
+#: includes/functions.ywccp.php:327
+msgid "Time"
+msgstr "Tempo"
+
+#: includes/functions.ywccp.php:328
+msgid "Heading"
+msgstr "Intestazione"
+
+#: includes/functions.ywccp.php:345
+msgid "First"
+msgstr "Primo"
+
+#: includes/functions.ywccp.php:346
+msgid "Last"
+msgstr "Ultimo"
+
+#: includes/functions.ywccp.php:347
+msgid "Wide"
+msgstr "Ampio"
+
+#: includes/functions.ywccp.php:362
+msgid "No validation"
+msgstr "Nessuna verifica"
+
+#: includes/functions.ywccp.php:363
+msgid "PostCode"
+msgstr "Codice postale"
+
+#: includes/functions.ywccp.php:365
+msgid "Email"
+msgstr "Email"
+
+#: includes/functions.ywccp.php:366
+msgid "State"
+msgstr "Stato"
+
+#: includes/functions.ywccp.php:367
+msgid "VAT"
+msgstr "VAT"
+
+#: init.php:41
+msgid ""
+"YITH WooCommerce Checkout Manager is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Checkout Manager è attivato ma non operativo. Per "
+"funzionare richiede WooCommerce."
+
+#: plugin-options/general-options.php:14
+msgid "General options"
+msgstr "Opzioni generali"
+
+#: plugin-options/general-options.php:21
+msgid "Enable JS validation"
+msgstr "Attiva verifica Java Script"
+
+#: plugin-options/general-options.php:22
+msgid "Enable JavaScript field validation."
+msgstr "Attiva campo di verifica Java Script"
+
+#: plugin-options/general-options.php:29
+msgid "Enable VAT JS Validation (EU)"
+msgstr "Attiva verifica VAT JS (EU)"
+
+#: plugin-options/general-options.php:30
+msgid ""
+"Enable JavaScript VAT field validation. \"Country\" field is also required. "
+"This option is available only for European countries"
+msgstr ""
+"Attiva campo di verifica Java Script. E' richiesto anche il campo \"Paese\". "
+"Questa opzione è disponibile solo per i paesi europei. "
+
+#: plugin-options/general-options.php:37
+msgid "Enable tooltip"
+msgstr "Attiva tooltip"
+
+#: plugin-options/general-options.php:38
+msgid ""
+"Enable tooltip on checkout fields. Don't forget to set the tooltip text in "
+"single field edit window, otherwise the tooltip will not appear"
+msgstr ""
+"Attiva tooltip nei campi checkout. Non dimenticare di impostare il testo "
+"tooltip nella finestra di modifica del singolo campo, altrimenti il tooltip "
+"non apparirà"
+
+#: plugin-options/general-options.php:50
+msgid "Style options"
+msgstr "Opzioni di stile"
+
+#: plugin-options/general-options.php:57
+msgid "Checkout style"
+msgstr "Stile checkout"
+
+#: plugin-options/general-options.php:58
+msgid ""
+"Show checkout form in one column instead of using two-column default layout."
+msgstr ""
+"Mostra il form del checkout in una colonna invece di usare il layout a due "
+"colonne di default."
+
+#: plugin-options/general-options.php:65
+msgid "Input field height"
+msgstr "Input altezza campo"
+
+#: plugin-options/general-options.php:66
+msgid "Set input field height (px)"
+msgstr "Imposta l'input altezza campo (px)"
+
+#: plugin-options/general-options.php:73
+msgid "Input field border"
+msgstr "Input bordo campo"
+
+#: plugin-options/general-options.php:74
+msgid "Set a color for input field border."
+msgstr "Imposta un colore per l'input bordo campo."
+
+#: plugin-options/general-options.php:81
+msgid "Input field border on focus"
+msgstr "Input bordo campo sul focus"
+
+#: plugin-options/general-options.php:82
+msgid "Set a color for input field border on focus."
+msgstr "Imposta un colore per l'input bordo campo sul focus."
+
+#: plugin-options/general-options.php:89
+msgid "Input field border (correct info)"
+msgstr "Input bordo campo (info corretta)"
+
+#: plugin-options/general-options.php:90
+msgid "Set a color for input field border when info entered is correct."
+msgstr ""
+"Imposta un colore per l'input bordo campo quando l'info è inserita "
+"correttamente."
+
+#: plugin-options/general-options.php:97
+msgid "Input field border (wrong info)"
+msgstr "Input bordo campo (info errata)"
+
+#: plugin-options/general-options.php:98
+msgid "Set a color for input field border when info entered is wrong."
+msgstr ""
+"Imposta un colore per l'input bordo campo quando l'info inserita è errata."
+
+#: plugin-options/general-options.php:105
+msgid "Error message color"
+msgstr "Colore messaggio di errore"
+
+#: plugin-options/general-options.php:106
+msgid "Set a color for error messages."
+msgstr "Imposta un colore per i messaggi di errore."
+
+#: templates/admin/fields-edit.php:18 templates/admin/fields-table.php:33
+#: templates/admin/fields-table.php:47
+msgid "Name"
+msgstr "Nome"
+
+#: templates/admin/fields-edit.php:22 templates/admin/fields-table.php:34
+#: templates/admin/fields-table.php:48
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/admin/fields-edit.php:32 templates/admin/fields-table.php:35
+#: templates/admin/fields-table.php:49
+msgid "Label"
+msgstr "Etichetta"
+
+#: templates/admin/fields-edit.php:36 templates/admin/fields-table.php:36
+#: templates/admin/fields-table.php:50
+msgid "Placeholder"
+msgstr "Segnaposto"
+
+#: templates/admin/fields-edit.php:41
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: templates/admin/fields-edit.php:46
+msgid "Options"
+msgstr "Opzioni"
+
+#: templates/admin/fields-edit.php:47
+msgid ""
+"Seperate options with pipes (|) and key from value using (::). Es. key::"
+"value|"
+msgstr ""
+"Separa le opzioni con i pipe (|) e la chiave dal valore utilizzando (::). "
+"Es. chiave::valore"
+
+#: templates/admin/fields-edit.php:51
+msgid "Position"
+msgstr "Posizione"
+
+#: templates/admin/fields-edit.php:62
+msgid "Class"
+msgstr "Classe"
+
+#: templates/admin/fields-edit.php:63 templates/admin/fields-edit.php:67
+msgid "Seperate classes with commas"
+msgstr "Separa le classi con le virgole"
+
+#: templates/admin/fields-edit.php:66
+msgid "Label class"
+msgstr "Classe etichetta"
+
+#: templates/admin/fields-edit.php:71
+msgid "Validation"
+msgstr "Verifica"
+
+#: templates/admin/fields-edit.php:85 templates/admin/fields-table.php:38
+#: templates/admin/fields-table.php:52
+msgid "Required"
+msgstr "Richiesto"
+
+#: templates/admin/fields-edit.php:92 templates/admin/fields-table.php:39
+#: templates/admin/fields-table.php:53
+msgid "Clear Row"
+msgstr "Clear Row"
+
+#: templates/admin/fields-edit.php:99
+msgid "Display in emails"
+msgstr "Mostra nelle email"
+
+#: templates/admin/fields-edit.php:102
+msgid "Display in Order Detail Pages"
+msgstr "Mostra nelle pagine dettaglio ordine"
+
+#: templates/admin/fields-general.php:16
+msgid "Fields"
+msgstr "Campi"
+
+#: templates/admin/fields-general.php:37
+msgid "If you go on with this action, you will reset all options in this page."
+msgstr ""
+"Se continui con questa azione, resetterai tutte le opzioni in questa pagina."
+
+#: templates/admin/fields-general.php:40
+msgid "Reset defaults"
+msgstr "Resetta i default"
+
+#: templates/admin/fields-general.php:40
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: templates/admin/fields-table.php:13
+msgid "Enter field name"
+msgstr "Inserisci il nome del campo"
+
+#: templates/admin/fields-table.php:15
+msgid "Add field"
+msgstr "Aggiungi campo"
+
+#: templates/admin/fields-table.php:22 templates/admin/fields-table.php:118
+msgid "Select an action"
+msgstr "Seleziona un'azione"
+
+#: templates/admin/fields-table.php:23 templates/admin/fields-table.php:105
+#: templates/admin/fields-table.php:106 templates/admin/fields-table.php:119
+msgid "Enable"
+msgstr "Attiva"
+
+#: templates/admin/fields-table.php:24 templates/admin/fields-table.php:105
+#: templates/admin/fields-table.php:106 templates/admin/fields-table.php:120
+msgid "Disable"
+msgstr "Disattiva "
+
+#: templates/admin/fields-table.php:37 templates/admin/fields-table.php:51
+msgid "Validation rules"
+msgstr "Regole di verifica"
+
+#: templates/admin/fields-table.php:40 templates/admin/fields-table.php:54
+msgid "Actions"
+msgstr "Azioni"
+
+#: templates/admin/fields-table.php:103
+msgid "Edit"
+msgstr "Modifica"
+
+#: templates/admin/fields-table.php:110
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: templates/admin/fields-table.php:126
+msgid "Save changes"
+msgstr "Salva modifiche"
+
+#: templates/email/plain/ywccp-additional-fields-list.php:14
+#: templates/email/ywccp-additional-fields-list.php:15
+#: templates/ywccp-additional-fields-table.php:15
+msgid "Additional info"
+msgstr "Informazioni aggiuntive "

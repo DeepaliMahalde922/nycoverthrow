@@ -1,0 +1,98 @@
+$instagram-primary: #125688;
+$instagram-default-color:#a5a7aa;
+$instagram-default-padding:10px;
+$instagram-default-border:#edeeee;
+
+.mgl_instagram_template_default {
+    color:$instagram-default-color;
+    .mgl_instagram_photo {
+        padding: 10px;
+        
+        .mgl_instagram_photo_container {
+            overflow: hidden;
+            border-radius: 3px; 
+            border:1px solid $instagram-default-border;
+            position: relative;
+        }
+
+        .mgl_instagram_user { 
+            
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            display: flex !important;
+            align-items: center;
+            color:$instagram-primary;
+            border-bottom:1px solid $instagram-default-border;
+            transform:translateY(-100%);
+            
+        }
+
+        .mgl_instagram_user, .mgl_instagram_info {
+            transition:transform .5s;
+            background-color: #fff;
+            padding: $instagram-default-padding;
+        }
+
+        .mgl_instagram_avatar { 
+            float: left; 
+            width: 10%; 
+            overflow: hidden;
+            border-radius: 50%;
+            margin-right: 10px;
+            //transform:translateY(3px);
+            img { 
+                width:100%; 
+            }
+        }
+
+        .mgl_instagram_mask {
+            color:$instagram-default-color;  
+            top: 0;
+            height: 100%;
+            width: 100%;
+            
+            
+            .mgl_instagram_info {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                max-height: 40%;
+                border-top:1px solid $instagram-default-border;
+                transform:translateY(100%);
+                .mgl_instagram_likes, .mgl_instagram_comments {
+                    display: inline;
+                    font-weight: bold;
+                    color:$instagram-primary;
+                    i {
+                        display: none;
+                    }
+                    span {
+                        display: inline;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .mgl_instagram_mask {
+                .mgl_instagram_user, .mgl_instagram_info {
+                    transform:translateY(0);
+                }
+            }
+        }
+    } 
+
+    &.mgl_instagram_pagination {
+        a {
+            border:1px solid $instagram-default-border;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 3px;
+            color:$instagram-primary;
+            font-weight: bold;
+        }
+    }
+}
+

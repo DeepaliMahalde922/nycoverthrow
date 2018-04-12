@@ -1,0 +1,30 @@
+
+
+/* path to the icon file should be relative to the css file where you place your css rules (this file) */
+.wpb-content-layouts .wpb-layout-element-button .mgl_instagram {
+    background-image: url('../images/mgl_instagram_vc_extend.png');
+    background-size: contain; 
+}
+.wpb-content-layouts .wpb-layout-element-button .vc-element-icon.mgl_instagram_vc_extend {
+    width: 32px;
+    height: 32px; 
+}
+ 
+/* this can be used to change the VC shortcode block icon in the Visual Composer Editor working canvas */
+.wpb_mgl_instagram_user.wpb_content_element > .wpb_element_wrapper,
+.wpb_mgl_instagram_tag.wpb_content_element > .wpb_element_wrapper,
+.wpb_mgl_instagram_liked.wpb_content_element > .wpb_element_wrapper,
+.wpb_mgl_instagram_feed.wpb_content_element > .wpb_element_wrapper,
+.wpb_mgl_instagram_location.wpb_content_element > .wpb_element_wrapper
+{
+    background-image: url('../images/mgl_instagram_vc_extend.png');
+}
+ 
+/* this can be used to change the VC shortcode block icon for nested shortcodes in the Visual Composer Editor working canvas */
+.wpb_mgl_instagram_user[data-element_type=mgl_instagram_vc_extend] {
+    background-image: url('../images/mgl_instagram_vc_extend.png');
+}
+
+.vc_element-icon.mgl_instagram {
+	 background-image: url('../images/mgl_instagram_vc_extend.png');
+}

@@ -1,0 +1,89 @@
+$card-border-color: #ddd;
+$instagram-color: #3f729b;
+$card-padding: 15px;
+.mgl-instagram-card {
+	font-size:14px;
+	box-sizing: border-box;
+	overflow: hidden;
+	
+	* {
+		box-sizing:border-box;
+	}
+
+	a {
+		color: $instagram-color;
+	}
+	
+	&__header {
+		text-align: center;
+		padding: 10px;
+		background: $instagram-color url('../images/bg_instagram.jpg') center;
+		background-size: cover;
+		color:#fff;
+		text-transform: uppercase;
+		&__title {
+			background: url('../images/mgl_instagram_glyph.png') no-repeat center left;
+			background-size: 16px 16px;
+			padding-left: 32px;
+		}
+	}
+	&__container {
+		background-color: #fff;
+		border: 1px solid $card-border-color;
+	}
+
+	&__avatar {
+		width: 25%;
+		float: left;
+		border: 1px solid $card-border-color;
+		border-radius:50%;
+		overflow: hidden;
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	&__bio {
+		width: 75%;
+		float: left;
+		padding-left: $card-padding;
+		&__name {
+			color:#444;
+			font-weight: bold;
+		}
+	}
+
+	&__row {
+		border-top:1px solid $card-border-color;
+		padding: $card-padding;
+		&:first-child {
+			border-top:none;
+		}
+		&:after {
+			content:"";
+			clear: both;
+			display: block;
+		}
+	}
+
+	&__counts {
+		margin: 0;
+		padding: 0;
+		display: table;
+		width: 100%;
+		li {
+			display: table-cell;
+			width: 33.33%;
+			text-align: center;
+			span {
+				color:#444;
+				font-size: 2rem;
+			}
+			small {
+				display: block;
+				text-align: center;
+			}
+		}
+	}
+}

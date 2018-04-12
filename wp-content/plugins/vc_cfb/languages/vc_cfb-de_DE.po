@@ -1,0 +1,2444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CFB\n"
+"POT-Creation-Date: 2016-12-03 11:38+0100\n"
+"PO-Revision-Date: 2016-12-03 11:44+0100\n"
+"Last-Translator: \n"
+"Language-Team: Rigo_1\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Bookmarks: -1,90,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: include/classes/vc_cfb_element.php:35
+msgid "Field Name"
+msgstr "Feldname"
+
+#: include/classes/vc_cfb_element.php:38
+#, php-format
+msgid ""
+"This value will be used for attribute <code>%s</code> your field and must be "
+"unique within one form. Do not use space. Example: form_1, demo_form"
+msgstr ""
+"Dieser Wert wird zum Attribut <code>%s</code> verwendet Ihr Feld muss "
+"innerhalb eines Formulars eindeutig sein. Verwenden Sie keine Leerzeichen. "
+"Beispiel: form_1, demo_form"
+
+#: include/classes/vc_cfb_element.php:39 include/classes/vc_cfb_element.php:49
+#: include/classes/vc_cfb_element.php:173 include/params/field/button.php:12
+#: include/params/field/file.php:24 include/params/field/options.php:13
+#: include/params/field/options.php:23 include/params/field/placepicker.php:28
+#: include/params/field/placepicker.php:52
+#: include/params/field/placepicker.php:62
+#: include/params/field/recaptcha.php:11 include/params/field/recaptcha.php:22
+#: include/params/field/recaptcha.php:32 include/params/field/switchery.php:17
+#: include/params/field/text.php:30 include/params/form.php:11
+#: include/params/form.php:151 vc_cfb.php:148
+msgid "General"
+msgstr "Allgemeines"
+
+#: include/classes/vc_cfb_element.php:45
+msgid "Field Label"
+msgstr "Feld Beschriftung"
+
+#: include/classes/vc_cfb_element.php:48
+msgid ""
+"Label of field for showing only in email. Uses in default email template."
+msgstr ""
+"Dieses Label wird nur in der EMail verwendet.Genutzt in der Default EMail "
+"vorlage."
+
+#: include/classes/vc_cfb_element.php:54
+msgid "Label position"
+msgstr "Beschriftung Position"
+
+#: include/classes/vc_cfb_element.php:55
+msgid "Select label position."
+msgstr "Wähle die Position der Beschriftung aus."
+
+#: include/classes/vc_cfb_element.php:58 include/classes/vc_cfb_element.php:210
+msgid "Left"
+msgstr "Links"
+
+#: include/classes/vc_cfb_element.php:59 include/classes/vc_cfb_element.php:211
+msgid "Right"
+msgstr "Rechts"
+
+#: include/classes/vc_cfb_element.php:60
+msgid "Top"
+msgstr "Oben"
+
+#: include/classes/vc_cfb_element.php:61
+msgid "Bottom"
+msgstr "Unten"
+
+#: include/classes/vc_cfb_element.php:62
+msgid "Show only in default email template"
+msgstr "Nur in Standard-E-Mail-Vorlage"
+
+#: include/classes/vc_cfb_element.php:64 include/classes/vc_cfb_element.php:77
+#: include/classes/vc_cfb_element.php:87 include/classes/vc_cfb_element.php:97
+#: include/classes/vc_cfb_element.php:104
+#: include/classes/vc_cfb_element.php:201
+#: include/classes/vc_cfb_element.php:217
+#: include/classes/vc_cfb_element.php:236
+#: include/classes/vc_cfb_element.php:249
+#: include/classes/vc_cfb_element.php:254
+#: include/classes/vc_cfb_element.php:271
+#: include/classes/vc_cfb_element.php:288
+#: include/classes/vc_cfb_element.php:305
+#: include/classes/vc_cfb_element.php:322
+#: include/classes/vc_cfb_element.php:336 include/params/field/button.php:46
+#: include/params/field/button.php:65 include/params/field/options.php:91
+#: include/params/field/options.php:105
+#: include/params/field/placepicker.php:277
+#: include/params/field/recaptcha.php:121
+#: include/params/field/recaptcha.php:131 include/params/field/text.php:139
+#: include/params/field/textarea.php:44 include/params/field/textarea.php:54
+#: include/params/form.php:422 include/params/form.php:433
+msgid "Design"
+msgstr "Design"
+
+#: include/classes/vc_cfb_element.php:69
+msgid "Label width"
+msgstr "Beschriftungsbreite"
+
+#: include/classes/vc_cfb_element.php:70
+msgid "Label width in column. Full line width is 12 column."
+msgstr "Beschriftungsbreite in der Spalte. Ganze Linie hat 12 Spalten"
+
+#: include/classes/vc_cfb_element.php:83
+msgid "Classes"
+msgstr "CSS Class"
+
+#: include/classes/vc_cfb_element.php:86
+msgid ""
+"List of classes space separated. They will combined with default CFB classes."
+msgstr ""
+"Liste von Class durch Space Separiert.Sie werden mit der Standard CFB Class "
+"kombiniert."
+
+#: include/classes/vc_cfb_element.php:93
+msgid "Id"
+msgstr "Id"
+
+#: include/classes/vc_cfb_element.php:96
+msgid "This value must be unique per page."
+msgstr "Dieser Wert muss eindeutig pro Seite sein."
+
+#: include/classes/vc_cfb_element.php:102
+msgid "CSS box"
+msgstr "CSS box"
+
+#: include/classes/vc_cfb_element.php:110 include/params/field/options.php:55
+msgid "Is this field required?"
+msgstr "Ist dieses Feld erforderlich?"
+
+#: include/classes/vc_cfb_element.php:111
+#: include/classes/vc_cfb_element.php:122
+#: include/classes/vc_cfb_element.php:131
+#: include/classes/vc_cfb_element.php:140
+#: include/classes/vc_cfb_element.php:150
+#: include/classes/vc_cfb_element.php:163
+#: include/classes/vc_cfb_element.php:183
+#: include/classes/vc_cfb_element.php:193 include/params/field/dpassword.php:14
+#: include/params/field/file.php:13 include/params/field/file.php:34
+#: include/params/field/options.php:48 include/params/field/options.php:56
+#: include/params/field/pickadate.php:16 include/params/field/pickadate.php:25
+#: include/params/field/pickadate.php:34 include/params/field/pickadate.php:43
+#: include/params/field/pickadate.php:56 include/params/field/pickadate.php:65
+#: include/params/field/pickadate.php:74 include/params/field/pickadate.php:83
+#: include/params/field/pickadate.php:92 include/params/field/pickadate.php:149
+#: include/params/field/pickadate.php:222
+#: include/params/field/pickadate.php:235
+#: include/params/field/pickadate.php:246 include/params/field/pickatime.php:16
+#: include/params/field/pickatime.php:25 include/params/field/pickatime.php:34
+#: include/params/field/pickatime.php:43 include/params/field/pickatime.php:52
+#: include/params/field/pickatime.php:109
+#: include/params/field/pickatime.php:167 include/params/field/recaptcha.php:42
+#: include/params/field/recaptcha.php:111 include/params/field/switchery.php:32
+#: include/params/field/switchery.php:45 include/params/field/switchery.php:54
+#: include/params/field/switchery.php:64 include/params/field/switchery.php:74
+#: include/params/field/switchery.php:84 include/params/field/switchery.php:94
+#: include/params/field/tags.php:17 include/params/field/tags.php:26
+#: include/params/field/tags.php:35 include/params/field/tags.php:44
+#: include/params/field/tags.php:54 include/params/field/textarea.php:20
+#: include/params/field/time.php:14 include/params/field/time.php:24
+#: include/params/field/time.php:32 include/params/field/time.php:41
+#: include/params/field/time.php:50 include/params/form.php:21
+#: include/params/form.php:29 include/params/form.php:38
+#: include/params/form.php:49 include/params/form.php:58
+#: include/params/form.php:69 include/params/form.php:79
+#: include/params/form.php:89 include/params/form.php:100
+#: include/params/form.php:110 include/params/form.php:120
+#: include/params/form.php:131
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: include/classes/vc_cfb_element.php:114 include/params/field/options.php:62
+msgid "It's important for validation."
+msgstr "Ist wichtig für die Validierung"
+
+#: include/classes/vc_cfb_element.php:121
+msgid "Is this field disabled?"
+msgstr "Soll dieses Feld deaktiviert werden?"
+
+#: include/classes/vc_cfb_element.php:123
+msgid ""
+"A disabled input element is unusable and un-clickable. Disabled element in a "
+"form will not be submitted."
+msgstr ""
+"Ein deaktiviertes Eingabeelement ist nicht beschreibbar und kann nicht "
+"geklickt werden.Deaktivierte Elemente werden im Formular auch nicht "
+"mitgesendet."
+
+#: include/classes/vc_cfb_element.php:130
+msgid "Is this field read-only?"
+msgstr "Ist das Feld schreibgeschützt?"
+
+#: include/classes/vc_cfb_element.php:132
+msgid ""
+"A read-only input field cannot be modified (however, a user can tab to it, "
+"highlight it, and copy the text from it)."
+msgstr ""
+"Ein Read-Only eingabefeld kann nicht geändert werden(jedoch, kann ein "
+"Benutzer den Text markieren um ihn hervorzuheben und zu kopieren)"
+
+#: include/classes/vc_cfb_element.php:139
+msgid "Disable autocomplete?"
+msgstr "<strong>Adresse Autovervollständigung deaktivieren</strong>"
+
+#: include/classes/vc_cfb_element.php:142
+msgid ""
+"Autocomplete allows the browser to predict the value. When a user starts to "
+"type in a field, the browser should display options to fill in the field, "
+"based on earlier typed values."
+msgstr ""
+"Autocomplete läßt die Datenbanksuchroutine den möglichen Wert voraussagen."
+"Wenn ein Benutzer mit der Eingabe beginnt fängt die Routine die eingaben ab "
+"und holt schon werte die der Eingabe entsprechen aus der Datenbank.Auswahl "
+"beginnt auf Basis schon einmal eingegebener Werte."
+
+#: include/classes/vc_cfb_element.php:149
+msgid "Is this field autofocus?"
+msgstr "Soll dieses Feld den Fokus erhalten?"
+
+#: include/classes/vc_cfb_element.php:152
+msgid ""
+"When present, it specifies that an element should automatically get focus "
+"when the page loads."
+msgstr ""
+"Wenn dieses Aktiviert wird, bekommt das Element automatisch den Fokus wenn "
+"die seite geladen wird."
+
+#: include/classes/vc_cfb_element.php:158 include/params/field/options.php:40
+msgid "Short hint"
+msgstr "Platzhalter im Textfeld"
+
+#: include/classes/vc_cfb_element.php:162
+msgid ""
+"The short hint is displayed in the input field before the user enters a "
+"value."
+msgstr ""
+"Platzhalter werden im eingabefeld gezeigt bevor der User werte eingibt."
+
+#: include/classes/vc_cfb_element.php:169 include/params/field/options.php:19
+#: include/params/field/switchery.php:9 include/params/field/textarea.php:26
+#: include/params/field/time.php:72
+msgid "Default value"
+msgstr "Standardwert"
+
+#: include/classes/vc_cfb_element.php:179
+msgid "Tab index"
+msgstr "Reihenfolge"
+
+#: include/classes/vc_cfb_element.php:182
+msgid ""
+"The tabindex attribute specifies the tab order of an element (when the \"tab"
+"\" button is used for navigating)."
+msgstr ""
+"Die Position der Reihenfolge in der mit Tab durchgeschaltet wird. Ist das "
+"Element an dritter stelle und hier wird eine 3 eingetragen, wird es auch als "
+"drittes mit der Tab-Taste den Fokus erhalten."
+
+#: include/classes/vc_cfb_element.php:189
+msgid "Max length"
+msgstr "Max. Länge"
+
+#: include/classes/vc_cfb_element.php:192
+msgid "The maximum number of characters allowed in the element."
+msgstr "Die maximale Anzahl von Zeichen die in dem Element erlaubt sind."
+
+#: include/classes/vc_cfb_element.php:198
+msgid "Add icon?"
+msgstr "Icon hinzufügen?"
+
+#: include/classes/vc_cfb_element.php:206
+msgid "Icon Alignment"
+msgstr "Icon Ausrichtung"
+
+#: include/classes/vc_cfb_element.php:207
+msgid "Select icon alignment."
+msgstr "Wählen Sie die Icon Ausrichtung."
+
+#: include/classes/vc_cfb_element.php:222
+msgid "Icon library"
+msgstr "Icon-Bibliothek"
+
+#: include/classes/vc_cfb_element.php:224
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: include/classes/vc_cfb_element.php:225
+msgid "Open Iconic"
+msgstr "Öffne Icon"
+
+#: include/classes/vc_cfb_element.php:226
+msgid "Typicons"
+msgstr "Typicons"
+
+#: include/classes/vc_cfb_element.php:227
+msgid "Entypo"
+msgstr "Entypo"
+
+#: include/classes/vc_cfb_element.php:228
+msgid "Linecons"
+msgstr "Lineicons"
+
+#: include/classes/vc_cfb_element.php:231
+msgid "Select icon library."
+msgstr "Icon-Bibliothek auswählen"
+
+#: include/classes/vc_cfb_element.php:241
+#: include/classes/vc_cfb_element.php:259
+#: include/classes/vc_cfb_element.php:276
+#: include/classes/vc_cfb_element.php:293
+#: include/classes/vc_cfb_element.php:310
+msgid "Icon"
+msgstr "Icon"
+
+#: include/classes/vc_cfb_element.php:248
+#: include/classes/vc_cfb_element.php:270
+#: include/classes/vc_cfb_element.php:287
+#: include/classes/vc_cfb_element.php:304
+#: include/classes/vc_cfb_element.php:321
+msgid "Select icon from library."
+msgstr "Wähle ein Icon aus der Bibliothek."
+
+#: include/classes/vc_cfb_element.php:328
+msgid "Icon color"
+msgstr "Icon Farbe"
+
+#: include/classes/vc_cfb_element.php:342
+msgid "Show mask in field?"
+msgstr "Zeige Maske im Feld?"
+
+#: include/classes/vc_cfb_element.php:344
+#: include/classes/vc_cfb_element.php:354
+#: include/classes/vc_cfb_element.php:368
+#: include/classes/vc_cfb_element.php:384 include/params/field/button.php:26
+#: include/params/field/button.php:36 include/params/field/text.php:51
+#: include/params/field/text.php:63 include/params/field/text.php:75
+#: include/params/field/text.php:112 include/params/field/text.php:123
+#: include/params/field/textarea.php:30 include/params/field/time.php:65
+#: include/params/field/time.php:76
+msgid "Content"
+msgstr "Inhalt"
+
+#: include/classes/vc_cfb_element.php:350
+msgid "Mask template"
+msgstr "Masken vorlage"
+
+#: include/classes/vc_cfb_element.php:353
+msgid ""
+"Examples: <a href=\"https://github.com/digitalBush/jquery.maskedinput\" "
+"target=\"_blank\">jquery.maskedinput</a>."
+msgstr ""
+"Beispiel: <a href=\"https://github.com/digitalBush/jquery.maskedinput\" "
+"target=\"_blank\">jquery.maskedinput</a>."
+
+#: include/classes/vc_cfb_element.php:364
+msgid "Short hint for mask"
+msgstr "Kurzer Hinweis für Maske"
+
+#: include/classes/vc_cfb_element.php:367
+msgid ""
+"The short hint is displayed in the field before the user enters a value."
+msgstr "Platzhalter werden im Feld angezeigt bevor der User werte eingibt."
+
+#: include/classes/vc_cfb_element.php:378
+msgid "Disable autoclear?"
+msgstr "Deaktiviere autoclear?"
+
+#: include/classes/vc_cfb_element.php:391 include/elements/form.php:58
+msgid "Forms Builder"
+msgstr "Formular Erstellung"
+
+#: include/classes/vc_cfb_element_field.php:137
+#: include/classes/vc_cfb_element_field.php:138
+#: include/elements/field/text.php:134 include/elements/field/text.php:135
+#: include/elements/field/text.php:136 include/elements/field/text.php:137
+#: include/elements/field/text.php:138 include/elements/field/text.php:139
+#: include/elements/field/text.php:140
+msgid "Field"
+msgstr "Feld"
+
+#: include/classes/vc_cfb_page.php:26
+msgid "CFB"
+msgstr "CFB"
+
+#: include/classes/vc_cfb_page.php:86
+msgid "Your data was successfully saved."
+msgstr "Ihre Daten wurden erfolgreich gespeichert."
+
+#: include/classes/vc_cfb_page.php:91
+msgid "You don't have permission for this."
+msgstr "Sie haben hierfür keine Berechtigung."
+
+#: include/classes/vc_cfb_page.php:96
+msgid "Your data was successfully removed."
+msgstr "Ihre Daten wurden erfolgreich entfernt."
+
+#: include/classes/vc_cfb_updater.php:39
+#: include/hooks/cfb_elements_titles.php:1
+#: include/hooks/form/cfb_befor_form_classes.php:1
+#: include/hooks/form/cfb_before_form.php:1
+#: include/hooks/form/cfb_before_form_sent.php:1
+#: include/hooks/form/cfb_before_message.php:1
+#: include/hooks/form/cfb_email_body.php:1
+#: include/hooks/form/cfb_email_line_template.php:1
+#: include/hooks/form/cfb_form_classes.php:1
+#: include/hooks/form/cfb_form_custom_attribute.php:1
+#: include/hooks/form/cfb_form_styles.php:1
+#: include/hooks/form/cfb_validate_messages.php:1
+#: include/hooks/text/cfb_after_validate.php:1
+#: include/hooks/text/cfb_after_validate_messages.php:1
+#: include/hooks/text/cfb_before_field.php:1
+#: include/hooks/text/cfb_before_field_block.php:1
+#: include/hooks/text/cfb_elements_params.php:1
+#: include/hooks/text/cfb_field_get_value.php:1
+#: include/hooks/text/cfb_field_label.php:1
+#: include/hooks/text/cfb_field_set_value.php:1
+#: include/hooks/text/cfb_field_wrapper_classes.php:1
+#: include/hooks/text/cfb_type_field_classes.php:1
+#: include/hooks/text/cfb_type_field_custom_attribute.php:1
+msgid "Description"
+msgstr "Beschreibung"
+
+#: include/custom_params/requests_list.php:22 include/elements/form.php:285
+#: include/pages/partials/about/_history.php:14
+msgid "Your history list is empty."
+msgstr "Es liegen keine Daten der Vergangenheit vor."
+
+#: include/elements/field/button.php:64
+msgid "Button field"
+msgstr "Button"
+
+#: include/elements/field/button.php:67
+msgid "Reset|Submit|Button"
+msgstr "Reset|Senden|Button"
+
+#: include/elements/field/dpassword.php:50
+msgid "dPassword"
+msgstr "dPasswort"
+
+#: include/elements/field/dpassword.php:53
+msgid "Password with iOS logic"
+msgstr "Passwort mit iOS Logik"
+
+#: include/elements/field/file.php:49
+msgid "File Field"
+msgstr "Dateifeld"
+
+#: include/elements/field/file.php:52
+msgid "Field for uploading files"
+msgstr "Feld für Upload"
+
+#: include/elements/field/hidden.php:31
+msgid "Hidden Field"
+msgstr "Verstecktes Feld"
+
+#: include/elements/field/hidden.php:34
+msgid "Hidden field without validation"
+msgstr "Verstecktes Feld ohne Bestätigung"
+
+#: include/elements/field/options.php:65
+msgid "Field With Options"
+msgstr "Feld mit Optionen"
+
+#: include/elements/field/options.php:68
+msgid "Select|Checkbox|Radio"
+msgstr "Select|Checkbox|Radio"
+
+#: include/elements/field/pickadate.php:128
+msgid "Pickadate"
+msgstr "Wähle ein Datum"
+
+#: include/elements/field/pickadate.php:131
+msgid "jQuery date input picker"
+msgstr "jQuery Input Datumsauswahl"
+
+#: include/elements/field/pickatime.php:102
+msgid "Pickatime"
+msgstr "Zeitauswahl"
+
+#: include/elements/field/pickatime.php:105
+msgid "jQuery time input picker"
+msgstr "jQuery Input Zeitauswahl"
+
+#: include/elements/field/placepicker.php:122
+msgid "Place Picker"
+msgstr "Ortsauswahl"
+
+#: include/elements/field/placepicker.php:125
+msgid "Select location with Google Map"
+msgstr "Wähle einen Standort mit Google Map"
+
+#: include/elements/field/recaptcha.php:64
+msgid "reCAPTCHA 2.0"
+msgstr "reCaptcha 2.0"
+
+#: include/elements/field/recaptcha.php:67
+msgid "Protect your site from spam"
+msgstr "Schützen Sie Ihre Website vor Spam"
+
+#: include/elements/field/switchery.php:58
+msgid "Switchery"
+msgstr "Switchfeld"
+
+#: include/elements/field/switchery.php:61
+msgid "iOS 7 style checkbox"
+msgstr "iOS7 style checkbox"
+
+#: include/elements/field/switchery.php:74
+msgid "Yes"
+msgstr "Ja"
+
+#: include/elements/field/switchery.php:76
+msgid "No"
+msgstr "Nein\t"
+
+#: include/elements/field/tags.php:59
+msgid "Tags Input"
+msgstr "Tags eingabe"
+
+#: include/elements/field/tags.php:62
+msgid "Tag list into input"
+msgstr "Tagliste in der Eingabe"
+
+#: include/elements/field/text.php:124
+msgid "General field"
+msgstr "Textfeld"
+
+#: include/elements/field/text.php:127
+msgid "Basic field for text"
+msgstr "Basis Feld für Text"
+
+#: include/elements/field/textarea.php:57
+msgid "Textarea"
+msgstr "Textarea"
+
+#: include/elements/field/textarea.php:60
+msgid "Multi-line text area"
+msgstr "Mehrzeiliges Textfeld"
+
+#: include/elements/field/time.php:77
+msgid "Time Field"
+msgstr "Zeitfeld"
+
+#: include/elements/field/time.php:80
+msgid "Time field for easy set value"
+msgstr "Zeitfeld zum einfachen setzen von werten"
+
+#: include/elements/form.php:53 include/elements/form.php:71
+#: include/elements/form.php:72 include/elements/form.php:73
+#: include/elements/form.php:74 include/elements/form.php:75
+#: include/elements/form.php:76 include/elements/form.php:77
+#: include/elements/form.php:78 include/elements/form.php:79
+#: include/elements/form.php:80
+msgid "Form"
+msgstr "Formular"
+
+#: include/elements/form.php:59
+msgid "Wrapper for all fields. You cannot use form in form."
+msgstr ""
+"Wrapper für alle Formularfelder. Es funktionieren keine Formulare in "
+"Formularen."
+
+#: include/elements/form.php:288
+msgid "Download as CSV"
+msgstr "CSV-Datei herunterladen"
+
+#: include/elements/form.php:290
+msgid "Download as ZIP archive"
+msgstr "Download als ZIP-Archiv"
+
+#: include/elements/form.php:291
+msgid "Remove all data"
+msgstr "Alle Daten entfernen"
+
+#: include/elements/form.php:784 include/params/form.php:442
+msgid "Your request was successful sent."
+msgstr "Ihre Anfrage wurde erfolgreich gesendet."
+
+#: include/elements/form.php:785 include/params/form.php:452
+msgid "Something going wrong."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: include/elements/form.php:786 include/params/form.php:462
+#, php-format
+msgid "Invalid value for the field %s."
+msgstr "Ungültiger Wert für das Feld %s."
+
+#: include/elements/form.php:787 include/params/form.php:472
+#, php-format
+msgid "%s is required field."
+msgstr "%s ist ein Pflichtfeld."
+
+#: include/elements/form.php:788 include/params/form.php:482
+#, php-format
+msgid "You can submit form each %s seconds."
+msgstr "Formular kann alle %s Sekunden gesendet werden."
+
+#: include/elements/form.php:789 include/params/form.php:493
+msgid "Please, enter the code captcha."
+msgstr "Bitte hier den Captcha-Code eintragen"
+
+#: include/elements/form.php:790 include/params/form.php:503
+msgid "Incorrect captcha code."
+msgstr "Falscher Captcha-Code."
+
+#: include/elements/form.php:791 include/params/form.php:513
+msgid "Invalid file size."
+msgstr "Ungültige Dateigröße."
+
+#: include/elements/form.php:792 include/params/form.php:523
+msgid "Invalid file format."
+msgstr "Ungültiges Dateiformat."
+
+#: include/elements/form.php:793 include/params/form.php:533
+msgid "You are sure?"
+msgstr "Sind Sie sicher?"
+
+#: include/hooks/cfb_elements_titles.php:2
+msgid ""
+"<strong>cfb_elements_titles</strong> is a filter applied to the array of "
+"existed fields for CFB. It returns value contains only fields for processing."
+msgstr ""
+"<strong>cfb_elements_titles</strong> ist ein Filter der ein Array von "
+"existierenden Feldern für CFB liefert. Der Filter gibt die Werte nur zur "
+"Verarbeitung zurück."
+
+#: include/hooks/cfb_elements_titles.php:3
+#: include/hooks/form/cfb_befor_form_classes.php:3
+#: include/hooks/form/cfb_before_form.php:3
+#: include/hooks/form/cfb_before_form_sent.php:3
+#: include/hooks/form/cfb_before_message.php:3
+#: include/hooks/form/cfb_email_body.php:3
+#: include/hooks/form/cfb_email_line_template.php:3
+#: include/hooks/form/cfb_form_classes.php:3
+#: include/hooks/form/cfb_form_custom_attribute.php:3
+#: include/hooks/form/cfb_form_styles.php:3
+#: include/hooks/form/cfb_validate_messages.php:3
+#: include/hooks/text/cfb_after_validate.php:3
+#: include/hooks/text/cfb_after_validate_messages.php:3
+#: include/hooks/text/cfb_before_field.php:3
+#: include/hooks/text/cfb_before_field_block.php:3
+#: include/hooks/text/cfb_elements_params.php:3
+#: include/hooks/text/cfb_field_get_value.php:3
+#: include/hooks/text/cfb_field_label.php:3
+#: include/hooks/text/cfb_field_set_value.php:3
+#: include/hooks/text/cfb_field_wrapper_classes.php:3
+#: include/hooks/text/cfb_type_field_classes.php:3
+#: include/hooks/text/cfb_type_field_custom_attribute.php:3
+msgid "Parameters"
+msgstr "Parameter"
+
+#: include/hooks/cfb_elements_titles.php:6
+msgid "The array of fields"
+msgstr "Das Array der Felder"
+
+#: include/hooks/cfb_elements_titles.php:7
+#: include/hooks/form/cfb_befor_form_classes.php:7
+#: include/hooks/form/cfb_form_classes.php:7
+#: include/hooks/form/cfb_form_styles.php:7
+#: include/hooks/form/cfb_validate_messages.php:7
+#: include/hooks/text/cfb_elements_params.php:7
+#: include/hooks/text/cfb_field_wrapper_classes.php:7
+#: include/hooks/text/cfb_type_field_classes.php:7
+msgid "Default: Array"
+msgstr "Standard: Array"
+
+#: include/hooks/form/cfb_befor_form_classes.php:2
+msgid ""
+"<strong>cfb_befor_form_classes</strong> is a filter for adding classes to "
+"form wrapper. It is using into cfb_before_form hook. Default class is "
+"<code>vc_cfb_form_wrapper</code>."
+msgstr ""
+"<strong>cfb_befor_form_classes</strong> ist ein Filter für das hinzufügen "
+"von class zum Formularwrapper. Er verwendet den Hook cfb_before_form. "
+"Standard class ist <code>vc_cfb_form_wrapper</code>."
+
+#: include/hooks/form/cfb_befor_form_classes.php:6
+#: include/hooks/form/cfb_form_classes.php:6
+#: include/hooks/text/cfb_field_wrapper_classes.php:6
+#: include/hooks/text/cfb_type_field_classes.php:6
+msgid "Array of classes"
+msgstr "Array von classes"
+
+#: include/hooks/form/cfb_befor_form_classes.php:11
+#: include/hooks/form/cfb_before_form.php:11
+#: include/hooks/form/cfb_before_form_sent.php:6
+#: include/hooks/form/cfb_email_body.php:11
+#: include/hooks/form/cfb_form_classes.php:11
+#: include/hooks/form/cfb_form_custom_attribute.php:10
+#: include/hooks/form/cfb_form_styles.php:11
+msgid "Object of class VC_CFB_Element_Form"
+msgstr "Objekt der class VC_CFB_Element_Form"
+
+#: include/hooks/form/cfb_befor_form_classes.php:12
+#: include/hooks/form/cfb_before_form.php:12
+#: include/hooks/form/cfb_before_form_sent.php:7
+#: include/hooks/form/cfb_before_message.php:12
+#: include/hooks/form/cfb_email_body.php:12
+#: include/hooks/form/cfb_form_classes.php:12
+#: include/hooks/form/cfb_form_custom_attribute.php:11
+#: include/hooks/form/cfb_form_styles.php:12
+#: include/hooks/text/cfb_after_validate.php:11
+#: include/hooks/text/cfb_after_validate_messages.php:11
+#: include/hooks/text/cfb_before_field.php:12
+#: include/hooks/text/cfb_before_field_block.php:11
+#: include/hooks/text/cfb_field_wrapper_classes.php:12
+#: include/hooks/text/cfb_type_field_classes.php:12
+#: include/hooks/text/cfb_type_field_custom_attribute.php:11
+msgid "Default: Object"
+msgstr "Standard: Objekt"
+
+#: include/hooks/form/cfb_before_form.php:2
+msgid ""
+"<strong>cfb_before_form</strong> is a filter applied to the string html code "
+"of wrapper for form."
+msgstr ""
+"<strong>cfb_before_form</strong> ist ein Filter der am HTML-Code des "
+"Formularwrappers angewendet wird."
+
+#: include/hooks/form/cfb_before_form.php:6
+#: include/hooks/form/cfb_before_message.php:6
+#: include/hooks/text/cfb_before_field.php:6
+msgid "HTML code string"
+msgstr "HTML code zeichenfolge"
+
+#: include/hooks/form/cfb_before_form.php:7
+#: include/hooks/form/cfb_before_message.php:7
+#: include/hooks/form/cfb_before_message.php:17
+#: include/hooks/form/cfb_email_body.php:7
+#: include/hooks/form/cfb_email_line_template.php:7
+#: include/hooks/form/cfb_form_custom_attribute.php:6
+#: include/hooks/form/cfb_validate_messages.php:12
+#: include/hooks/text/cfb_before_field.php:7
+#: include/hooks/text/cfb_before_field_block.php:6
+#: include/hooks/text/cfb_type_field_custom_attribute.php:6
+msgid "Default: String"
+msgstr "Standard: Zeichenfolge"
+
+#: include/hooks/form/cfb_before_form.php:14
+#: include/hooks/form/cfb_before_message.php:19
+msgid "Examples"
+msgstr "Beispiel"
+
+#: include/hooks/form/cfb_before_form.php:23
+#: include/hooks/form/cfb_before_message.php:32
+#: include/hooks/text/cfb_before_field.php:14
+msgid "Related"
+msgstr "Ähnlich"
+
+#: include/hooks/form/cfb_before_form_sent.php:2
+msgid ""
+"<strong>cfb_before_form_sent</strong> is action before sent emails and save "
+"history."
+msgstr ""
+"<strong>cfb_before_form_sent</strong> ist ein Action Filter.Er wird "
+"verwendet vor dem senden von EMails und dem Speichern der Historie."
+
+#: include/hooks/form/cfb_before_message.php:2
+msgid ""
+"<strong>cfb_before_message</strong> is a filter applied to the string html "
+"code of wrapper for messages."
+msgstr ""
+"<strong>cfb_before_message</strong> ist ein Filter der am HTML-Code des "
+"Messagewrappers angewendet wird."
+
+#: include/hooks/form/cfb_before_message.php:11
+msgid "Object of class VC_CFB_Element_Form|VC_CFB_Element_Field"
+msgstr "Objekt von class VC_CFB_Element_Form|VC_CFB_Element_Field"
+
+#: include/hooks/form/cfb_before_message.php:16
+msgid "Type message: error|success|warning"
+msgstr "Nachrichtentyp: fehler|erfolgreich|warnung"
+
+#: include/hooks/form/cfb_email_body.php:2
+msgid ""
+"<strong>cfb_email_body/cfb_re_email_body</strong> is a filter for processing "
+"html code of email message."
+msgstr ""
+"<strong>cfb_email_body/cfb_re_email_body</strong> ist ein Filter für die "
+"Verarbeitung von HTML-Code in EMail Nachrichten."
+
+#: include/hooks/form/cfb_email_body.php:6
+msgid "HTML code of email message"
+msgstr "HTML-Code der E-Mail-Nachricht"
+
+#: include/hooks/form/cfb_email_line_template.php:2
+#, php-format
+msgid ""
+"<strong>cfb_email_line_template</strong> is a filter for adding template of "
+"display. Default value is &lt;code&gt;&lt;li&gt;&lt;strong&gt;%s&lt;/"
+"strong&gt; %s&lt;/li&gt;&lt;/code&gt;."
+msgstr ""
+"<strong>cfb_email_line_template</strong> ist ein Filter zum hinzufügen von "
+"Daten in der Vorlage. Standardwert ist &lt;code&gt;&lt;li&gt;&lt;strong&gt;"
+"%s&lt;/strong&gt; %s&lt;/li&gt;&lt;/code&gt;."
+
+#: include/hooks/form/cfb_email_line_template.php:6
+msgid "Template of display"
+msgstr "Vorlage für anzeige"
+
+#: include/hooks/form/cfb_form_classes.php:2
+msgid ""
+"<strong>cfb_form_classes</strong> is a filter for adding classes to form. "
+"Default class is <code>vc_cfb_form</code>."
+msgstr ""
+"<strong>cfb_form_classes</strong> ist ein Filter der zum hinzufügen von "
+"class zum Formular verwendet wird. Standard Class ist <code>vc_cfb_form</"
+"code>."
+
+#: include/hooks/form/cfb_form_custom_attribute.php:2
+msgid ""
+"<strong>cfb_form_custom_attribute</strong> is a filter for adding custom "
+"attributes to form. Default value is empty."
+msgstr ""
+"<strong>cfb_form_custom_attribute</strong> ist ein Filter der zum hinzufügen "
+"von benutzerdefinierten Attributen zum Formular verwendet wird. Standardwert "
+"ist leer."
+
+#: include/hooks/form/cfb_form_styles.php:2
+msgid ""
+"<strong>cfb_form_styles</strong> is a filter for adding custom styles to "
+"form. Default value is empty."
+msgstr ""
+"<strong>cfb_form_styles</strong> ist ein Filter der zum hinzufügen von "
+"benutzerdefinierten Styles zum Formular verwendet wird. Standardwert ist "
+"leer."
+
+#: include/hooks/form/cfb_form_styles.php:6
+msgid "Array of styles"
+msgstr "Array von styles"
+
+#: include/hooks/form/cfb_validate_messages.php:2
+msgid ""
+"<strong>cfb_validate_messages</strong> is a filter for adding custom "
+"validation messages in form."
+msgstr ""
+"<strong>cfb_validate_messages</strong> ist ein Filter für das Hinzufügen von "
+"benutzerdefinierten Validierungsmeldungen im Formular."
+
+#: include/hooks/form/cfb_validate_messages.php:6
+#: include/hooks/text/cfb_after_validate_messages.php:6
+msgid "Array"
+msgstr "Array"
+
+#: include/hooks/form/cfb_validate_messages.php:11
+#: include/hooks/text/cfb_field_get_value.php:10
+#: include/hooks/text/cfb_field_get_value.php:14
+#: include/hooks/text/cfb_field_label.php:6
+#: include/hooks/text/cfb_field_label.php:10
+#: include/hooks/text/cfb_field_label.php:14
+#: include/hooks/text/cfb_field_set_value.php:10
+#: include/hooks/text/cfb_field_set_value.php:14
+msgid "String"
+msgstr "Zeichenfolge"
+
+#: include/hooks/text/cfb_after_validate.php:2
+msgid "<strong>cfb_after_validate</strong> is a filter after field validation."
+msgstr ""
+"<strong>cfb_after_validate</strong> is a filter after field validation."
+
+#: include/hooks/text/cfb_after_validate.php:6
+msgid "Boolean"
+msgstr "Boolean"
+
+#: include/hooks/text/cfb_after_validate.php:10
+#: include/hooks/text/cfb_after_validate_messages.php:10
+#: include/hooks/text/cfb_before_field.php:11
+#: include/hooks/text/cfb_before_field_block.php:10
+#: include/hooks/text/cfb_field_wrapper_classes.php:11
+#: include/hooks/text/cfb_type_field_classes.php:11
+#: include/hooks/text/cfb_type_field_custom_attribute.php:10
+msgid "Object of class VC_CFB_Element_Field"
+msgstr "Objekt von class VC_CFB_Element_Field"
+
+#: include/hooks/text/cfb_after_validate_messages.php:2
+msgid ""
+"<strong>cfb_after_validate_messages</strong> is a filter after field "
+"validation for messages."
+msgstr ""
+"<strong>cfb_after_validate_messages</strong> is a filter after field "
+"validation for messages."
+
+#: include/hooks/text/cfb_before_field.php:2
+msgid ""
+"<strong>cfb_before_field</strong> is a filter applied to the string html "
+"code of subwrapper for field."
+msgstr ""
+"<strong>cfb_before_field</strong> ist ein Filter der am HTML-Code für den "
+"Subwrapper eines Feldes angewendet wird."
+
+#: include/hooks/text/cfb_before_field_block.php:2
+msgid ""
+"<strong>cfb_before_field_block</strong> is a filter for adding wrapper to "
+"the field. Default value is empty. Wrapper contains subwrapper and "
+"validation message."
+msgstr ""
+"<strong>cfb_before_field_block</strong> ist ein Filter zum hinzufügen von "
+"wrapper zum Feld. Standardwert ist leer. Wrapper enthält Suwrapper und "
+"Validierungsnachricht."
+
+#: include/hooks/text/cfb_elements_params.php:2
+msgid ""
+"<strong>cfb_elements_params</strong> is a filter applied to the array of "
+"parameters for Visual Composer admin area."
+msgstr ""
+"<strong>cfb_elements_params</strong> ist ein Filter der im Array der "
+"Parameter für Visual Composer im Adminbereich angewendet wird."
+
+#: include/hooks/text/cfb_elements_params.php:6
+msgid "List of parameters"
+msgstr "Liste der Parameter"
+
+#: include/hooks/text/cfb_field_get_value.php:2
+msgid ""
+"<strong>cfb_field_get_value</strong> is a filter for changing field value in "
+"email."
+msgstr ""
+"<strong>cfb_field_get_value</strong> ist ein Filter um E-Mail Feldwerte zu "
+"ändern."
+
+#: include/hooks/text/cfb_field_get_value.php:6
+#: include/hooks/text/cfb_field_set_value.php:6
+msgid "Value for field"
+msgstr "Wert für das Feld"
+
+#: include/hooks/text/cfb_field_get_value.php:18
+#: include/hooks/text/cfb_field_label.php:18
+#: include/hooks/text/cfb_field_set_value.php:18
+msgid "VC_CFB_Element_Field"
+msgstr "Objekt von class VC_CFB_Element_Form|VC_CFB_Element_Field"
+
+#: include/hooks/text/cfb_field_label.php:2
+msgid ""
+"<strong>cfb_field_label</strong> is a filter for changing field label in "
+"email."
+msgstr ""
+"<strong>cfb_field_label</strong> ist ein Filter um E-Mail Feldbeschriftungen "
+"zu ändern."
+
+#: include/hooks/text/cfb_field_set_value.php:2
+msgid ""
+"<strong>cfb_field_set_value</strong> is a filter for changing field value "
+"after click to submit. Before actions - validate, submit."
+msgstr ""
+"<strong>cfb_field_set_value</strong> ist ein Filter zum Ändern des "
+"Feldwertes nach dem Klick. Passiert bevor das Formular zur Validierung geht."
+
+#: include/hooks/text/cfb_field_wrapper_classes.php:2
+msgid ""
+"<strong>cfb_field_wrapper_classes</strong> is a filter for adding classes to "
+"field subwrapper. Default is <code>cfb_field_wrapper,cfb_element_%type%</"
+"code>."
+msgstr ""
+"<strong>cfb_field_wrapper_classes</strong> ist ein Filter der zum hinzufügen "
+"von class zu Feld Subwrappern genutzt wird. Standardwert ist "
+"<code>cfb_field_wrapper,cfb_element_%type%</code>."
+
+#: include/hooks/text/cfb_type_field_classes.php:2
+msgid ""
+"<strong>cfb_{%type%}_field_classes</strong> is a filter for adding classes "
+"to field by type. Default is value from Visual Composer."
+msgstr ""
+"<strong>cfb_{%type%}_field_classes</strong> ist ein Filter der zum "
+"hinzufügen von Class zu Feldern nach Typ genutzt wird. Standardwert ist der "
+"Wert der von Visual Composer geliefert wird."
+
+#: include/hooks/text/cfb_type_field_custom_attribute.php:2
+msgid ""
+"<strong>cfb_{%type%}_field_custom_attribute</strong> is a filter for adding "
+"custom attributes to field by type. Default is empty."
+msgstr ""
+"<strong>cfb_{%type%}_field_custom_attribute</strong> ist ein Filter der zum "
+"hinzufügen von Benutzerdefinierten Attributen zum Feld bei Typ genutzt wird. "
+"Standardwert ist leer."
+
+#: include/modules/general.php:54
+msgid "UNKNOWN"
+msgstr "UNBEKANNT"
+
+#: include/modules/general.php:60
+msgid "Unknown OS Platform"
+msgstr "Unbekanntes Betriebssystem"
+
+#: include/modules/general.php:94
+msgid "Unknown Browser"
+msgstr "Unbekannter Browser"
+
+#: include/pages/about.php:2
+#, php-format
+msgid "Welcome to Custom Forms Builder %s"
+msgstr "Willkommen im Benutzerdefinierten Formular Generator %s"
+
+#: include/pages/about.php:5
+#, php-format
+msgid ""
+"Congratulations! You use most time saver form builder Custom Forms Builder "
+"by %s for Visual Composer."
+msgstr ""
+"Glückwunsch! Sie benutzen den am meisten Zeitsparenden Formular-Ersteller "
+"von %s für Visual Composer"
+
+#: include/pages/about.php:8
+#, php-format
+msgid "Tested on %s"
+msgstr "Getestet mit %s"
+
+#: include/pages/about.php:16
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: include/pages/about.php:16
+msgid "For developers"
+msgstr "für Entwickler"
+
+#: include/pages/about.php:16
+msgid "History forms"
+msgstr "Formular Historie"
+
+#: include/pages/partials/about/_css.php:4
+msgid "Add custom CSS code to the plugin without modifying files."
+msgstr ""
+"Fügen Sie benutzerdefinierte CSS-Code im Plugin ein, ohne Dateien zu "
+"verändern."
+
+#: include/pages/partials/about/_css.php:20
+msgid "Submit"
+msgstr "Senden"
+
+#: include/pages/partials/about/_developer.php:3
+msgid ""
+"You can use this hooks for more precise settings code generated by CFB. If "
+"hook have \"before\" in title, it has synchronous hook with \"after\"."
+msgstr ""
+"Sie können diese Hooks für die genauere Einstellung im Code verwenden, der "
+"durch CFB erzeugt wird.Wenn ein Hook \"before\" im Titel hat gibt es auch "
+"das Gegenstück dazu den Hook mit \"after\""
+
+#: include/pages/partials/about/_history.php:2
+msgid "You can see form history on form page or remove data by link at bottom."
+msgstr ""
+"Sie können die bisherigen Daten von den Formularen ansehen oder durch Klick "
+"auf den Link die Daten davon entfernen."
+
+#: include/pages/partials/about/_history.php:9
+msgid "Remove data for form:"
+msgstr "Entferne Daten des Formulars:"
+
+#: include/params/field/button.php:8
+msgid "Button type"
+msgstr "Button-Typ"
+
+#: include/params/field/button.php:22
+msgid "Event onclick"
+msgstr "Ereignis Onclick"
+
+#: include/params/field/button.php:25
+msgid "Enter function for event onclick."
+msgstr "Eingabe von Funktionen für onClick Event."
+
+#: include/params/field/button.php:32
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: include/params/field/button.php:42
+msgid "Button align"
+msgstr "Buttonausrichtung"
+
+#: include/params/field/button.php:61
+msgid "Padding"
+msgstr "Padding (Abstand)"
+
+#: include/params/field/dpassword.php:10
+msgid "Duration"
+msgstr "Dauer"
+
+#: include/params/field/dpassword.php:13
+msgid "Time in milliseconds then char will be hide."
+msgstr "Zeige zeichen in Millisekunden ehe diese versteckt werden."
+
+#: include/params/field/file.php:9
+msgid "Acceptable File Types"
+msgstr "Zulässige Dateitypen"
+
+#: include/params/field/file.php:12
+msgid ""
+"This attribute specifies the types of files that are allowed to be uploaded. "
+"Separated by commas.<br/>Example: .jpg, .png, .pdf, video/*, image/*, audio/"
+"* or valid media type"
+msgstr ""
+"Dieses Attribute spezifiziert die Arten der Dateien die Sie für den Upload "
+"erlauben.Getrennt durch Kommas anzugeben.<br/>Beispiel: .jpg, .png, .pdf, "
+"Video/*, Image/*, Audio/* oder andere gültige Dateitypen."
+
+#: include/params/field/file.php:20
+msgid "Multiple"
+msgstr "Mehrfach"
+
+#: include/params/field/file.php:23
+msgid ""
+"When present, it specifies that the user is allowed to enter more than one "
+"value in the field."
+msgstr ""
+"Wenn vorhanden, wird dem Benutzer erlaubt mehr als einen wert einzutragen."
+
+#: include/params/field/file.php:30
+msgid "Max File Size"
+msgstr "Maximale Dateigröße"
+
+#: include/params/field/file.php:33
+msgid "The size in bytes."
+msgstr "Die Größe in Bytes."
+
+#: include/params/field/options.php:9
+msgid "Element type"
+msgstr "Elementtyp"
+
+#: include/params/field/options.php:22
+msgid "Keys for values, separated comma for checkbox or multi select"
+msgstr ""
+"Keys für werte, separieren durch Komma bei checkboxen oder multi select "
+"Feldern"
+
+#: include/params/field/options.php:33
+msgid "Unique key"
+msgstr "Eindeutiger Schlüssel"
+
+#: include/params/field/options.php:33
+msgid "Label"
+msgstr "Beschriftung (Label)"
+
+#: include/params/field/options.php:34 include/params/field/options.php:72
+msgid "Values"
+msgstr "Werte"
+
+#: include/params/field/options.php:47
+msgid ""
+"The short hint is displayed in the field before the user select a value. "
+"This option is confirmed working in the following browsers:<ul><li>Google "
+"Chrome - v.43.0.2357.132</li><li>Mozilla Firefox - v.39.0</li><li>Safari - "
+"v.8.0.7</li><li>Microsoft Internet Explorer - v.11</li><li>Project Spartan - "
+"v.15.10130</li></ul>"
+msgstr ""
+"Der kurzen Hinweis wird im Feld angezeigt, bevor der Benutzer einen Wert "
+"auswählt. Diese Option ist in seiner Funktion bestätigt in den folgenden "
+"Browsern:<ul><li>Google Chrome - v.43.0.2357.132</li><li>Mozilla Firefox - "
+"v.39.0</li><li>Safari - v.8.0.7</li><li>Microsoft Internet Explorer - 11</"
+"li><li>Projekt Spartan - v.15.10130</li></ul>"
+
+#: include/params/field/options.php:68
+msgid "Upload Field Values"
+msgstr "Feldwerte für Upload"
+
+#: include/params/field/options.php:71
+msgid ""
+"May be used to add bulk values. Only <strong>CSV</strong> file. Two columns: "
+"key, value."
+msgstr ""
+"Kann verwendet werden um viele Werte einzutragen.Nur <strong>CSV</strong> "
+"Datei. Format 2 Spalten: Schlüssel, Wert."
+
+#: include/params/field/options.php:83 include/params/field/placepicker.php:273
+#: include/params/field/recaptcha.php:127 include/params/field/switchery.php:23
+#: include/params/field/text.php:135
+msgid "Size"
+msgstr "Größe"
+
+#: include/params/field/options.php:90
+msgid "Defines the number of visible options in a drop-down list."
+msgstr "Definiert die Anzahl sichtbarer werte in einem DropDown Feld."
+
+#: include/params/field/options.php:97
+msgid "Column width"
+msgstr "Spaltenbreite"
+
+#: include/params/field/options.php:103
+msgid "Full width"
+msgstr "Volle breite"
+
+#: include/params/field/pickadate.php:13
+msgid "Show months short?"
+msgstr "Zeige Monate kurz?"
+
+#: include/params/field/pickadate.php:15 include/params/field/pickadate.php:24
+msgid "Element's will be translated automatically."
+msgstr "Element wird automatisch übersetzt."
+
+#: include/params/field/pickadate.php:22
+msgid "Show week days full?"
+msgstr "Zeige Wochentage vollständig?"
+
+#: include/params/field/pickadate.php:31
+msgid "Choose months as select?"
+msgstr "Welcher Monat soll vorselektiert werden?"
+
+#: include/params/field/pickadate.php:40
+msgid "Choose years as select?"
+msgstr "Sollen mehr als 4 Jahre im Dropdown Feld gezeigt werden?"
+
+#: include/params/field/pickadate.php:49
+msgid "Number of years to show in the dropdown"
+msgstr ""
+"Wieviel Jahre sollen im Dropdown zu sehen sein? (20 bedeutet 10 Jahre vor "
+"und 10 zurück)"
+
+#: include/params/field/pickadate.php:62 include/params/field/pickatime.php:13
+msgid "Close popup on select?"
+msgstr "Popup schliessen bei Auswahl?"
+
+#: include/params/field/pickadate.php:71 include/params/field/pickatime.php:22
+msgid "Close popup on clear?"
+msgstr "Popup schliessen wenn clear?"
+
+#: include/params/field/pickadate.php:80
+msgid "Min date"
+msgstr "Minimum Datum"
+
+#: include/params/field/pickadate.php:82
+msgid ""
+"Set the minimum selectable dates on the picker.<br/>For example: 2015-7-14"
+msgstr ""
+"Das kleinste einzustellende Datum für den Datumswähler.<br/>Zum Beispiel: "
+"2015.7.14"
+
+#: include/params/field/pickadate.php:89
+msgid "Max date"
+msgstr "Maximum Datum"
+
+#: include/params/field/pickadate.php:91
+msgid ""
+"Set the maximum selectable dates on the picker.<br/>For example: 2015-7-14"
+msgstr "Das grösste Datum das gewählt werden kann.<br/>Zum Beispiel: 2080-1-22"
+
+#: include/params/field/pickadate.php:99 include/params/field/pickatime.php:59
+#: include/params/field/recaptcha.php:49
+msgid "Language"
+msgstr "﻿Sprache"
+
+#: include/params/field/pickadate.php:155
+#: include/params/field/pickatime.php:115
+msgid "Format"
+msgstr "Format"
+
+#: include/params/field/pickadate.php:157
+msgid "If value is empty will be using default value for each language."
+msgstr "Wenn hier leer ist, wird die Standardsprache gewählt."
+
+#: include/params/field/pickadate.php:228
+msgid "First day of week"
+msgstr "Erster Tag der Woche"
+
+#: include/params/field/pickadate.php:231
+msgid "Monday"
+msgstr "Montag\t"
+
+#: include/params/field/pickadate.php:232
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: include/params/field/pickadate.php:234 include/params/field/text.php:29
+msgid "Select content type of field."
+msgstr "Wähle die Art des Feldes aus."
+
+#: include/params/field/pickadate.php:241
+msgid "Disable dates"
+msgstr "Deaktiviere Datum"
+
+#: include/params/field/pickadate.php:244
+msgid ""
+"Disable a specific or arbitrary set of dates selectable on the picker. One "
+"rule per line."
+msgstr ""
+"Sperren Sie einen spezifischen oder willkürlichen Datensatz, die man auf dem "
+"Picker auswählen könnte. Eine Regel pro Zeile."
+
+#: include/params/field/pickadate.php:245
+msgid "From"
+msgstr "Von"
+
+#: include/params/field/pickadate.php:245
+msgid "To"
+msgstr "An\t"
+
+#: include/params/field/pickatime.php:31
+msgid "Intervals"
+msgstr "Zeitplan"
+
+#: include/params/field/pickatime.php:33
+msgid "Choose the minutes interval between each time in the list."
+msgstr "Wähle den Minutenabstand der in der Auswahlliste benutzt werden soll."
+
+#: include/params/field/pickatime.php:40
+msgid "Min time"
+msgstr "Mindestdauer"
+
+#: include/params/field/pickatime.php:42
+msgid "Set the minimum selectable times on the picker.<br/>For example: 19:30"
+msgstr ""
+"Stelle die minimal auswählbare zeit auf dem Picker ein.<br/>z.Bsp.: 19:30"
+
+#: include/params/field/pickatime.php:49
+msgid "Max time"
+msgstr "Maximale dauer"
+
+#: include/params/field/pickatime.php:51
+msgid "Set the maximum selectable times on the picker.<br/>For example: 5:30"
+msgstr ""
+"Stelle die mamimal auswählbare zeit auf dem Picker ein.<br/> z.Bsp.: 5:30"
+
+#: include/params/field/placepicker.php:24
+msgid "API Key"
+msgstr "API Key"
+
+#: include/params/field/placepicker.php:35
+msgid "Show map?"
+msgstr "Zeige Karte?"
+
+#: include/params/field/placepicker.php:37
+#: include/params/field/placepicker.php:71
+#: include/params/field/placepicker.php:82
+#: include/params/field/placepicker.php:93
+#: include/params/field/placepicker.php:104
+#: include/params/field/placepicker.php:170
+#: include/params/field/placepicker.php:181
+#: include/params/field/placepicker.php:192
+#: include/params/field/placepicker.php:207
+#: include/params/field/placepicker.php:218
+#: include/params/field/placepicker.php:229
+#: include/params/field/placepicker.php:239
+#: include/params/field/placepicker.php:250
+#: include/params/field/placepicker.php:265
+msgid "Map"
+msgstr "Karte"
+
+#: include/params/field/placepicker.php:48
+msgid "Default Location: latitude"
+msgstr "Standard Ort: Breitengrad"
+
+#: include/params/field/placepicker.php:51
+#: include/params/field/placepicker.php:61
+msgid "Value with '<strong>,</strong>' delimiter"
+msgstr "Wert mit '<strong>,</strong>' trennen"
+
+#: include/params/field/placepicker.php:58
+msgid "Default Location: longitude"
+msgstr "Standard-Längengrad"
+
+#: include/params/field/placepicker.php:68
+msgid "Show map on mobile devices?"
+msgstr "Karte anzeigen auf mobilen Geräten?"
+
+#: include/params/field/placepicker.php:77
+msgid "Enable draggable marker?"
+msgstr "Aktiviere verschiebbare Markierungen?"
+
+#: include/params/field/placepicker.php:80
+msgid "A draggable marker to redefine the position."
+msgstr "Eine verschiebbare Markierung um die Position neu zu bestimmen."
+
+#: include/params/field/placepicker.php:88
+msgid "Map height"
+msgstr "Kartenhöhe"
+
+#: include/params/field/placepicker.php:99
+msgid "Country limit"
+msgstr "Länder limit"
+
+#: include/params/field/placepicker.php:103
+msgid ""
+"Show elements only for this country. For example: <code>de</code>. If empty "
+"- disabled."
+msgstr ""
+"Zeige Elemente nur für dieses Land. z.Bsd.: <code>de</code>. Deaktiviert "
+"wenn leer."
+
+#: include/params/field/placepicker.php:110
+msgid "Language for map"
+msgstr "Sprache der Karte"
+
+#: include/params/field/placepicker.php:168
+msgid "If field empty, language will be autodetected."
+msgstr "Wenn das Feld leer ist, wird versucht die Sprache zu erkennen."
+
+#: include/params/field/placepicker.php:176
+msgid "Show panControl on map"
+msgstr "Zeige panControl auf der Karte"
+
+#: include/params/field/placepicker.php:179
+msgid "Displays buttons for panning the map."
+msgstr "Buttons für das verschieben der Diagramme anzeigen."
+
+#: include/params/field/placepicker.php:187
+msgid "Show zoomControl on map"
+msgstr "Zeige zoomControl auf der Karte"
+
+#: include/params/field/placepicker.php:190
+msgid ""
+"Displays a slider (for large maps) or small \"+/-\" buttons (for small maps) "
+"to control the zoom level of the map."
+msgstr ""
+"Die Zoomsteuerung zeigt '+' und '-' Buttons, um den Zoomfaktor der Karte zu "
+"steuern."
+
+#: include/params/field/placepicker.php:198
+msgid "Size of zoomControl"
+msgstr "Größe des zoomControl"
+
+#: include/params/field/placepicker.php:213
+msgid "Show streetViewControl on map"
+msgstr "Zeige streetViewControl auf der Karte"
+
+#: include/params/field/placepicker.php:216
+msgid ""
+"Contains a Pegman icon which can be dragged onto the map to enable Street "
+"View."
+msgstr ""
+"Enthält ein Pegman-Symbol, das auf der Karte gezogen werden kann, um Street "
+"View zu aktivieren."
+
+#: include/params/field/placepicker.php:224
+msgid "Show rotateControl on map"
+msgstr "Zeige rotateControl auf der Karte"
+
+#: include/params/field/placepicker.php:227
+msgid ""
+"Enables/disables the appearance of a Rotate control for controlling the "
+"orientation of 45&deg; imagery."
+msgstr ""
+"Aktiviert / deaktiviert das Aussehen einer Rotationssteuerung zum Ausrichten "
+"von 45 ° -Bildern."
+
+#: include/params/field/placepicker.php:235
+msgid "Show scaleControl on map?"
+msgstr "Zeige scaleControl auf der Karte?"
+
+#: include/params/field/placepicker.php:238
+msgid "Displays a map scale element."
+msgstr "Zeigt ein Kartenscala element an."
+
+#: include/params/field/placepicker.php:245
+msgid "Show mapTypeControl on map"
+msgstr "Zeige Kartentyp Kontrolle auf der Karte"
+
+#: include/params/field/placepicker.php:248
+msgid ""
+"Enables/disables the Map Type control that lets the user toggle between map "
+"types (such as Map and Satellite)."
+msgstr ""
+"Aktiviert / deaktiviert die Kartentyp Steuerung, die den Benutzer Umschalten "
+"lässt zwischen den Kartentypen (Karte oder Satellit)."
+
+#: include/params/field/placepicker.php:256
+msgid "Style of mapTypeControl"
+msgstr "Stil der Kartentyp Kontrolle"
+
+#: include/params/field/placepicker.php:276 include/params/field/text.php:138
+msgid ""
+"The size attribute specifies the visible width, in characters. It can be "
+"rewrited on css. If value is empty, then option will be disabled."
+msgstr ""
+"Das Größe Attribut gibt die Sichtbare Breite in Zeichen an. Es kann durch "
+"css überschrieben werden.Wenn der Wert leer ist, ist die Option "
+
+#: include/params/field/recaptcha.php:10
+msgid ""
+"We are reccomend to use only one reCAPTCHA 2.0 per page with ajax forms."
+msgstr ""
+"Wir empfehlen nur ein reCaptcha 2.0 pro Seite mit Ajax-Formularen zu "
+"verwenden."
+
+#: include/params/field/recaptcha.php:18
+msgid "Key"
+msgstr "Key"
+
+#: include/params/field/recaptcha.php:21
+#, php-format
+msgid ""
+"Will be embed to HTML code. Click <a href=\"%s\" target=\"_blank\">here</a> "
+"to get key."
+msgstr ""
+"Eingebettet im HTML-Code.Klicke  <a href=\"%s\" target=\"_blank\">here</a>, "
+"um den key zu erhalten."
+
+#: include/params/field/recaptcha.php:28
+msgid "Secret key"
+msgstr "Geheimschlüssel (Secret Key)"
+
+#: include/params/field/recaptcha.php:31
+#, php-format
+msgid ""
+"This key are using for communication between your site and Google. Be sure "
+"to keep it a secret. Click <a href=\"%s\" target=\"_blank\">here</a> to get "
+"key."
+msgstr ""
+"Dieser Key wird benötigt um die Kommunikation zwischen Google und Ihrer "
+"seite herzustellen.Halten Sie den Key Geheim.Klicke <a href= \" %s \" "
+"target= \" _blank \" >here</a> um den Key zu erhalten."
+
+#: include/params/field/recaptcha.php:38
+msgid "Type"
+msgstr "Typ"
+
+#: include/params/field/recaptcha.php:40
+msgid "image"
+msgstr "Bild"
+
+#: include/params/field/recaptcha.php:40
+msgid "audio"
+msgstr "Audio"
+
+#: include/params/field/recaptcha.php:41
+msgid "The type of CAPTCHA to serve."
+msgstr "Die Art des Captchas hier wählen."
+
+#: include/params/field/recaptcha.php:110
+msgid ""
+"Auto-detects the user's language if unspecified. Will be used language of "
+"the first element on the page for each other reCaptha."
+msgstr ""
+"Autodetect für die Sprache des Benutzers, wenn nicht spezifiziert, wird die "
+"Sprache des ersten Elements auf der Seite für reCaptcha verwendet."
+
+#: include/params/field/recaptcha.php:117
+msgid "Theme"
+msgstr "Theme (Design)"
+
+#: include/params/field/recaptcha.php:119
+msgid "light"
+msgstr "hell"
+
+#: include/params/field/recaptcha.php:119
+msgid "dark"
+msgstr "dunkel"
+
+#: include/params/field/recaptcha.php:120
+msgid "The color theme of the widget."
+msgstr "Das Farbschema für das Widget."
+
+#: include/params/field/recaptcha.php:129
+msgid "normal"
+msgstr "normal"
+
+#: include/params/field/recaptcha.php:129
+msgid "compact"
+msgstr "Kompakt"
+
+#: include/params/field/recaptcha.php:130
+msgid "The size of the widget."
+msgstr "Grösse des Widgets."
+
+#: include/params/field/switchery.php:13
+msgid "Yes/True"
+msgstr "Ja/Wahr"
+
+#: include/params/field/switchery.php:14
+msgid "No/False"
+msgstr "Nein/Falsch"
+
+#: include/params/field/switchery.php:27
+msgid "Small"
+msgstr "Klein"
+
+#: include/params/field/switchery.php:28
+msgid "Medium"
+msgstr "Mittel"
+
+#: include/params/field/switchery.php:29
+msgid "Large"
+msgstr "Groß"
+
+#: include/params/field/switchery.php:38
+msgid "Show results in email as:"
+msgstr "Zeige Ergebnisse in EMail als:"
+
+#: include/params/field/switchery.php:41
+msgid "Yes/No"
+msgstr "Ja/Nein"
+
+#: include/params/field/switchery.php:42
+msgid "True/False"
+msgstr "Richtig/Falsch"
+
+#: include/params/field/switchery.php:51
+msgid "Length of time that the transition will take"
+msgstr "Zeitspanne für den Übergang"
+
+#: include/params/field/switchery.php:60
+msgid "Color of the switch element"
+msgstr "Farbe des Switch elements"
+
+#: include/params/field/switchery.php:70
+msgid ""
+"Secondary color for the background color and border, when the switch is off"
+msgstr ""
+"Sekundärfarbe für den Hintergrund und den Rand, wenn der Schalter aus ist"
+
+#: include/params/field/switchery.php:80
+msgid "Default color of the jack/handle element"
+msgstr "Standard Farbe des jack/handle elements"
+
+#: include/params/field/switchery.php:90
+msgid "Color of unchecked jack/handle element"
+msgstr "Farbe für das ungewählte jack/handle element"
+
+#: include/params/field/tags.php:14
+msgid "Remove with backspace?"
+msgstr "Entfernen mit Backspace?"
+
+#: include/params/field/tags.php:23
+msgid "Delimiter?"
+msgstr "Trennzeichen?"
+
+#: include/params/field/tags.php:32
+msgid "Min chars for tag?"
+msgstr "Mindestanzahl zeichen für tag?"
+
+#: include/params/field/tags.php:41
+msgid "Max chars for element?"
+msgstr "Maximale anzahl an zeichen für dieses Element?"
+
+#: include/params/field/tags.php:43
+msgid "If empty there is no limit"
+msgstr "Kein Limit wenn hier leer ist"
+
+#: include/params/field/tags.php:50
+msgid "Placeholder color"
+msgstr "Farbe des Platzhalters"
+
+#: include/params/field/text.php:10
+msgid "Type of Field"
+msgstr "Feldtyp"
+
+#: include/params/field/text.php:13
+msgid "Text"
+msgstr "Text"
+
+#: include/params/field/text.php:14 include/params/form.php:259
+msgid "Password"
+msgstr "Passwort "
+
+#: include/params/field/text.php:15
+msgid "Color"
+msgstr "Farbe"
+
+#: include/params/field/text.php:16
+msgid "Date"
+msgstr "Datum"
+
+#: include/params/field/text.php:17
+msgid "Datetime"
+msgstr "Datum/Zeit"
+
+#: include/params/field/text.php:18
+msgid "Datetime-local"
+msgstr "Datum/Zeit Lokal"
+
+#: include/params/field/text.php:19 include/params/field/text.php:100
+msgid "Email"
+msgstr "E-Mail"
+
+#: include/params/field/text.php:20
+msgid "Number"
+msgstr "Nummer"
+
+#: include/params/field/text.php:21
+msgid "Range"
+msgstr "Spanne"
+
+#: include/params/field/text.php:22
+msgid "Search"
+msgstr "Suche"
+
+#: include/params/field/text.php:23
+msgid "Telephone"
+msgstr "Telefon "
+
+#: include/params/field/text.php:24
+msgid "Time"
+msgstr "Uhrzeit"
+
+#: include/params/field/text.php:25
+msgid "Url"
+msgstr "URI"
+
+#: include/params/field/text.php:26
+msgid "Month"
+msgstr "Monat "
+
+#: include/params/field/text.php:27
+msgid "Week"
+msgstr "Woche"
+
+#: include/params/field/text.php:45
+msgid "Max"
+msgstr "Max."
+
+#: include/params/field/text.php:49
+msgid "Specifies the maximum value for an element."
+msgstr "Gibt den Maximalen wert des Elementes an."
+
+#: include/params/field/text.php:57
+msgid "Min"
+msgstr "Min."
+
+#: include/params/field/text.php:61
+msgid "Specifies a minimum value for an element."
+msgstr "Gibt den mimimalen wert des Elements an."
+
+#: include/params/field/text.php:69
+msgid "Step"
+msgstr "Schritt"
+
+#: include/params/field/text.php:73
+msgid "Specifies the legal number intervals for an input field."
+msgstr "Gibt den erlaubten Zahlenwert des intervals für das Eingabefeld an."
+
+#: include/params/field/text.php:81
+msgid "Pattern for validation"
+msgstr "Muster für Validierung"
+
+#: include/params/field/text.php:85
+msgid "Custom mask"
+msgstr "Benutzerdefinierte Maske"
+
+#: include/params/field/text.php:86
+msgid "ZIP for USA"
+msgstr "ZIP für USA"
+
+#: include/params/field/text.php:87
+msgid "ZIP for United Kingdom"
+msgstr "ZIP für Großbritannien"
+
+#: include/params/field/text.php:88
+msgid "ZIP for Germany"
+msgstr "ZIP für Deutschland"
+
+#: include/params/field/text.php:89
+msgid "ZIP for Canada"
+msgstr "ZIP für Kanada"
+
+#: include/params/field/text.php:90
+msgid "ZIP for France"
+msgstr "ZIP für Frankreich"
+
+#: include/params/field/text.php:91
+msgid "ZIP for Italy"
+msgstr "ZIP für Italien"
+
+#: include/params/field/text.php:92
+msgid "ZIP for Australia"
+msgstr "ZIP für Australien"
+
+#: include/params/field/text.php:93
+msgid "ZIP for Netherlands"
+msgstr "ZIP für Niederlande"
+
+#: include/params/field/text.php:94
+msgid "ZIP for Spain"
+msgstr "ZIP für Spanien"
+
+#: include/params/field/text.php:95
+msgid "ZIP for Denmark"
+msgstr "ZIP für Dänemark"
+
+#: include/params/field/text.php:96
+msgid "ZIP for Sweden"
+msgstr "ZIP für Schweden"
+
+#: include/params/field/text.php:97
+msgid "ZIP for Belgium"
+msgstr "ZIP für Belgien"
+
+#: include/params/field/text.php:98
+msgid "ZIP for India"
+msgstr "ZIP für Indien"
+
+#: include/params/field/text.php:99
+msgid "Hex value"
+msgstr "Hex-Wert"
+
+#: include/params/field/text.php:101
+msgid "URL"
+msgstr "URI"
+
+#: include/params/field/text.php:102
+msgid "IP"
+msgstr "IP"
+
+#: include/params/field/text.php:103
+msgid "Social Security Number"
+msgstr "Sozialversicherunsnummer"
+
+#: include/params/field/text.php:104
+msgid "Time in 12-hour format without seconds (hh:mm)"
+msgstr "Zeit im 12 Std. Format ohne sek. (hh:mm)"
+
+#: include/params/field/text.php:105
+msgid "Time in 12-hour format with seconds (hh:mm:ss)"
+msgstr "Zeit im 12 Std. Format mit sek. (hh:mm:ss)"
+
+#: include/params/field/text.php:106
+msgid "Time in 24-hour format with seconds (hh:mm:ss)"
+msgstr "Zeit im 24 Std. Format mit sek. (hh:mm:ss)"
+
+#: include/params/field/text.php:107
+msgid "Time in 24-hour format without seconds (hh:mm)"
+msgstr "Zeit im 24 Std. Format ohne sek. (hh:mm)"
+
+#: include/params/field/text.php:108
+msgid "Latitude"
+msgstr "Breitengrad "
+
+#: include/params/field/text.php:109
+msgid "Longitude"
+msgstr "Längengrad "
+
+#: include/params/field/text.php:111
+msgid "Select pattern for validate data or set custom."
+msgstr ""
+"Wähle Muster zur Validierung der Daten oder gebe Benutzerdefiniertes Muster "
+"ein."
+
+#: include/params/field/text.php:118
+msgid "Pattern"
+msgstr "Muster"
+
+#: include/params/field/text.php:122
+msgid ""
+"The pattern attribute specifies a regular expression that the element's "
+"value is checked against."
+msgstr "Das Muster Attribut spezifiziert einen RegExp der den Wert gegenprüft."
+
+#: include/params/field/textarea.php:16
+msgid "Wrap"
+msgstr "Wrap"
+
+#: include/params/field/textarea.php:19
+msgid ""
+"The wrap attribute specifies how the text in a text area is to be wrapped "
+"when submitted in a form."
+msgstr ""
+"Das Wrap-Attribut gibt an, wie der Text einer Textarea umhüllt wird, wenn es "
+"in einem Formular hinterlegt ist."
+
+#: include/params/field/textarea.php:40
+msgid "Columns"
+msgstr "Spalten"
+
+#: include/params/field/textarea.php:43
+msgid ""
+"Specifies the visible width of a text area. It can be rewrited on css. If "
+"value is empty, then option will be disabled."
+msgstr ""
+"Gibt die Sichtbare Breite einer Textarea wieder.Es kann durch css "
+"überschrieben werden.wenn der Wert leer ist, ist diese Option deaktiviert."
+
+#: include/params/field/textarea.php:50
+msgid "Rows"
+msgstr "Zeilen"
+
+#: include/params/field/textarea.php:53
+msgid ""
+"Specifies the visible number of lines in a text area. It can be rewrited on "
+"css. If value is empty, then option will be disabled."
+msgstr ""
+"Gibt die Anzahl der Zeilen in einem Textarea wieder.Es kann durch css "
+"überschrieben werden.Wenn der Wert leer ist, ist diese Option deaktiviert."
+
+#: include/params/field/time.php:10
+msgid "Placement"
+msgstr "Platzierung"
+
+#: include/params/field/time.php:12
+msgid "bottom"
+msgstr "unten"
+
+#: include/params/field/time.php:12
+msgid "top"
+msgstr "oben"
+
+#: include/params/field/time.php:12 include/params/field/time.php:22
+msgid "left"
+msgstr "links"
+
+#: include/params/field/time.php:12 include/params/field/time.php:22
+msgid "right"
+msgstr "rechts"
+
+#: include/params/field/time.php:13
+msgid "Popover placement."
+msgstr "Popover Platzierung."
+
+#: include/params/field/time.php:20
+msgid "Align"
+msgstr "Ausrichtung"
+
+#: include/params/field/time.php:23
+msgid "Popover arrow align."
+msgstr "Popover Ausrichtung des Pfeils."
+
+#: include/params/field/time.php:31
+msgid "Disable autoclose?"
+msgstr "Deaktiviere Automatisches schliessen?"
+
+#: include/params/field/time.php:33
+msgid "Auto close when minute is selected."
+msgstr "Automatisch schliessen nach Minuten Auswahl."
+
+#: include/params/field/time.php:40
+msgid "Enable twelvehour?"
+msgstr "Aktiviere 12 Std.?"
+
+#: include/params/field/time.php:42
+msgid "Enables twelve hour mode with AM & PM buttons."
+msgstr "Aktiviere Button für 12 Std. Methode mit AM & PM."
+
+#: include/params/field/time.php:49
+msgid "Enable vibrate?"
+msgstr "Aktiviere Vibration?"
+
+#: include/params/field/time.php:51
+msgid "Vibrate the device when dragging clock hand."
+msgstr "Vibrieren des Gerätes, wenn clock hand verschoben wird."
+
+#: include/params/field/time.php:61
+msgid "Donetext"
+msgstr "Erledigt Text"
+
+#: include/params/field/time.php:63
+msgid "Done"
+msgstr "Erledigt"
+
+#: include/params/field/time.php:64
+msgid "Done button text."
+msgstr "Erledigt button Text."
+
+#: include/params/field/time.php:75
+msgid "Default time: <code>now</code> or <code>hh:mm</code> format"
+msgstr "Standardwert für Zeit: Format <Code>now</Code> oder <Code>hh:mm</Code>"
+
+#: include/params/form.php:7
+msgid "Name of form"
+msgstr "Formularname"
+
+#: include/params/form.php:10
+msgid ""
+"This value will be used for system identification your form and must be "
+"unique within one form. If you have enabled History mode name must be unique "
+"in site. Do not use space. Example: form_1, demo_form"
+msgstr ""
+"Dieser Wert wird vom System als Identifizierung verwendet.Er muss innerhalb "
+"eines Formulars eindeutig sein.Ist das speichern der Historie aktiviert, "
+"muss dieser Wert eindeutig auf der Webseite sein. Das verwenden auf 2 oder "
+"mehr Formularen ist unzulässig in dem Fall. z.Bsp.: title darf nur einmal "
+"auf der kompletten Webseite vorkommen. Verwenden Sie keine Leerzeichen. "
+"Beispiel: form_1, demo_form, um eindeutig zu bleiben bei Feldern wie Titel "
+"nutzen Sie bitte z.Bsp.: titel_mainsite"
+
+#: include/params/form.php:17
+msgid "Type of validation"
+msgstr "Berechtigungstyp"
+
+#: include/params/form.php:19
+msgid "Without"
+msgstr "Ohne"
+
+#: include/params/form.php:19
+msgid "Server"
+msgstr "Server"
+
+#: include/params/form.php:19
+msgid "Client + Server"
+msgstr "Client + Server"
+
+#: include/params/form.php:20
+msgid ""
+"Client validation is validation available only at browsers. It not uses any "
+"jQuery scripts for validation, it use HTML 5."
+msgstr ""
+"Client Validierung ist die Validierung die nur an der Datenbanksuchroutine "
+"vorhanden ist.Es benutzt keine JQuery Indexe zur Validierung, es nutzt HTML5."
+
+#: include/params/form.php:28
+msgid "Enable requests history?"
+msgstr "Aktiviere Sendehistorie?"
+
+#: include/params/form.php:30
+msgid "Will be added new tab History."
+msgstr "Neuen History tab hinzufügen."
+
+#: include/params/form.php:37
+msgid "Enable protected from resubmit?"
+msgstr "Erneutes Senden erlauben?"
+
+#: include/params/form.php:40
+msgid ""
+"Based on IP. You can set timeout. Working only if enabled History mode for "
+"form."
+msgstr ""
+"Sie können einen Timeout Basierend auf der IP einstellen.Formular "
+"funktionert dann nur wenn der Zeitpunkt dafür stimmt."
+
+#: include/params/form.php:48
+msgid "Time before new submit"
+msgstr "Zeitspanne vor erneutem senden"
+
+#: include/params/form.php:50
+msgid "Time in seconds"
+msgstr "Zeit in Sekunden"
+
+#: include/params/form.php:57
+msgid "Enable Ajax?"
+msgstr "Aktiviere AJAX?"
+
+#: include/params/form.php:59
+msgid "When checked opened new style settings on Design tab."
+msgstr ""
+"Wenn Aktiviert, ist die Einstellung für einen neuen Stil auf der "
+"Registerkarte Entwurf geöffnet."
+
+#: include/params/form.php:65
+msgid "Enctype"
+msgstr "Enctype"
+
+#: include/params/form.php:68
+msgid ""
+"The enctype attribute specifies how the form-data should be encoded when "
+"submitting it to the server. The enctype attribute can be used only if "
+"method=\"post\". If you use uploading files, you should select enctype as "
+"<code>multipart/form-data.</code>"
+msgstr ""
+"Das enctype Attribut gibt an wie Formulardaten verschlüsselt werden sollen, "
+"wenn sie an den Server gesendet werden.Das enctype Attribut kann nur in "
+"Verbindung mit der Methode Post verwendet werden.wenn Dateien Hochgeladen "
+"werden sollen zum Server, wählen Sie das enctype Attribut <code>multipart/"
+"form-data.</code>"
+
+#: include/params/form.php:75
+msgid "The position of validation messages"
+msgstr "Die Position der Bestätigungsmeldung"
+
+#: include/params/form.php:77
+msgid "Before form"
+msgstr "Vor dem Formular"
+
+#: include/params/form.php:77
+msgid "Before each element"
+msgstr "Vor jedem Element"
+
+#: include/params/form.php:85
+msgid "Action"
+msgstr "Aktion"
+
+#: include/params/form.php:88
+msgid ""
+"You can set custom url for action. For example to other site.<br/>Default "
+"value is your current page url."
+msgstr ""
+"URI für den Action wert.Sie können einen eigenen Wert eingeben, z.Bsp. auf "
+"eine andere Seite.<br/> Standardwert ist die URI der aktuellen Seite."
+
+#: include/params/form.php:95
+msgid "Target"
+msgstr "Ziel"
+
+#: include/params/form.php:99
+msgid ""
+"The target attribute specifies a name or a keyword that indicates where to "
+"display the response that is received after submitting the form."
+msgstr ""
+"Das Zielattribut gibt einen Namen oder Schlüsselwert, dass angibt wie die "
+"Anzeige aussehen wird nach dem Absenden des Formulars."
+
+#: include/params/form.php:106
+msgid "Method for sending data"
+msgstr "Methode zum senden von daten"
+
+#: include/params/form.php:116
+msgid "After successfully submitting"
+msgstr "Nach erfolgreichem absenden"
+
+#: include/params/form.php:126
+msgid "Link for redirect"
+msgstr "Link für Weiterleitung"
+
+#: include/params/form.php:137
+msgid "Subject"
+msgstr "Betreff"
+
+#: include/params/form.php:141 include/params/form.php:161
+#: include/params/form.php:171 include/params/form.php:180
+#: include/params/form.php:191 include/params/form.php:202
+#: include/params/form.php:212 include/params/form.php:220
+#: include/params/form.php:231 include/params/form.php:242
+#: include/params/form.php:253 include/params/form.php:264
+#: include/params/form.php:275
+msgid "Mail Settings"
+msgstr "Mail-Einstellungen"
+
+#: include/params/form.php:147
+msgid "Recipients"
+msgstr "Empfänger"
+
+#: include/params/form.php:150
+msgid "List of recipients emails comma separated."
+msgstr "Liste der EMail Empfänger durch Komma getrennt."
+
+#: include/params/form.php:157
+msgid "The name of the sender"
+msgstr "Name des Absenders"
+
+#: include/params/form.php:167
+msgid "The email of the sender"
+msgstr "E-Mail-Absender"
+
+#: include/params/form.php:178
+msgid "Use subscriber data for sending email to recipients?"
+msgstr "Verwenden von Userdaten für das Senden von EMails an die Empfänger?"
+
+#: include/params/form.php:186
+msgid "Name form field for name subscriber in email"
+msgstr "Name des Formularfeldes für den Teilnehmer Namen in EMails"
+
+#: include/params/form.php:197
+msgid "Name form field for email subscriber in email"
+msgstr "Name des Formularfeldes für EMail Teilnehmer in EMails"
+
+#: include/params/form.php:208
+msgid "Charset"
+msgstr "Zeichensatz"
+
+#: include/params/form.php:219
+msgid "Enable sending by SMTP?"
+msgstr "Über SMTP senden?"
+
+#: include/params/form.php:226
+msgid "Host"
+msgstr "Host"
+
+#: include/params/form.php:237
+msgid "Port"
+msgstr "Port"
+
+#: include/params/form.php:248
+msgid "Username"
+msgstr "Username"
+
+#: include/params/form.php:270
+msgid "SMTPSecure"
+msgstr "SMTP Sicherheit"
+
+#: include/params/form.php:273
+msgid "This settings don't uses if value is empty."
+msgstr "Diese Einstellung funktioniert nicht wenn der Wert leer ist."
+
+#: include/params/form.php:285 include/params/form.php:327
+msgid ""
+"If value empty will be using default template for each elements of form &lt;"
+"code&gt;&lt;li&gt;&lt;strong&gt;label&lt;/strong&gt; value&lt;/li&gt;&lt;/"
+"code&gt;. For adding value from field you can use structure <code>%name_field"
+"%</code>."
+msgstr ""
+"Wenn der Wert leer ist, wird für jedes Element der Standardwert genutzt &lt;"
+"code&gt;&lt;li&gt;&lt;strong&gt;label&lt;/strong&gt; value&lt;/li&gt;&lt;/"
+"code&gt;. Für einen der werte aus dem Feld können Sie die Struktur <code>"
+"%name_field%</code> verwenden."
+
+#: include/params/form.php:286
+msgid "Email template"
+msgstr "EMail-Vorlage"
+
+#: include/params/form.php:293
+msgid "Enable auto reply?"
+msgstr "Automatische Antwort einschalten?"
+
+#: include/params/form.php:294 include/params/form.php:306
+#: include/params/form.php:314 include/params/form.php:328
+msgid "Autoreply"
+msgstr "Automatische Antwort senden"
+
+#: include/params/form.php:295
+msgid "If function enable user will receive automatic email."
+msgstr ""
+"Wenn diese Funktion aktiviert ist, erhält der User automatisch eine EMail."
+
+#: include/params/form.php:301
+msgid "Email field name"
+msgstr "E-Mail Feldname"
+
+#: include/params/form.php:304
+msgid "Set name field with email value for send message."
+msgstr "Setze Namensfeld für Nachrichten mit EMail-Wert."
+
+#: include/params/form.php:313
+msgid "Include files in email?"
+msgstr "Dateianhänge in EMail?"
+
+#: include/params/form.php:335
+msgid "Save user IP?"
+msgstr "Speichere User IP?"
+
+#: include/params/form.php:336 include/params/form.php:346
+#: include/params/form.php:356 include/params/form.php:366
+#: include/params/form.php:376 include/params/form.php:386
+#: include/params/form.php:395
+msgid "History"
+msgstr "Historie"
+
+#: include/params/form.php:338
+msgid "Value will be received from $_SERVER"
+msgstr "Wert wird übernommen aus $_SERVER"
+
+#: include/params/form.php:345
+msgid "Save user Files?"
+msgstr "Speichere User Dateien?"
+
+#: include/params/form.php:348
+msgid "Files will be uploaded to folder on your site."
+msgstr "Datei wird in das Uploadverzeichnis ihrer Seite hochgeladen."
+
+#: include/params/form.php:355
+msgid "Save user OS?"
+msgstr "Speichere User Betriebssystem?"
+
+#: include/params/form.php:358 include/params/form.php:368
+#: include/params/form.php:388
+msgid "Value will be received from $_SERVER['HTTP_USER_AGENT']"
+msgstr "Wert wird übernommen aus $_SERVER['HTTP_USER_AGENT']"
+
+#: include/params/form.php:365
+msgid "Save user Browser?"
+msgstr "Speichere User Browser?"
+
+#: include/params/form.php:375
+msgid "Save user Language?"
+msgstr "Speichere Usersprache?"
+
+#: include/params/form.php:378
+msgid "Value will be received from $_SERVER['HTTP_ACCEPT_LANGUAGE']"
+msgstr "Wert wird übernommen aus $_SERVER['HTTP_ACCEPT_LANGUAGE']"
+
+#: include/params/form.php:385
+msgid "Save user User Agent?"
+msgstr "Speichere Benutzer User-Agent?"
+
+#: include/params/form.php:397
+msgid "Data in CSV format will be downloaded without files."
+msgstr "Daten im CSV-Format ohne download."
+
+#: include/params/form.php:404
+msgid "Select loader"
+msgstr "Wähle loader"
+
+#: include/params/form.php:428
+msgid "Background color for loader icon"
+msgstr "Wählen Hintergrundfarbe für das Loader Symbol"
+
+#: include/params/form.php:440
+msgid "Success message"
+msgstr "Erfolgsmeldung"
+
+#: include/params/form.php:444 include/params/form.php:454
+#: include/params/form.php:464 include/params/form.php:474
+#: include/params/form.php:485 include/params/form.php:495
+#: include/params/form.php:505 include/params/form.php:515
+#: include/params/form.php:525 include/params/form.php:535
+msgid "Notification messages"
+msgstr "Mitteilungs-Benachrichtigung"
+
+#: include/params/form.php:450
+msgid "Error message"
+msgstr "Fehlermeldung"
+
+#: include/params/form.php:460
+msgid "Invalid value"
+msgstr "Ungültiger Wert"
+
+#: include/params/form.php:463 include/params/form.php:473
+#, php-format
+msgid "<code>%s</code> will be automatically replaced to field title."
+msgstr "<code>%s</code> wird automatisch durch Feldtitel ersetzt."
+
+#: include/params/form.php:470
+msgid "Required field"
+msgstr "Pflichtfeld"
+
+#: include/params/form.php:480
+msgid "ReSubmit form"
+msgstr "Formular erneut senden"
+
+#: include/params/form.php:484
+#, php-format
+msgid ""
+"<code>%s</code> will be automatically replaced to value from \"Time before "
+"new submit\".<br/><code>%s (2)</code> will be automatically replaced to "
+"difference between \"Time Last Query\" and \"Present Time\"."
+msgstr ""
+"<code>%s</code> will be automatically replaced to value from \"Time before "
+"new submit\".<br/><code>%s (2)</code> will be automatically replaced to "
+"difference between \"Time Last Query\" and \"Present Time\"."
+
+#: include/params/form.php:491
+msgid "Enter captcha"
+msgstr "Captcha eingeben"
+
+#: include/params/form.php:501
+msgid "Error captcha"
+msgstr "Fehler im Captcha"
+
+#: include/params/form.php:511
+msgid "File size"
+msgstr "Dateigröße"
+
+#: include/params/form.php:521
+msgid "File accept"
+msgstr "Datei akzeptiert"
+
+#: include/params/form.php:531
+msgid "Popup text"
+msgstr "Popup Text"
+
+#: include/params/form.php:534
+msgid ""
+"Text message for popup, it will be showed after click to submit. If value is "
+"empty, popup will be disabled."
+msgstr ""
+"Popup fenstertext, wird gezeigt wenn das Formular gesendet wurde. Ist hier "
+"leer wird kein Popup erscheinen."
+
+#~ msgid ""
+#~ "<code>%s</code> will be automatically replaced to value from \"Time "
+#~ "before new submit\"."
+#~ msgstr ""
+#~ "<code>%s</code> wird automatisch durch den wert von \"Time before new "
+#~ "submit\" ersetzt."
+
+#~ msgid "Forms history"
+#~ msgstr "Formular Historie"
+
+#~ msgid "Colored"
+#~ msgstr "Farblich"
+
+#~ msgid "Black & White"
+#~ msgstr "Schwarz & Weiß"
+
+#~ msgid "dPassword Field"
+#~ msgstr "dPassword Feld"
+
+#~ msgid ""
+#~ "The accept attribute specifies the types of files that the server accepts."
+#~ msgstr "Das Attribut spezifiziert die Dateiarten die der Server akzeptiert."
+
+#~ msgid "Options"
+#~ msgstr "Optionen "
+
+#~ msgid "File of options"
+#~ msgstr "Datei-Optionen"
+
+#~ msgid "Cols"
+#~ msgstr "Spalten"
+
+#~ msgid "Label width in column"
+#~ msgstr "Beschreibungsbreite in Spalte"
+
+#~ msgid "Label of field"
+#~ msgstr "Beschreibung des Feldes"
+
+#~ msgid "About CFB"
+#~ msgstr "Über CFB"
+
+#~ msgid "Mask"
+#~ msgstr "Maske"
+
+#~ msgid "Type element"
+#~ msgstr "Elementtyp"
+
+#~ msgid "Client"
+#~ msgstr "Client"
+
+#~ msgid "Auto-detects the user's language if unspecified."
+#~ msgstr ""
+#~ "Automatische Erkennung der Sprache des Benutzers, wenn nicht spezifiziert."
+
+#~ msgid "Will be embed to HTML code."
+#~ msgstr "Wird im HTML Code eingebettet."
+
+#~ msgid "Circles line"
+#~ msgstr "Circles line"
+
+#~ msgid "Circles two line"
+#~ msgstr "Circles two line"
+
+#~ msgid "Circles two line2"
+#~ msgstr "Circles two line2"
+
+#~ msgid "Circles two"
+#~ msgstr "Circles two"
+
+#~ msgid "Circles"
+#~ msgstr "Circles"
+
+#~ msgid "Cube"
+#~ msgstr "Cube"
+
+#~ msgid "Matrix with empty"
+#~ msgstr "Matrix with empty"
+
+#~ msgid "Mini cubes"
+#~ msgstr "Mini cubes"
+
+#~ msgid "Quarter circle"
+#~ msgstr "Quarter circle"
+
+#~ msgid "Round"
+#~ msgstr "Round"
+
+#~ msgid "Skipjack"
+#~ msgstr "Skipjack"
+
+#~ msgid "Square"
+#~ msgstr "Square"
+
+#~ msgid "Whirligig"
+#~ msgstr "Whirligig"
+
+#~ msgid "Loader"
+#~ msgstr "Lader"
+
+#~ msgid "Metro"
+#~ msgstr "Metro"
+
+#~ msgid "Customizable form for data entry"
+#~ msgstr "Anpassbares Formular für die Dateneingabe"

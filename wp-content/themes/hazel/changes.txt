@@ -1,0 +1,194 @@
+3.2.1
+- Fixed bug with missing custom style files
+
+3.2
+- Added Woocommerce 2.6.1 compatibility
+- Updated Visual Composer to 4.12
+- Updated Layer Slider to 5.6.8
+- Fixed Social Share functionality
+
+3.1
+- Updated Visual Composer to 4.11.2.1
+- Updated Layer Slider to 5.6.6
+
+3.0
+- Added WordPress 4.5 compatibility
+
+2.9
+- Added WooCommerce 2.5.5 compatibility
+- Updated Visual Composer to 4.11.1
+- Fixed bug with deleting custom widget area
+- Fixed warning for deprecated sensor parameter for Google maps
+
+2.8.1
+- Updated Visual Composer to 4.7.4
+- Updated Layer Slider to 5.6.2
+
+2.8
+- Added WooCommerce 2.4.6 compatibility
+- Updated Visual Composer to 4.6.2
+- Updated Layer Slider to 5.5.1
+- Updated Font Awesome to version 4.4.0
+
+2.7
+- Added WooCommerce 2.3.10 compatibility
+- Updated Visual Composer to 4.5.3
+- Updated Layer Slider to 5.4.0
+- Updated PrettyPhoto to 3.1.6
+- Enabled Yoast SEO page analysis functionality as conflict between Yoast SEO and Visual Composer is solved in new VC version
+- Fixed bug with Visual Composer's row design options
+- Fixed bug with Yoast SEO and page transitions
+- Fixed bug with Yoast SEO and values from Select Meta boxes being reset. Page analysis in Yoast SEO has been disabled due to coding issue in Yoast SEO plugin
+- Fixed issue with Single Image shortcode Image style property
+
+2.6
+- Added WooCommerce 2.3.8 compatibility
+- Updated TGM Plugin Activation class for security vulnerability
+- Updated Visual Composer to version 4.4.4
+
+2.5
+- Added WooCommerce 2.3.6 compatibility
+- Updated Visual Composer to version 4.4.3
+
+2.4
+- Added WooCommerce 2.3.4 compatibility
+- Fixed bug with Header Style when ajax animation is enabled
+- Fixed bug with grid size and position
+- Fixed logo position when center logo is enabled and header in grid is set to no
+- Fixed Google fonts link when SSL is enabled
+- Fixed Google fonts family options for title, subtitle and text in Select Slider -> Slides
+- Fixed bug with image upload field when used upload from url
+
+2.3.1
+- Updated Visual Composer to version 4.3.5
+- Fixed Select Slider button rendering (space between attributes)
+- Fixed bug with portfolio list masonry type
+
+2.3
+- Added WooCommerce 2.2.7 compatibility
+- Updated LayerSlider to version 5.3.2
+- Fixed bug with notice on tags page
+- Fixed bug with left and right sticky header type and logo link
+- Fixed bug with Select Search and WPML
+- Fixed bug with portfolio hover without space type
+- Fixed bug with skill title for team shortcode
+
+2.2.1
+- Updated Visual Composer to version 4.3.4
+- Updated LayerSlider to version 5.3.0
+- Updated WooCommerce template files for 2.2.4 compatibility
+- Fixed bug with render Process styles
+- Fixed bug with YOAST and page transitions error on home page
+- Fixed bug with scrolling of left menu
+- Fixed bug with WordPress read more tag
+- Fixed bug with post comments date
+
+2.2
+- Added WooCommerce 2.2 compatibility
+- Added Contact Form 7 plugin integration
+- Improved page transition to register page loading with Google Analytics
+- Improved Expandable shortcode
+- Updated touchSwipe plugin, now links are working on touch devices in Select Slider
+- Updated FontAwesome icons pack to version 4.2.0
+- Updated LayerSlider to version 5.2.0
+- Fixed bug with related products for WooCommerce
+- Fixed bug with color of add to cart icon in header and fixed header type and predefined header style
+- Fixed bug with separator shortcode extra class option not rendering
+- Fixed bug with left/right menu positioning when "Sticky with left and right menu (centered logo)" header bottom type is activated
+- Fixed bug with social share on product single page when html tag is added to product description
+- Fixed bug with responsiveness of Select image slider shortcode with highlighted active option turned on
+- Fixed bug with title text displaying site title when page is selected as blog page in Settings -> Reading
+- Fixed bug with YOAST notice for meta description
+- Fixed bug with meta title when SEO plugins are used
+- Fixed dropdown menu position when boxed layout is enabled
+- Fixed bug with Input fields text color
+- Fixed bug with woocommerce out of date files
+- Fixed bug with wpml dropdown widget, when it is in header top and overlapping header bottom
+
+2.1
+- Added Hazel Glass Edition with 3 new demos: Elena Glass, Lisa Glass & Brigitte Glass
+- Added saturation and lightness options for google map
+- Add option to Select Options for blog masonry: box background color, post format icon display, text alignment
+- Add option to Select Options for WooCommerce: product list background color
+- Updated latest post boxed type shortcode with new attributes: box background color, post format icon display, text alignment
+- Fixed logo animation for "Fixed with hiding menu (centered logo)" header type
+- Fixed Facebook sharing option with special characters
+- Fixed search filed layout on small screen devices
+- Fixed letter space changing for main menu dropdown
+- Fixed flex slider init on blog masonry after loading more posts
+
+2.0
+- Added Hazel Gold Edition with 16 new demos
+- Added letter spacing option for title breadcrumbs in Select Options -> General Font Options
+- Added font family option for counters shortcode in Select Options -> Elements
+- Added testimonials text and author typography section in Select Options -> Elements
+- Added letter spacing option for slide text in Select Slider
+- Added optional separator element in Select Slider
+- Added styling section for portfolio lists and portfolio slider in Select Options -> Portfolio
+- Added blockquote typography section in Select Options -> Elements
+- Added font style option for counters text and number in Select Options -> Elements
+- Added new box shortcode
+- Added WooCommerce section in Select Options for styling product list, single product page and WooCommerce widgets
+- Added option for footer bottom font family in Select Options -> Header and Footer
+- Added options for footer bottom border color and thickness in Select Options -> Header and Footer
+- Added anchor field for each slide in Select Slider that adds down arrow that scrolls to section on the page
+- Improved inclusion of Google fonts
+- Improved sticky menu appearance when amount for it is set in Select Custom Fields and when Select Slider is added to page
+- Fixed bug with button text color when first color is changed and button hover color is changed
+- Fixed bug with portfolio like icon when first color is changed
+- Fixed bug with separator width option in Select Shortcodes
+- Fixed bug with page transitions and when footer isn't positioned on the bottom of the page
+- Fixed bug with left menu predefined style (light / dark) when transparency for left menu area is disabled
+
+1.4
+- Added Hazel 16 - Grace example site
+- Added new image slider shortcode
+- Added anchor button to each slide in Select Slider
+- Added option for footer to be positioned immediately after content when content of the page is small
+- Added option for separator and separator styles between title and portfolio category in portfolio list shortcode
+- Added option for portfolio category text color portfolio list shortcode
+- Added option for styling icons in portfolio list shortcode
+- Added section image hover effect options in Select Options -> Elements
+- Added section for pricing tables styles in Select Options -> Elements
+- Added border option for blog masonry items
+- Added separator after post author option for blog masonry templates
+- Added sidebar styling section in Select Options -> Elements
+- Added comments styling section in Select Options -> Elements
+- Added slide subtitle and it's styling section in Select Slider
+- Added border option for footer top in Select Options -> Header and Footer
+- Fixed Portfolio space issue on IE11
+- Fixed posts overlap when Blog Masonry infinite scroll is enabled
+- Fixed Scale steps and Scale step width attributes for Line graph shortcode
+- Fixed bug with carousel hover image when two row option is chosen
+
+1.3
+- Added Hazel 15 - Molly example site
+- Added new header bottom appearance (logo and menu layout) - Sticky with left and right menu (centered logo)
+- Fixed "one by one" content animation of content in Qode Slider for Chrome
+- Fixed positioning of logo on sticky menu when window is scrolled
+- Fixed custom sidebar selection bug
+- Fixed custom css file loading before responsive css file bug
+- Fixed bug with don't link option for menu items and page transitions
+- Fixed bug with click event with ctrl key pressed and page transitions
+- Fixed color changing of "Fixed with hiding menu (centered logo)" header bottom type
+
+1.2.2
+- Improved anchor functionality to follow active items in main menu
+
+1.2.1
+- Fixed changing colors on buttons
+- Fixed Select Slider responsiveness on iPhone
+- Fixed blog comments responsiveness
+- Fixed navigation on portfolio slider when multiple instances are on one page
+- Fixed load more portfolios repositioning when "masonry with space" type is chosen
+- Fixed Hazel 13 and Hazel 14 import issue
+
+1.2
+- Added Hazel 13 - Olivia example site
+- Added Hazel 14 - Judy example site
+- Added multiple images upload to portfolio items
+- Improved resize logic for Select slider when height is set
+- Fixed ajax loader position when Left menu is enabled
+
+1.1
+- Initial Release

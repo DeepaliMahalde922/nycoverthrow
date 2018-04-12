@@ -1,0 +1,130 @@
+
+
+.page-id-20060 #back_to_top{
+    display: none;
+}
+
+.drop_down .narrow .second .inner ul li ul, .drop_down .second {
+border: none;
+}
+
+.drop_down .narrow .second .inner ul li ul{
+top: -2px;
+}
+
+.drop_down .second .inner>ul, li.narrow .second .inner ul {
+background-color: #F5F5F5;
+}
+
+.drop_down .second .inner ul li a, .drop_down .second .inner ul li h5 { color: #535353; }
+
+.drop_down .second .inner>ul>li>a:hover, .drop_down .second .inner ul li.sub ul li a:hover {
+color: #B3B2B1;
+}
+
+.page-id-20060 .footer_bottom_holder,
+.page-id-20060 .content {
+background-color: #696969;
+}
+
+.page-id-20073 .footer_bottom_holder,
+.page-id-20073 .content {
+background-color: #515151;
+}
+
+.page-id-20075 .footer_bottom_holder,
+.page-id-20075 .content {
+background-color: #4b525a;
+}
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.bookable.ui-datepicker-current-day a {
+background-color: #edd865 !important;
+}
+.wc-bookings-booking-form .block-picker li a.selected,
+.wc-bookings-booking-form .block-picker li:nth-child(odd) a:focus, 
+.wc-bookings-booking-form .block-picker li:nth-child(odd) a:hover,
+.wc-bookings-booking-form .block-picker li:nth-child(even) a:focus, 
+.wc-bookings-booking-form .block-picker li:nth-child(even) a:hover{
+background: #000000 !important;
+}
+.woocommerce-checkout .woocommerce-error
+{
+	border: 1px solid #ff3333;
+}
+.woocommerce-checkout .woocommerce-error li
+{
+	color: #ff3333;
+}
+.hear_about_us_error
+{
+	border: 1px solid #ff3333;
+}
+#hear_about_us_opt_field.hear_about_us_error span.optt label, #hear_about_us_opt_field.hear_about_us_error label[for='hear_about_us_opt']
+{
+	color: #ff3333;
+	font-family: "Raleway",sans-serif;
+}
+.woocommerce .blockUI.blockOverlay::before, .woocommerce .loader::before {
+    animation: 1s ease-in-out 0s normal none infinite running spin;
+    background: url("loader.svg") repeat scroll center center / cover rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.75);
+    content: "";
+    display: block;
+    font-size: 2em;
+    height: 1em;
+    left: 50%;
+    line-height: 1;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 1em;
+}
+
+#mc_embed_signup input[type="email"] {
+    background-color: #f8f8f8;
+    border: 0 none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    outline: 0 none;
+    padding: 15px 17px;
+    resize: none;
+    width: 100%;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#mc_embed_signup input[type="submit"]{
+    background: #666666 none repeat scroll 0 0;
+    border: 2px solid #666666;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Francois One";
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin: 8px 0 0;
+    outline: 0 none;
+    padding: 0 36px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.1s linear 0s;
+}
+body.page-id-12037 .container_inner.default_template_holder {
+    margin-bottom: 20px;
+}
+
+.single.single-product #ui-datepicker-div {
+    z-index: 1000 !important;
+}
+.page-template-contact-page .container_inner .contact_detail .contact_info > h4 {
+    margin-bottom: 10px;
+}

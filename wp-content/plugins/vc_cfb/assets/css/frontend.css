@@ -1,0 +1,243 @@
+.vc_cfb_form_wrapper,
+.cfb_field_wrapper .cfb_field_block{
+  position: relative;
+}
+
+.cfb_field_wrapper span.vc_cfb_field_required{
+  color: #d40707;
+}
+
+.vc_cfb_form_wrapper input.vc_cfb_error,
+.vc_cfb_form_wrapper textarea.vc_cfb_error{
+  border-color: red;
+  border-width: 1px;
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border: none;
+  position: relative;
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper input,
+.vc_cfb_form_wrapper .cfb_field_wrapper textarea{
+  margin: 0;
+  position: relative;
+  z-index: 1; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ICONS */
+
+.vc_cfb_form_wrapper .cfb_field_wrapper i.cfb_input_icon{
+  position: absolute;
+  z-index: 2;
+  right: 1px;
+  top: 0;
+  width: 30px;
+  text-align: center;
+  line-height: 1;
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper i.cfb_input_icon {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+     -moz-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+       -o-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper i.cfb_input_icon.cfb_input_icon_align_left {
+  right: auto;
+  left: 1px;
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper i.cfb_input_icon.cfb_input_icon_align_right+input,
+.vc_cfb_form_wrapper .cfb_field_wrapper i.cfb_input_icon.cfb_input_icon_align_right+textarea {
+  padding-right: 30px;
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper i.cfb_input_icon.cfb_input_icon_align_left+input,
+.vc_cfb_form_wrapper .cfb_field_wrapper i.cfb_input_icon.cfb_input_icon_align_left+textarea {
+  padding-left: 30px;
+}
+
+/* END ICONS */
+
+/* MESSAGES */
+
+.vc_cfb_form_wrapper .vc_cfb_message{
+  border: 1px solid transparent;
+  display: block;
+  overflow: hidden;
+  margin: 0 0 21.73913043px 0;
+  padding: 1em 1em 1em 4em;
+  position: relative;
+  font-size: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message > p:first-child {
+  margin-top: 0;
+}
+.vc_cfb_form_wrapper .vc_cfb_message > p:last-child {
+  margin-bottom: 0;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message .vc_cfb_icon{
+  margin: 0;
+  bottom: 0;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 4em;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message .vc_cfb_icon > * {
+  font-size: 1.7em;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message ul{
+  padding: 0px;
+  margin: 0px;
+  border: 0;
+  padding-left: 20px;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message .vc_cfb_icon > .fa {
+  font-size: 1.7em;
+  line-height: 1;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message.vc_cfb_type_warning{
+  color: #9d8967;
+  border-color: #ffeccc;
+  background-color: #fff4e2;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message.vc_cfb_type_warning .vc_cfb_icon{
+  color: #fcb53f;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message.vc_cfb_type_error{
+  color: #a85959;
+  border-color: #fedede;
+  background-color: #fdeaea;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message.vc_cfb_type_error .vc_cfb_icon{
+  color: #ff7877;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message.vc_cfb_type_success{
+  color: #5e7f96;
+  border-color: #cfebfe;
+  background-color: #e6fdf8;
+}
+
+.vc_cfb_form_wrapper .vc_cfb_message.vc_cfb_type_success .vc_cfb_icon{
+  color: #1bbc9b;
+}
+
+/* END MESSAGES */
+
+/* NULL WRAP  */
+.vc_cfb_form_wrapper .vc-cfb-null-wrap{
+  padding: 0px;
+  margin: 0px;
+  border: 0;
+  height: 0px;
+  width: 0px;
+}
+
+/* ********************************* */
+
+.vc_cfb_button_align-center {
+	text-align: center;
+}
+
+.vc_cfb_button_align-left {
+	text-align: left;	
+}
+
+.vc_cfb_button_align-right {
+	text-align: right;
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper button i.cfb_input_icon {
+	position: static;
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper button {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper button i.cfb_input_icon {
+	-webkit-transform: translate(0,0);
+	   -moz-transform: translate(0,0);
+	    -ms-transform: translate(0,0);
+	     -o-transform: translate(0,0);
+	        transform: translate(0,0);
+} 
+
+.vc_cfb_form_wrapper .cfb_field_wrapper button span{
+	vertical-align: middle;
+}
+
+
+.vc_cfb_form_wrapper .cfb_field_wrapper button i.cfb_input_icon {
+	width: auto;
+	margin-right: 5px;
+}
+
+.vc_cfb_form_wrapper .cfb_field_wrapper button i.cfb_input_icon.fa-adjust {
+
+}
+
+
+.vc_cfb_form_wrapper .cfb_field_wrapper button i.cfb_input_icon.cfb_input_icon_align_left {
+	margin-right: 5px;
+}
+
+
+
+.vc_cfb_form_wrapper .cfb_field_wrapper button i.cfb_input_icon.cfb_input_icon_align_right {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+/* GRID */
+.vc_cfb_form_wrapper form .wpb_row{
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
+}
+ /* GRID */

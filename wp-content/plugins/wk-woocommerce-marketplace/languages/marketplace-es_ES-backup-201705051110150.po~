@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketplace 4.2.1\n"
+"Report-Msgid-Bugs-To: SomethingPOT-Creation-Date: 2017-05-04 21:27:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-05-05 11:06+0000\n"
+"Last-Translator: admin <ayush.singh265@webkul.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"POT-Creation-Date: 2017-05-05 11:06+0000\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1"
+
+#: includes/front/seller-registration.php:60
+msgid "I am a seller"
+msgstr "Titolo del venditore del venditore"

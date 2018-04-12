@@ -1,0 +1,116 @@
+.wpb_el_type_iconpicker[data-param_name=loader] .vc-icons-selector .fip-icons-container .fip-box,
+.wpb_el_type_iconpicker[data-param_name=loader] .selector{
+  height: 60px;
+}
+
+.wpb_el_type_iconpicker[data-param_name=loader] .selector .fa.fip-fa{
+  padding-top: 10px;
+}
+
+.wpb_element_wrapper .vc_cfb_hide_field{
+  display: none;
+}
+
+.vc_cfb_shortcode_settings.wpb_content_element .wpb_element_wrapper h4.wpb_element_title{
+  text-align: center;
+}
+
+.vc_cfb_shortcode_settings.wpb_content_element .wpb_element_wrapper h4 i.vc_element-icon{
+  float:none;
+  margin: 0 auto;
+}
+
+.vc_cfb_shortcode_settings.wpb_content_element .wpb_element_wrapper .wpb_vc_param_value.name{
+  text-align: center;
+}
+
+
+.vc_shortcode-param .edit_form_line input.readonly{
+  background-color: #fff;
+}
+
+.vc_shortcode-param .edit_form_line input.disabled{
+  opacity: 1;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  border: 1px solid #b4b9be;
+}
+
+.vc_shortcode-param .wpb_element_label .vc_cfb_html5_attribute{
+  background-image: url('../images/html5_badge.png');
+  background-repeat: no-repeat;
+  position: relative;
+  top: 5px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 20px;
+  height: 17px;
+  display: inline-block;
+}
+
+/* ABOUT PAGE */
+.about-wrap .two-col>div {
+  position: relative;
+  width: 47.6%;
+  margin-right: 4.799999999%;
+  float: left;
+}
+
+.vc_developer-tab .two-col > div{
+  width: 45%;
+  margin-right: 2%;
+}
+
+.vc_developer-tab .two-col.list-actions > div{
+  margin-bottom: 3px;
+}
+
+.vc_developer-tab a.active_hook{
+  font-weight: bold;
+}
+
+.vc_developer-tab .hook_parametr p{
+  line-height: 1;
+  margin: 0px;
+  margin-top: 2px;
+  padding-left: 15px;
+}
+
+.vc_developer-tab .hook_example pre{
+  background: #f3f3f7;
+  border: 1px solid #dedee3;
+  padding: 11px;
+  font-size: 12px;
+  line-height: 1.3em;
+  margin-bottom: 22px;
+  overflow: auto;
+}
+
+.vc_css-tab form{
+  margin-top: 10px;
+}
+
+.vc_css-tab form#template textarea{
+  width: 100%;
+}
+
+.vc_cfb_notice{
+  line-height: 19px;
+  padding: 11px 15px;
+  font-size: 14px;
+  text-align: left;
+  margin: 25px 20px 0 2px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.vc_cfb_success_notice{
+  border-left: 4px solid #7ad03a;
+}
+
+.vc_cfb_error_notice{
+  border-left: 4px solid #dc3232;
+}
+/* END ABOUT PAGE */

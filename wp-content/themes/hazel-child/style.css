@@ -1,0 +1,225 @@
+/*
+Theme Name: Hazel Child
+Theme URI: http://demo.select-themes.com/hazel/
+Description: A child theme of Hazel Theme
+Author: Select Themes
+Author URI: http://select-themes.com
+Version: 3.5
+Template: hazel
+*/
+
+@import url('../hazel/style.css');
+
+#mce-EMAIL {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.bookable a {
+    background-color: #ed656f !important;
+}
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.ui-datepicker-today a {
+    background-color: #000000 !important;
+}
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.bookable.ui-datepicker-current-day a {
+    background-color: #edd865 !important;
+}
+.wc-bookings-booking-form .block-picker li a.selected,
+.wc-bookings-booking-form .block-picker li:nth-child(2n+1) a:focus,
+.wc-bookings-booking-form .block-picker li:nth-child(2n+1) a:hover,
+.wc-bookings-booking-form .block-picker li:nth-child(2n) a:focus,
+.wc-bookings-booking-form .block-picker li:nth-child(2n) a:hover {
+    background-color: #000000;
+}
+.wc-bookings-date-picker .ui-datepicker th{
+	text-align: center;
+}
+.wc-bookings-date-picker .ui-datepicker td .ui-state-default {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: none !important;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border: 0 none;
+    color: #2b2b2b;
+    font-weight: 400;
+    margin: 0;
+    padding: 0.75em 0;
+    text-align: center;
+}
+.woocommerce-page table tr:nth-child(2n+1) td {
+    background: transparent none repeat scroll 0 0 !important;
+}
+.wc-bookings-date-picker .ui-datepicker td.partial_booked a::before {
+    border-right: 2.5em solid transparent;
+    border-top: 2.5em solid #c96259;
+    content: "";
+    height: 0;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: -10;
+}
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.bookable a:hover {
+    background-color: #edd865 !important;
+}
+#topup_amount,
+#wc_bookings_field_resource{
+	background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: inherit;
+    padding: 10px 8px;
+
+    word-wrap: break-word;
+}
+#wc_bookings_field_resource {
+    position: relative;
+    top: 8px;
+}
+.woocommerce-account .shop_table.my_account_bookings{
+	width: 100%;
+}
+.shop_table.my_account_bookings tr{
+    border: 1px solid #e6e6e6;
+}
+.shop_table.my_account_bookings tr td{
+	color: #696969;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+	line-height: 1.57143em;
+	padding: 13px 14px;
+}
+.wc-bookings-booking-form .block-picker li a.selected, .wc-bookings-booking-form .block-picker li:nth-child(2n+1) a:focus, .wc-bookings-booking-form .block-picker li:nth-child(2n+1) a:hover, .wc-bookings-booking-form .block-picker li:nth-child(2n) a:focus, .wc-bookings-booking-form .block-picker li:nth-child(2n) a:hover {
+    background: #000000 none repeat scroll 0 0 !important;
+}
+.woocommerce .blockUI.blockOverlay::before, .woocommerce .loader::before {
+    animation: 1s ease-in-out 0s normal none infinite running spin;
+    background: transparent url("loader.svg") repeat scroll center center / cover ;
+    color: rgba(0, 0, 0, 0.75);
+    content: "";
+    display: block !important;
+    font-size: 2em;
+    height: 1em;
+    left: 50%;
+    line-height: 1;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 1em;
+}
+#hear_about_us_opt_field span.optt {
+    display: block;
+    margin: 5px 0 0;
+}
+#hear_about_us_opt_field span.optt label {
+    display: inline;
+    left: 5px;
+    position: relative;
+    top: -1px;
+}
+#hear_about_us_opt_field #hear_about_us_opt {
+    display: none;
+    margin-top: 10px;
+}
+/* Month header background color */
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker-header {
+    
+} 
+/* Previous/Next month arrow background color */
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker .ui-datepicker-next, 
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev {
+    background-color: #4a4a4a;
+    height: 100%;
+}
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-icon-circle-triangle-e,
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-icon-circle-triangle-w {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+/* Previous/Next month arrows if not allowed, and calendar dates that are not available */
+.ui-state-disabled, 
+.ui-widget-content .ui-state-disabled, 
+.ui-widget-header .ui-state-disabled {
+    opacity: 0.35;
+} 
+/* Days of the week header background color */
+.ui-datepicker-calendar thead {
+    background-color: #000000;
+} 
+/* Days of the week header font color */
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker th {
+    color: #000000;
+} 
+/* Past calendar days background color (not available) */
+.ui-datepicker-calendar tbody {
+    background-color: #a5a5a4;
+} 
+/* Available calendar days background color */
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.bookable a {
+    background-color: #ed656f !important;
+} 
+/* Available calendar day hover background color */
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.bookable a:hover {
+    background-color: #edd865 !important;
+} 
+/* Fully booked calendar days */
+.wc-bookings-date-picker .ui-datepicker td.fully_booked a, 
+.wc-bookings-date-picker .ui-datepicker td.fully_booked span {
+    background-color: #000000 !important;
+} 
+/* Days not bookable based on the availability rules */
+.wc-bookings-date-picker .ui-datepicker td.not_bookable {
+    background-color: #a5a5a4 !important;
+} 
+/* Today's date on calendar background color */
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.ui-datepicker-today a {
+    background-color: #000000 !important;
+}
+#ovr_booknow_loader {
+    background: rgba(0, 0, 0, 0.5) none no-repeat scroll center center;
+    height: 100%;
+    display: none;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+#ovr_booknow_loader.active{
+    display: block;
+}
+#ovr_booknow_loader img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+body.woocommerce-checkout #terms {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+body.woocommerce-checkout #wc-stripe-cc-form {
+    margin-top: 10px;
+}
+@media all and (orientation:portrait) {
+    #ovr_booknow_loader img {
+        max-height: 85%;
+        max-width: 85%;
+    }
+}
+@media all and (orientation:landscape) {
+    #ovr_booknow_loader img {
+        max-height: 85%;
+        max-width: 85%;
+    }
+}

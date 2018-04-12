@@ -1,0 +1,162 @@
+/*Style for two calender on duplicate product page*/
+.single.single-product .summary.entry-summary {
+    width: 100%;
+}
+
+form.cart {
+    box-sizing: border-box;
+    float: left;
+    margin-right: 5% !important;    
+    position: relative;
+    width: 47%;
+    z-index: 20;
+}
+form.cart.form-2 {
+    margin-right: 0px !important;
+}
+
+.single.single-product .product.type-product.status-publish > div.images, .single.single-product .product_title.entry-title, .single.single-product div[itemprop='offers'] {
+    display: none;
+}
+
+.email_product_section .product-category {
+    text-align: left;
+    color: #a4a4a4;
+    text-decoration: none;
+    line-height: 26px;
+    font-size: 22px;
+}
+.email_product_section .product-category span.price span.amount {
+    display: block;
+    font-size: 18px;
+}
+.email_product_section .product-category h6{
+    font-weight: normal;
+    margin: 5px 0;
+    min-height: 50px;
+    text-transform: uppercase;
+}
+.email_product_section_title > td {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0 40px;
+}
+
+.top-product-section img {
+    width:100%;
+}
+.top-product-section {
+    height: 200px;
+    overflow: hidden;
+}
+.single.single-product .email_footer_products {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 9%;
+    width: 27%;
+}
+.single.single-product .email_footer_products.third {
+    margin-right: 0px;
+}
+select[name='wc_bookings_field_resource'] {
+    display: none;
+}
+
+.single.single-product.woocommerce div.product div[itemprop="description"] {
+    border-bottom: medium none;
+    margin: 25px 0;
+    padding-bottom: 20px;
+}
+.single.single-product.woocommerce .email_product_section .add-to-cart-button-outer {
+    display: block;
+    opacity: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    transition: opacity 0.3s ease-out 0s;
+}
+.single.single-product.woocommerce .email_product_section .type-product.status-publish.has-post-thumbnail {
+    position: relative;
+}
+.single.single-product.woocommerce .email_product_section .type-product.status-publish.has-post-thumbnail img.attachment-medium.wp-post-image{
+    opacity: 1;
+    transition: opacity 0.3s ease-out 0s;
+}
+.single.single-product.woocommerce .email_product_section .type-product.status-publish.has-post-thumbnail:hover img.attachment-medium.wp-post-image {
+    transition: opacity 0.3s ease-out 0s;
+    opacity: 0.2;
+}
+.single.single-product.woocommerce .email_product_section .type-product.status-publish.has-post-thumbnail:hover .add-to-cart-button-outer {
+    transition: opacity 0.3s ease-out 0s;
+    opacity: 1;
+}
+.single.single-product.woocommerce .content .container .container_inner {
+    padding-top: 0px;
+}
+.single.single-product.woocommerce .product .summary-inner {
+    border-top: medium none;
+    padding-top: 0px;
+}
+.single.single-product.woocommerce div.product div[itemprop="description"] {
+    margin-top: 0px
+}
+.single.single-product.woocommerce div.product div[itemprop="description"] > .wpb_row.vc_row section.vc_row-fluid.full{
+    padding-top: 0px;
+}
+.single.single-product.woocommerce .boxing-classname-heading {
+    min-height: 120px;
+}
+.single.single-product.woocommerce .boxed .section .section_inner, .grid_section .section_inner {
+    margin-top: 20px;
+}
+
+.single.single-product.postid-47100 .dark:not(.sticky):not(.scrolled) nav.main_menu > ul > li > a, .single.single-product.postid-47100 .dark:not(.sticky):not(.scrolled) nav.main_menu > ul > li.active > a, .single.single-product.postid-47100 .dark:not(.sticky):not(.scrolled) nav.main_menu > ul > li:not(:first-child)::before {
+    color: #ffffff;
+}
+.streched_product_title_image{
+    background-image: url("http://overthrownyc.com/wp-content/uploads/2015/09/class-header-white22.jpg?id=38747") !important
+}
+.single.single-product.postid-47100 div[itemprop='description'] > .wpb_row.vc_row.section.vc_row-fluid.full {
+    padding-top: 0px !important;
+}
+.single.single-product.postid-47100 .related.products {
+    display: none;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+    form.cart {	    
+	    float: none;
+	    margin-right: 0 !important;	    
+	    width: 100%;	    
+	}
+	.email_footer_products .qbutton.add-to-cart-button.button.add_to_cart_button.product_type_simple {
+	    font-size: 14px;
+	}
+	.boxing-classname-heading {
+	    margin-bottom: 30px;
+	    margin-top: 50px;
+	    min-height: auto;
+	}
+	div[itemprop="description"] .section_inner_margin.clearfix div.vc_col-sm-6{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.single.single-product .email_footer_products {
+	    float: none;
+	    margin: 0 auto;
+	    width: 300px;
+	}
+	.single.single-product .email_footer_products.third {
+	    margin: 0 auto;
+	}
+	.single.single-product.woocommerce .boxing-classname-heading {
+	    font-size: 25px;
+	    min-height: 80px;
+	}
+}

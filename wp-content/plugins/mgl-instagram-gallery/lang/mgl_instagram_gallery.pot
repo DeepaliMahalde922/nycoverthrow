@@ -1,0 +1,538 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Gallery\n"
+"POT-Creation-Date: 2014-09-17 14:17+0100\n"
+"PO-Revision-Date: 2014-09-17 14:17+0100\n"
+"Last-Translator: MaGeek Lab <hello@mageeklab.com>\n"
+"Language-Team: MaGeek Lab <hello@mageeklab.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:80 mgl_instagram_admin.php:177
+msgid "Instagram application"
+msgstr ""
+
+#: index.php:80 mgl_instagram_admin.php:234
+msgid "Configuration"
+msgstr ""
+
+#: index.php:80
+msgid "Documentation"
+msgstr ""
+
+#: mgl_instagram_admin.php:21
+msgid "Settings saved"
+msgstr ""
+
+#: mgl_instagram_admin.php:34
+msgid "Application settings removed correctly"
+msgstr ""
+
+#: mgl_instagram_admin.php:44
+msgid ""
+"<strong>cURL</strong> is disabled in your server configuration, please "
+"enable it in order to make the plugin work"
+msgstr ""
+
+#: mgl_instagram_admin.php:52
+msgid "<strong>Allow url fopen</strong> could not be enabled"
+msgstr ""
+
+#: mgl_instagram_admin.php:77
+msgid "Please enable cURL in your server to authorize the app"
+msgstr ""
+
+#: mgl_instagram_admin.php:126
+msgid "fopen can not connect with Instagram server"
+msgstr ""
+
+#: mgl_instagram_admin.php:131
+msgid "Impossible to connect to Instagram server"
+msgstr ""
+
+#: mgl_instagram_admin.php:150
+msgid "<strong>App authorized!</strong> You are ready to go"
+msgstr ""
+
+#: mgl_instagram_admin.php:153
+msgid "Error"
+msgstr ""
+
+#: mgl_instagram_admin.php:170
+msgid "MaGeek Lab - Instagram Gallery"
+msgstr ""
+
+#: mgl_instagram_admin.php:179
+#, php-format
+msgid ""
+"You need to register a new Instagram application from %s in order to make "
+"this plugin work"
+msgstr ""
+
+#: mgl_instagram_admin.php:179 mgl_instagram_functions.php:157
+msgid "here"
+msgstr ""
+
+#: mgl_instagram_admin.php:180
+msgid ""
+"The name and description of the application are not important, just be sure "
+"to put the same Website & OAuth redirect_uri written down here"
+msgstr ""
+
+#: mgl_instagram_admin.php:185
+msgid "Website"
+msgstr ""
+
+#: mgl_instagram_admin.php:189
+msgid "OAuth redirect_uri"
+msgstr ""
+
+#: mgl_instagram_admin.php:193
+msgid "Fill this two fields with the information of your App"
+msgstr ""
+
+#: mgl_instagram_admin.php:196
+msgid "Client ID"
+msgstr ""
+
+#: mgl_instagram_admin.php:200
+msgid "Client secret"
+msgstr ""
+
+#: mgl_instagram_admin.php:204
+msgid "Save settings, then you can authorize your app!"
+msgstr ""
+
+#: mgl_instagram_admin.php:206 mgl_instagram_admin.php:250
+msgid "Save settings"
+msgstr ""
+
+#: mgl_instagram_admin.php:208
+msgid "Authorize app"
+msgstr ""
+
+#: mgl_instagram_admin.php:213
+msgid "Application settings"
+msgstr ""
+
+#: mgl_instagram_admin.php:222
+msgid "Acces token"
+msgstr ""
+
+#: mgl_instagram_admin.php:223
+msgid "Remove application"
+msgstr ""
+
+#: mgl_instagram_admin.php:240
+msgid "Load jQuery"
+msgstr ""
+
+#: mgl_instagram_admin.php:244
+msgid "Unmark this if you are already loading jQuery"
+msgstr ""
+
+#: mgl_instagram_admin.php:262
+msgid "Shortcodes"
+msgstr ""
+
+#: mgl_instagram_admin.php:265
+msgid "User gallery"
+msgstr ""
+
+#: mgl_instagram_admin.php:267
+msgid "If you want to show an user's stream simply put"
+msgstr ""
+
+#: mgl_instagram_admin.php:269
+msgid ""
+"You can show the user photos by his username or user_id, you don't need them "
+"both!"
+msgstr ""
+
+#: mgl_instagram_admin.php:273
+msgid "Tag gallery"
+msgstr ""
+
+#: mgl_instagram_admin.php:275
+msgid "If you want to show some photos from a specific tag use"
+msgstr ""
+
+#: mgl_instagram_admin.php:277
+msgid "Without the #"
+msgstr ""
+
+#: mgl_instagram_admin.php:281
+msgid "Feed gallery"
+msgstr ""
+
+#: mgl_instagram_admin.php:283
+msgid "Show the last media from the current user feed"
+msgstr ""
+
+#: mgl_instagram_admin.php:285 mgl_instagram_admin.php:293
+msgid "Only works for the authorized user"
+msgstr ""
+
+#: mgl_instagram_admin.php:289
+msgid "Liked gallery"
+msgstr ""
+
+#: mgl_instagram_admin.php:291
+msgid "Show the last liked media from the current user"
+msgstr ""
+
+#: mgl_instagram_admin.php:297
+msgid "Location gallery"
+msgstr ""
+
+#: mgl_instagram_admin.php:299
+msgid "Show the last media from a location"
+msgstr ""
+
+#: mgl_instagram_admin.php:301
+msgid "Requires location_id parameter"
+msgstr ""
+
+#: mgl_instagram_admin.php:305
+msgid "Search location"
+msgstr ""
+
+#: mgl_instagram_admin.php:307
+msgid ""
+"Use this shortcode to find the Instagram's ID of a location by it's latitude "
+"and longitude if you don't know it"
+msgstr ""
+
+#: mgl_instagram_admin.php:309
+msgid ""
+"This will print a list of current locations near the latitude and longitude "
+"you define, take the ID you need"
+msgstr ""
+
+#: mgl_instagram_admin.php:315
+msgid "All parameters"
+msgstr ""
+
+#: mgl_instagram_admin.php:319
+msgid ""
+"Username of the user to display photos from, only available in user shortcode"
+msgstr ""
+
+#: mgl_instagram_admin.php:323
+msgid "Id of the user to display photos from, only available in user shortcode"
+msgstr ""
+
+#: mgl_instagram_admin.php:327
+msgid ""
+"Id of the location to display photos from, only available in location "
+"shortcode"
+msgstr ""
+
+#: mgl_instagram_admin.php:331
+msgid "Tag to display photos from, only available in tag shortcode"
+msgstr ""
+
+#: mgl_instagram_admin.php:335
+msgid "Number of photos to display"
+msgstr ""
+
+#: mgl_instagram_admin.php:339
+msgid "Hide or display the \"View More\" link (true/false)"
+msgstr ""
+
+#: mgl_instagram_admin.php:343
+msgid "Change the default text link"
+msgstr ""
+
+#: mgl_instagram_admin.php:347
+msgid "Columns of the gallery, by default 4"
+msgstr ""
+
+#: mgl_instagram_admin.php:351
+msgid ""
+"Time in seconds while the gallery will not reaload photos, by default is "
+"3600 seconds (one hour)"
+msgstr ""
+
+#: mgl_instagram_admin.php:355
+msgid "Include videos in the gallery (true/false)"
+msgstr ""
+
+#: mgl_instagram_admin.php:359
+msgid ""
+"Number of characters to display from the media description (80 by default)"
+msgstr ""
+
+#: mgl_instagram_admin.php:363
+msgid "Media will link directly to Instagram's web page (true/false)"
+msgstr ""
+
+#: mgl_instagram_admin.php:367
+msgid "Disable the lightbox of the gallery (true/false)"
+msgstr ""
+
+#: mgl_instagram_admin.php:371
+msgid "Choose one of the premade skins for the gallery, see below"
+msgstr ""
+
+#: mgl_instagram_admin.php:375
+msgid ""
+"Enabled by default, resize the number of the columns of the gallery "
+"depending on the size of the screen (true/false)"
+msgstr ""
+
+#: mgl_instagram_admin.php:379
+msgid "Set it to true will show debug code, only for developers (true/false)"
+msgstr ""
+
+#: mgl_instagram_admin.php:384
+msgid "Skin names"
+msgstr ""
+
+#: mgl_instagram_functions.php:157
+#, php-format
+msgid ""
+"Error: You don't have an access token, have you configurated correctly the "
+"plugin from %s?"
+msgstr ""
+
+#: mgl_instagram_functions.php:239
+msgid ""
+"Error: Cannot retrive photos from Instagram, <code>file_get_contents()</"
+"code> functions failed"
+msgstr ""
+
+#: mgl_instagram_functions.php:334
+msgid "Likes"
+msgstr ""
+
+#: mgl_instagram_functions.php:341
+msgid "Comments"
+msgstr ""
+
+#: vc_extend.php:15 widget-mgl_instagram_feed.php:108
+#: widget-mgl_instagram_liked.php:108 widget-mgl_instagram_location.php:119
+#: widget-mgl_instagram_tag.php:123 widget-mgl_instagram_user.php:129
+msgid "Number"
+msgstr ""
+
+#: vc_extend.php:18
+msgid "Number of media to display"
+msgstr ""
+
+#: vc_extend.php:22 widget-mgl_instagram_feed.php:113
+#: widget-mgl_instagram_liked.php:113 widget-mgl_instagram_location.php:124
+#: widget-mgl_instagram_tag.php:128 widget-mgl_instagram_user.php:134
+msgid "Columns"
+msgstr ""
+
+#: vc_extend.php:25
+msgid "Number of columns of the gallery"
+msgstr ""
+
+#: vc_extend.php:29 widget-mgl_instagram_feed.php:122
+#: widget-mgl_instagram_liked.php:122 widget-mgl_instagram_location.php:134
+#: widget-mgl_instagram_tag.php:138 widget-mgl_instagram_user.php:144
+msgid "Skin"
+msgstr ""
+
+#: vc_extend.php:32
+msgid "Choose the gallery you most like to display your media"
+msgstr ""
+
+#: vc_extend.php:36 widget-mgl_instagram_feed.php:118
+#: widget-mgl_instagram_liked.php:118 widget-mgl_instagram_location.php:129
+#: widget-mgl_instagram_tag.php:133 widget-mgl_instagram_user.php:139
+msgid "Cache"
+msgstr ""
+
+#: vc_extend.php:39
+msgid ""
+"Time in seconds gallery will be cached, by default 3600 seconds (1 hour)"
+msgstr ""
+
+#: vc_extend.php:40 vc_extend.php:47 vc_extend.php:55 vc_extend.php:62
+#: vc_extend.php:69 vc_extend.php:77 vc_extend.php:85 vc_extend.php:92
+msgid "Advanced"
+msgstr ""
+
+#: vc_extend.php:44
+msgid "Video"
+msgstr ""
+
+#: vc_extend.php:46
+msgid "Exclude videos from the gallery?"
+msgstr ""
+
+#: vc_extend.php:51
+msgid "Direct link"
+msgstr ""
+
+#: vc_extend.php:54
+msgid "Link images directly to Instagram?"
+msgstr ""
+
+#: vc_extend.php:59
+msgid "Javascript"
+msgstr ""
+
+#: vc_extend.php:61 widget-mgl_instagram_feed.php:143
+#: widget-mgl_instagram_liked.php:143 widget-mgl_instagram_location.php:155
+#: widget-mgl_instagram_tag.php:159 widget-mgl_instagram_user.php:165
+msgid "Disable javascript"
+msgstr ""
+
+#: vc_extend.php:66 widget-mgl_instagram_feed.php:147
+#: widget-mgl_instagram_liked.php:147 widget-mgl_instagram_location.php:159
+#: widget-mgl_instagram_tag.php:163 widget-mgl_instagram_user.php:169
+msgid "Responsive"
+msgstr ""
+
+#: vc_extend.php:68
+msgid "Prevent gallery to auto-resize depending on device size?"
+msgstr ""
+
+#: vc_extend.php:73
+msgid "View more text"
+msgstr ""
+
+#: vc_extend.php:75
+msgid "View more"
+msgstr ""
+
+#: vc_extend.php:76
+msgid "The text for the view more link"
+msgstr ""
+
+#: vc_extend.php:81
+msgid "Cut text"
+msgstr ""
+
+#: vc_extend.php:84
+msgid "The max number of characters allowed in the thumbnail"
+msgstr ""
+
+#: vc_extend.php:89
+msgid "Debug"
+msgstr ""
+
+#: vc_extend.php:91
+msgid "Enable debug mode"
+msgstr ""
+
+#: vc_extend.php:99 widget-mgl_instagram_user.php:18
+msgid "Instagram User Gallery"
+msgstr ""
+
+#: vc_extend.php:105 widget-mgl_instagram_user.php:119
+msgid "Username"
+msgstr ""
+
+#: vc_extend.php:107
+msgid "Username to pull media from"
+msgstr ""
+
+#: vc_extend.php:113 widget-mgl_instagram_user.php:124
+msgid "User ID"
+msgstr ""
+
+#: vc_extend.php:115
+msgid "User ID to pull media from"
+msgstr ""
+
+#: vc_extend.php:120
+msgid "Instagram Tag Gallery"
+msgstr ""
+
+#: vc_extend.php:126 widget-mgl_instagram_tag.php:118
+msgid "Tag"
+msgstr ""
+
+#: vc_extend.php:128
+msgid "Tag to pull media from"
+msgstr ""
+
+#: vc_extend.php:133
+msgid "Instagram Liked Gallery"
+msgstr ""
+
+#: vc_extend.php:137
+msgid "Instagram Feed Gallery"
+msgstr ""
+
+#: vc_extend.php:141 widget-mgl_instagram_location.php:18
+msgid "Instagram Location Gallery"
+msgstr ""
+
+#: vc_extend.php:147 widget-mgl_instagram_location.php:114
+msgid "Location ID"
+msgstr ""
+
+#: vc_extend.php:149
+msgid "Location ID to pull media from"
+msgstr ""
+
+#: vc_extend.php:158
+msgid "By MaGeek Lab"
+msgstr ""
+
+#: vc_extend.php:163
+msgid "Social"
+msgstr ""
+
+#: widget-mgl_instagram_feed.php:12
+msgid "Display the last Instagram photos of the current user feed"
+msgstr ""
+
+#: widget-mgl_instagram_feed.php:18
+msgid "Instagram User Feed"
+msgstr ""
+
+#: widget-mgl_instagram_feed.php:103 widget-mgl_instagram_liked.php:103
+#: widget-mgl_instagram_location.php:109 widget-mgl_instagram_tag.php:113
+#: widget-mgl_instagram_user.php:114
+msgid "Title"
+msgstr ""
+
+#: widget-mgl_instagram_feed.php:135 widget-mgl_instagram_liked.php:135
+#: widget-mgl_instagram_location.php:147 widget-mgl_instagram_tag.php:151
+#: widget-mgl_instagram_user.php:157
+msgid "Include videos?"
+msgstr ""
+
+#: widget-mgl_instagram_feed.php:139 widget-mgl_instagram_liked.php:139
+#: widget-mgl_instagram_location.php:151 widget-mgl_instagram_tag.php:155
+#: widget-mgl_instagram_user.php:161
+msgid "Direct link to Instagram"
+msgstr ""
+
+#: widget-mgl_instagram_liked.php:12
+msgid "Display the last Instagram photos that the current user liked"
+msgstr ""
+
+#: widget-mgl_instagram_liked.php:18
+msgid "Instagram User Liked"
+msgstr ""
+
+#: widget-mgl_instagram_location.php:12
+msgid "Display the last Instagram media from a location"
+msgstr ""
+
+#: widget-mgl_instagram_tag.php:12
+msgid "Display the last Instagram photos of a tag."
+msgstr ""
+
+#: widget-mgl_instagram_tag.php:18
+msgid "Instagram Tag Gallery "
+msgstr ""
+
+#: widget-mgl_instagram_user.php:12
+msgid "Display the last Instagram photos of an user"
+msgstr ""

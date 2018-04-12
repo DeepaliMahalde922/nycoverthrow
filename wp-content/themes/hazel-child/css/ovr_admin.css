@@ -1,0 +1,114 @@
+.instant-info #profile-fund h2{
+	display: none;
+}
+
+.instant-info {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #111;
+    font-size: 13px;
+    line-height: 25px;
+    max-height: 550px;
+    max-width: 550px;
+    min-height: 250px;
+    min-width: 450px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 60px 30px 25px;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.instant-info .button.b-close {
+    background-color: transparent;
+    border: medium none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: 100 23px sans-serif;
+    padding: 10px 20px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    text-decoration: none;
+    top: -2px;
+}
+
+.instant-info .user_info{
+	margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: left;
+}
+.instant-info .Credits{
+	margin: 10px 0 0;
+}
+.instant-info .ac-credit-heading {
+    font-size: 18px;
+    line-height: normal;
+    margin: 15px 0 10px;
+    padding: 0;
+}
+
+.instant-info .appt-block.bookedClearFix.approved {
+    display: block;
+    margin: 5px 0;
+}
+
+.instant-info #booked-profile-page h4 {
+    margin: 0;
+}
+
+.instant-info #profile-fund .ac-credit-para {
+    margin: 4px 0;
+}
+
+.instant-info .user_info span {
+    color: #5c5c5c;
+    font-size: 14px;
+    padding-left: 6px;
+}
+.instant-info .user_info {
+    font-size: 14px;
+}
+
+.instant-info .detailed-infos {
+    padding-left: 17px;
+    font-size: 12px;
+    color: #5c5c5c;
+}
+
+.instant-info .button.b-close > span {
+    position: relative;
+    top: 0;
+}
+
+.instant-info p.booked-title-bar {
+    border-radius: 4px 4px 0 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 13px;
+    left: 0;
+    line-height: 1;
+    padding: 15px 30px 15px 15px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #0073aa;
+    margin-top: 0;
+}
+
+.instant-info p.booked-title-bar small {
+    margin: 0;
+}
+
+.instant-info p small {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,67 @@
+/* Instagram */
+.mgl_instagram_template_instagram {
+    .mgl_instagram_photo {
+        padding: 10px;
+
+        &:hover {
+            .mgl_instagram_mask {
+                bottom: -2.2em;
+                top: -2.2em; 
+                opacity: 1;
+            }
+        }
+    
+        .mgl_instagram_mask {            
+            color: #999;
+            top: 0;
+            bottom: 0;
+            z-index: 0;
+            opacity: 0;
+            transition:top .5s, bottom .5s, opacity .5s; 
+            text-align: center;
+        }
+
+        .mgl_instagram_avatar, .mgl_instagram_text { 
+            display: none;
+        }
+
+        .mgl_instagram_info {
+            display: block;
+            text-align: center;
+        }
+
+        .mgl_instagram_counts {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            font-size: .9em;
+            display: flex;
+            > span {
+                flex-grow: 1;
+            }
+            .mgl_number {
+                display: inline-block;
+            }
+            .mgl_text {
+                display: none;
+            }
+        }
+
+        .mgl_instagram_photo_container {
+            padding: 5px 5px 97% 5px;
+            margin: 20px 0;
+            position: relative;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 1px 5px rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+
+            .mgl_instagram_image {
+                z-index: 1;
+                position: relative;
+            }
+            
+        }
+
+    } 
+}
